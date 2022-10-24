@@ -16,7 +16,8 @@
       "name": "Launch SimulationMain",
       "request": "launch",
       "mainClass": "SimulationMain",
-      "projectName": "Supermarket_dc402158"
+      "projectName": "Supermarket_dc402158",
+      "args": "${command:SpecifyProgramArgs}"
     }
   ]
 }
