@@ -19,7 +19,7 @@ public class SimulationMain
 				}
 			}
 		}
-		market.run();
+		// market.run();
 		// Display the menu
 		// Call this method to run the simulastor; market.run();
 	}
