@@ -1,9 +1,12 @@
+
+
 public class Supermarket {
 	private int totalIterations;
 	public final int DEFAULT_TOTAL_ITERATIONS = 50;
 
 	public Supermarket() {
 		totalIterations = DEFAULT_TOTAL_ITERATIONS;
+
 	}
 
 	public void run() {
@@ -12,4 +15,5 @@ public class Supermarket {
 			System.out.println("iteration");
 		}
 	}
+
 }
