@@ -21,6 +21,10 @@ public class Supermarket {
 	{
 		for(int i = 0; i < totalIterations; i++){
 			// perform simulation actions.
+			
+			// execute cycles from totalIterations
+				// in each cycle determine and execute random event
+				// use dynamic binding to change random 
 		}
 	}
 

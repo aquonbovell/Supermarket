@@ -44,9 +44,7 @@ public class SimulationMain {
 
 			case 'A':
 				System.out.println("starting simulation");
-				// Call this method to run the simulastor; market.run();
-				// execute cycles from totalIterations
-				// in each cycle determine and execute random event
+				market.run();
 				break;
 			case 'B':
 				System.out.println("Displaying Log");
