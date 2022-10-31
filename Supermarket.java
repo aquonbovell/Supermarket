@@ -9,10 +9,18 @@ public class Supermarket {
 
 	}
 
-	public void run() {
-		for (int i = 0; i < totalIterations; i++) {
+	public void setTotalIterations(int totalIterations) {
+		this.totalIterations = totalIterations;
+	}
+
+	public int getTotalIterations() {
+		return totalIterations;
+	}
+
+	public void run()
+	{
+		for(int i = 0; i < totalIterations; i++){
 			// perform simulation actions.
-			System.out.println("iteration");
 		}
 	}
 

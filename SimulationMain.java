@@ -11,15 +11,16 @@ public class SimulationMain {
 					i++;
 					try {
 						int iter = Integer.parseInt(args[i]);
-						System.out.println(iter);
 						// set total simulation iterations
+						market.setTotalIterations(iter);
 					} catch (NumberFormatException e) {
 						System.out.println("Invalid iter command, total number of iterations is missing");
 					}
-
 				}
 			}
 		}
+
+		// create vendors and randomly any number of fruits and vegetables if nessesary
 		char selection;
 
 		System.out.println("Supermarket Simulator");
@@ -43,6 +44,9 @@ public class SimulationMain {
 
 			case 'A':
 				System.out.println("starting simulation");
+				// Call this method to run the simulastor; market.run();
+				// execute cycles from totalIterations
+				// in each cycle determine and execute random event
 				break;
 			case 'B':
 				System.out.println("Displaying Log");
@@ -55,8 +59,5 @@ public class SimulationMain {
 				break;
 		}
 		scan.close();
-		// market.run();
-		// Display the menu
-		// Call this method to run the simulastor; market.run();
 	}
 }
