@@ -24,23 +24,32 @@ final public class RandomEvent {
     }
   }
 
-  private void noPurchases() {
-    System.out.println("noPurchases");
-  }
-
-  private void spoilItemsFaster() {
-    System.out.println("spoilItemsFaster");
-  }
-
-  private void noGoodsDelivered() {
-    System.out.println("noGoodsDelivered");
+  private void fridgeBreakDown() {
+    Random randomNumber = new Random();
+    System.out.println("fridgeBreakDown");
+    System.out.println(randomNumber.nextInt(101));
   }
 
   private void electricityGoesOff() {
+    Random randomNumber = new Random();
     System.out.println("electricityGoesOff");
+    System.out.println(randomNumber.nextInt(5) + 1);
+  }
+  
+  private void noGoodsDelivered() {
+    Random randomNumber = new Random();
+    System.out.println("noGoodsDelivered");
+    System.out.println(randomNumber.nextInt(3));
   }
 
-  private void fridgeBreakDown() {
-    System.out.println("fridgeBreakDown");
+  private void spoilItemsFaster() {
+    Random randomNumber = new Random();
+    System.out.println("spoilItemsFaster");
+    System.out.println(randomNumber.nextInt(11));
+  }
+
+  private void noPurchases() {
+    System.out.println("noPurchases");
+    System.out.println(0);
   }
 }
