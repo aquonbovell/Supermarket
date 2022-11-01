@@ -43,8 +43,9 @@ public class SimulationMain {
 		switch (selection) {
 
 			case 'A':
-				System.out.println("starting simulation");
+				System.out.println("Starting simulation");
 				market.run();
+				System.out.println("Ending simulator");
 				break;
 			case 'B':
 				System.out.println("Displaying Log");
