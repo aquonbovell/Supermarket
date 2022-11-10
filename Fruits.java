@@ -1,7 +1,8 @@
 public class Fruits extends Item {
-    Fruits() {
-        super.getRandomNumberForSpoiltValue();
-        super.getRandomNumberOfItems();
-    }
-    private String nameOfFruit;
+  private String nameOfFruit;
+
+  Fruits() {
+    super.getRandomNumberForSpoiltValue();
+    super.getRandomNumberOfItems();
+  }
 }

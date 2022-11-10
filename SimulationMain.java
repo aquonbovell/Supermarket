@@ -19,44 +19,45 @@ public class SimulationMain {
 				}
 			}
 		}
-
+		market.printArray();
+		
 		// create vendors and randomly any number of fruits and vegetables if nessesary
-		char selection;
+		// char selection;
 
-		System.out.println("Supermarket Simulator");
-		System.out.println("=====================");
-		System.out.println("A. Start the Simulation");
-		System.out.println("B. Display the Log");
-		System.out.println("C. Exit");
-		System.out.print("Enter your selection: ");
+		// System.out.println("Supermarket Simulator");
+		// System.out.println("=====================");
+		// System.out.println("A. Start the Simulation");
+		// System.out.println("B. Display the Log");
+		// System.out.println("C. Exit");
+		// System.out.print("Enter your selection: ");
 
-		selection = scan.next().toUpperCase().charAt(0);
-		while (Character.getNumericValue(selection) >= 13 || Character.getNumericValue(selection) <= 9) {
-			System.out.println("Invalid selection");
-			System.out.println("A. Start the Simulation");
-			System.out.println("B. Display the Log");
-			System.out.println("C. Exit");
-			System.out.print("Enter your selection: ");
-			selection = scan.next().toUpperCase().charAt(0);
-		}
+		// selection = scan.next().toUpperCase().charAt(0);
+		// while (Character.getNumericValue(selection) >= 13 || Character.getNumericValue(selection) <= 9) {
+		// 	System.out.println("Invalid selection");
+		// 	System.out.println("A. Start the Simulation");
+		// 	System.out.println("B. Display the Log");
+		// 	System.out.println("C. Exit");
+		// 	System.out.print("Enter your selection: ");
+		// 	selection = scan.next().toUpperCase().charAt(0);
+		// }
 
-		switch (selection) {
+		// switch (selection) {
 
-			case 'A':
-				System.out.println("Starting simulation");
-				market.run();
-				System.out.println("Ending simulator");
-				break;
-			case 'B':
-				System.out.println("Displaying Log");
-				break;
-			case 'C':
-				System.out.println("Exiting");
-				break;
-			default:
-				System.out.println("Invalid selection");
-				break;
-		}
-		scan.close();
+		// 	case 'A':
+		// 		System.out.println("Starting simulation");
+		// 		market.run();
+		// 		System.out.println("Ending simulator");
+		// 		break;
+		// 	case 'B':
+		// 		System.out.println("Displaying Log");
+		// 		break;
+		// 	case 'C':
+		// 		System.out.println("Exiting");
+		// 		break;
+		// 	default:
+		// 		System.out.println("Invalid selection");
+		// 		break;
+		// }
+		// scan.close();
 	}
 }
