@@ -3,31 +3,19 @@ import java.util.Random;
 public class Supermarket {
 	public final int DEFAULT_TOTAL_ITERATIONS = 50;
 	private int totalIterations;
-	// private Vendor fruitsAreHere;
-	// private Vendor tastyVegetables;
-	// private Vendor allYouCanEat;
-	private Fruits[] fruitsInventorty;
+	public Fruits[] fruitsInventorty;
   private int lossCausedByRandomEvent;
 
 
 	public Supermarket() {
 		totalIterations = DEFAULT_TOTAL_ITERATIONS;
-		// fruitsAreHere = new Vendor();
-		// tastyVegetables = new Vendor();
-		// allYouCanEat = new Vendor();
-		fruitsInventorty = new Fruits[10];
+		fruitsInventorty = new Fruits[5];
 		initArray(fruitsInventorty);
 		lossCausedByRandomEvent = 0 ;
 	}
 	private void initArray(Fruits array[]){
 		for (int i = 0; i < array.length; i++) {
 			array[i] = new Fruits();
-		}
-	}
-
-	public void printArray(){
-		for (Fruits fruits : fruitsInventorty) {
-			System.out.println(fruits.getSpoiltValue());
 		}
 	}
 

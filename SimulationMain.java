@@ -1,25 +1,32 @@
 import java.util.Scanner;
 
+import javax.sound.midi.Soundbank;
+
 public class SimulationMain {
 	public static void main(String args[]) {
 		Scanner scan = new Scanner(System.in);
 		Supermarket market = new Supermarket();
 
-		for (int i = 0; i < args.length; i++) {
-			if (args[i].equalsIgnoreCase("iter")) {
-				if (i < args.length - 1) {
-					i++;
-					try {
-						int iter = Integer.parseInt(args[i]);
-						// set total simulation iterations
-						market.setTotalIterations(iter);
-					} catch (NumberFormatException e) {
-						System.out.println("Invalid iter command, total number of iterations is missing");
-					}
-				}
-			}
+		// for (int i = 0; i < args.length; i++) {
+		// 	if (args[i].equalsIgnoreCase("iter")) {
+		// 		if (i < args.length - 1) {
+		// 			i++;
+		// 			try {
+		// 				int iter = Integer.parseInt(args[i]);
+		// 				// set total simulation iterations
+		// 				market.setTotalIterations(iter);
+		// 			} catch (NumberFormatException e) {
+		// 				System.out.println("Invalid iter command, total number of iterations is missing");
+		// 			}
+		// 		}
+		// 	}
+		// }
+
+		for (int i = 0; i < market.fruitsInventorty.length; i++) {
+			System.out.println(market.fruitsInventorty[i].getSpoiltValue());
+			
 		}
-		market.printArray();
+
 		
 		// create vendors and randomly any number of fruits and vegetables if nessesary
 		// char selection;
