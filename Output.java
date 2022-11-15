@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.text.DecimalFormat;
 
 /**
- * The programmers' names are: Bovell, Aquon
+ * The programmers' names are: Aquon Bovell
  * The Output class has six methods and one field for the location of the log
  * file to be saved. The default destination is "log.txt" and is saved in the
  * same directory as the program.
