@@ -91,42 +91,86 @@ public class Supermarket {
   private Parsley[] parsleyInventory;
   // hold all the watermelons the Supermarket has at any time
   private Watermelon[] watermelonInventory;
+
   /*
+   * Constructor - This function takes no parameters since it is the default
+   * constructor for the Supermarket Class. The constructor therefore creates
+   * randomly generated amounts for each item the Supermarket has availalbe and
+   * initalises those arrays to create new items. Also, the customers created with
+   * a lenght of 10 since we assumed that 10 customers come in to the Supermarket
+   * to buy items and initialise each slot to a new instance of Customer and
+   * creates both fruitsSold and vegetablesSold to have a lenght of 5 since there
+   * are 5 types of Fruit and Vegetable and create an instance of each different
+   * type of vendor and creates both itemsPurchased and numberOfSpoiltItems to
+   * have lenght of 10 since there 10 items in total.
    * 
    */
   Supermarket() {
+    // create a random number generator to generate the inital values for the
+    // Supermarket inventory
     Random rand = new Random();
+    // initalise the total amount of iteration to the default number (50)
     totalIterations = DEFAULT_TOTAL_ITERATIONS;
-    fruitsSold = new int[5];
-    vegetablesSold = new int[5];
-    itemsPurchased = new int[NUMBER_OF_TYPES_OF_ITEMS];
-    numberOfSpoiltItems = new int[NUMBER_OF_TYPES_OF_ITEMS];
+    // creates a randomly generated amount of avocados references
+    avocadoInventory = new Avocado[rand.nextInt(101)];
+    // creates a randomly generated amount of bananas references
+    bananaInventory = new Banana[rand.nextInt(101)];
+    // creates a randomly generated amount of carrots references
+    carrotInventory = new Carrot[rand.nextInt(101)];
+    // creates a randomly generated amount of cucumbers references
+    cucumberInventory = new Cucumber[rand.nextInt(101)];
+    // creates a randomly generated amount of lettuces references
+    lettuceInventory = new Lettuce[rand.nextInt(101)];
+    // creates a randomly generated amount of limes references
+    limeInventory = new Lime[rand.nextInt(101)];
+    // creates a randomly generated amount of mangoes references
+    mangoInventory = new Mango[rand.nextInt(101)];
+    // creates a randomly generated amount of parsleys references
+    parsleyInventory = new Parsley[rand.nextInt(101)];
+    // creates a randomly generated amount of onions references
+    onionInventory = new Onion[rand.nextInt(101)];
+    // creates a randomly generated amount of watermelons references
+    watermelonInventory = new Watermelon[rand.nextInt(101)];
+    // creates 10 customer references
     customers = new Customer[NUMBER_OF_CUSTOMERS];
+    // assign each customer a new instance of Customer
+    initCustomers();
+    // initalise the avocado inventory to have a new instance of avocado
+    initFruitsInventory(avocadoInventory);
+    // initalise the banana inventory to have a new instance of banana
+    initFruitsInventory(bananaInventory);
+    // initalise the carrot inventory to have a new instance of carrot
+    initVegetablesInventory(carrotInventory);
+    // initalise the cucumber inventory to have a new instance of cucumber
+    initVegetablesInventory(cucumberInventory);
+    // initalise the lime inventory to have a new instance of lime
+    initFruitsInventory(limeInventory);
+    // initalise the lettuce inventory to have a new instance of lettuce
+    initVegetablesInventory(lettuceInventory);
+    // initalise the mango inventory to have a new instance of mango
+    initFruitsInventory(mangoInventory);
+    // initalise the onion inventory to have a new instance of onion
+    initVegetablesInventory(onionInventory);
+    // initalise the parsley inventory to have a new instance of parsley
+    initVegetablesInventory(parsleyInventory);
+    // initalise the watermelon inventory to have a new instance of watermelon
+    initFruitsInventory(watermelonInventory);
+
+    // creates 5 references of int
+    fruitsSold = new int[5];
+    // creates 5 references of int
+    vegetablesSold = new int[5];
+    // creates 10 references of int
+    itemsPurchased = new int[NUMBER_OF_TYPES_OF_ITEMS];
+    // creates 10 references of int
+    numberOfSpoiltItems = new int[NUMBER_OF_TYPES_OF_ITEMS];
+    // initalise fruitsAreHere to have a new instance of FruitsAreHere
     fruitsAreHere = new FruitsAreHere();
+    // initalise tastyVegetables to have a new instance of TastyVegetables
     tastyVegetables = new TastyVegetables();
+    // initalise allYouCanEat to have a new instance of AllYouCanEat
     allYouCanEat = new AllYouCanEat();
 
-    avocadoInventory = new Avocado[rand.nextInt(101)];
-    bananaInventory = new Banana[rand.nextInt(101)];
-    carrotInventory = new Carrot[rand.nextInt(101)];
-    cucumberInventory = new Cucumber[rand.nextInt(101)];
-    lettuceInventory = new Lettuce[rand.nextInt(101)];
-    limeInventory = new Lime[rand.nextInt(101)];
-    mangoInventory = new Mango[rand.nextInt(101)];
-    parsleyInventory = new Parsley[rand.nextInt(101)];
-    onionInventory = new Onion[rand.nextInt(101)];
-    watermelonInventory = new Watermelon[rand.nextInt(101)];
-    initCustomers();
-    initFruitsInventory(avocadoInventory);
-    initFruitsInventory(bananaInventory);
-    initVegetablesInventory(carrotInventory);
-    initVegetablesInventory(cucumberInventory);
-    initFruitsInventory(limeInventory);
-    initVegetablesInventory(lettuceInventory);
-    initFruitsInventory(mangoInventory);
-    initVegetablesInventory(onionInventory);
-    initVegetablesInventory(parsleyInventory);
-    initFruitsInventory(watermelonInventory);
   }
 
   public void run() {
