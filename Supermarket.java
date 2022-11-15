@@ -10,7 +10,7 @@ public class Supermarket {
   private int totalPerformedIterations;
   private double profit;
   private int lossesCausedbyRandomEvent;
-  private double cashOnHand = 9_460_000;
+  private double cashOnHand = 460_000;
   private int totalFruitsPruchsedByCustomer;
   private int totalVegetablesPruchsedByCustomer;
   private int[] itemsSold;
@@ -168,11 +168,76 @@ public class Supermarket {
         }
 
         // remove all spoilt items
-        removeSpoiltItems();
+        removeSpoiltAvocados();
+        removeSpoiltBananas();
+        removeSpoiltCarrots();
+        removeSpoiltCucumbers();
+        removeSpoiltLettuces();
+        removeSpoiltLimes();
+        removeSpoiltOnions();
+        removeSpoiltParsleys();
+        removeSpoiltMangoes();
+        removeSpoiltWatermelons();
 
         // restock on items in the supermarket
 
         buyGoods();
+
+        // reset the customer getAvailablity for the next day
+        Customer.reset();
+
+        // restock the vendors
+        fruitsAreHere.restock();
+        allYouCanEat.restock();
+        tastyVegetables.restock();
+        calculateProfit();
+        reset();
+      }
+    } catch (Exception e) {
+    }
+    // output the totals
+    System.out.println("Total number of cycles performed: " + totalPerformedIterations);
+    System.out.println("Total supermarket profit: $" + profit);
+    System.out.println("Total vendor profit: $"
+        + (allYouCanEat.getProfit() + fruitsAreHere.getProfit() + tastyVegetables.getProfit()));
+  }
+
+  public void runVerbose() {
+    totalPerformedIterations = 0;
+    Output.createLogFile();
+    try {
+      for (int i = 0; i < totalIterations; i++) {
+        Output.appendToLogFile(new String("Day :" + (1 + i)));
+        ++totalPerformedIterations;
+        if ((i + 1) % 10 == 0 && i != 0) {
+          // execute a random event every ten cycles
+          randomEvent();
+        }
+
+        // decrement spoilt value for all items
+        decreaseItemsSpoiltValue();
+
+        // sell items to customers
+        try {
+          sellGoodsVerbose();
+        } catch (Exception e) {
+        }
+
+        // remove all spoilt items
+        removeSpoiltAvocadosVerbose();
+        removeSpoiltBananasVerbose();
+        removeSpoiltCarrotsVerbose();
+        removeSpoiltCucumbersVerbose();
+        removeSpoiltLettucesVerbose();
+        removeSpoiltLimesVerbose();
+        removeSpoiltOnionsVerbose();
+        removeSpoiltParsleysVerbose();
+        removeSpoiltMangoesVerbose();
+        removeSpoiltWatermelonsVerbose();
+
+        // restock on items in the supermarket
+
+        buyGoodsVerbose();
 
         // reset the customer getAvailablity for the next day
         Customer.reset();
@@ -206,7 +271,16 @@ public class Supermarket {
         int numberOfHours = rand.nextInt(5) + 1;
         Output.appendToLogFile("Electricity Goes Off");
         for (int i = 0; i < numberOfHours; i++) {
-          spoilItems();
+          spoilFruits(avocadoInventory);
+          spoilFruits(bananaInventory);
+          spoilVegetables(carrotInventory);
+          spoilVegetables(cucumberInventory);
+          spoilVegetables(lettuceInventory);
+          spoilFruits(limeInventory);
+          spoilFruits(mangoInventory);
+          spoilVegetables(onionInventory);
+          spoilVegetables(parsleyInventory);
+          spoilFruits(watermelonInventory);
         }
         break;
 
@@ -226,7 +300,16 @@ public class Supermarket {
       case 3:
         // spoil a random percentage of the total amount of each item
         Output.appendToLogFile("Items spoil faster than expected");
-        spoilItemsFaster();
+        spoilFruitsFaster(avocadoInventory);
+        spoilFruitsFaster(bananaInventory);
+        spoilVegetablesFaster(carrotInventory);
+        spoilVegetablesFaster(cucumberInventory);
+        spoilVegetablesFaster(lettuceInventory);
+        spoilFruitsFaster(limeInventory);
+        spoilFruitsFaster(mangoInventory);
+        spoilVegetablesFaster(onionInventory);
+        spoilVegetablesFaster(parsleyInventory);
+        spoilFruitsFaster(watermelonInventory);
         break;
 
       case 4:
@@ -236,19 +319,6 @@ public class Supermarket {
       default:
         break;
     }
-  }
-
-  private void spoilItems() {
-    spoilFruits(avocadoInventory);
-    spoilFruits(bananaInventory);
-    spoilVegetables(carrotInventory);
-    spoilVegetables(cucumberInventory);
-    spoilVegetables(lettuceInventory);
-    spoilFruits(limeInventory);
-    spoilFruits(mangoInventory);
-    spoilVegetables(onionInventory);
-    spoilVegetables(parsleyInventory);
-    spoilFruits(watermelonInventory);
   }
 
   private void spoilFruits(Fruit[] inventory) {
@@ -285,19 +355,6 @@ public class Supermarket {
     }
   }
 
-  private void spoilItemsFaster() {
-    spoilFruitsFaster(avocadoInventory);
-    spoilFruitsFaster(bananaInventory);
-    spoilVegetablesFaster(carrotInventory);
-    spoilVegetablesFaster(cucumberInventory);
-    spoilVegetablesFaster(lettuceInventory);
-    spoilFruitsFaster(limeInventory);
-    spoilFruitsFaster(mangoInventory);
-    spoilVegetablesFaster(onionInventory);
-    spoilVegetablesFaster(parsleyInventory);
-    spoilFruitsFaster(watermelonInventory);
-  }
-
   private void spoilFruitsFaster(Fruit[] inventory) {
     Random rand = new Random();
     double percentage = (rand.nextDouble(9) + 1);
@@ -326,8 +383,8 @@ public class Supermarket {
 
   private void sellGoods() throws Exception {
     if (Customer.willPurchase()) {
-      int items = 0;
       Random rand = new Random();
+      int items = 0;
       for (int index = 0; index < customers.length; index++) {
         switch (rand.nextInt(customers.length)) {
           case 0:
@@ -969,10 +1026,10 @@ public class Supermarket {
 
   private void sellGoodsVerbose() throws Exception {
     if (Customer.willPurchase()) {
+      Random rand = new Random();
       int items = 0;
       int totalFruitsPruchsedByCustomer = 0;
       int totalVegetablesPruchsedByCustomer = 0;
-      Random rand = new Random();
       for (int index = 0; index < customers.length; index++) {
         switch (rand.nextInt(customers.length)) {
           case 0:
@@ -1633,19 +1690,6 @@ public class Supermarket {
     }
   }
 
-  private void removeSpoiltItems() {
-    removeSpoiltAvocados();
-    removeSpoiltBananas();
-    removeSpoiltCarrots();
-    removeSpoiltCucumbers();
-    removeSpoiltLettuces();
-    removeSpoiltLimes();
-    removeSpoiltOnions();
-    removeSpoiltParsleys();
-    removeSpoiltMangoes();
-    removeSpoiltWatermelons();
-  }
-
   private void removeSpoiltWatermelons() {
     int sum = 0;
     for (int i = 0; i < watermelonInventory.length; i++) {
@@ -2146,19 +2190,19 @@ public class Supermarket {
       if (fruitsAreHere.getAvailablity()) {
         int numberOfAvocadosToBeBought = (MAXIMUM_NUMBER_OF_FRUITS - avocadoInventory.length);
         if (cashOnHand >= (numberOfAvocadosToBeBought * Avocado.COST_PRICE)) {
-          Avocado[] avocadosSold = fruitsAreHere.sellAvocados(numberOfAvocadosToBeBought);
-          cashOnHand -= (numberOfAvocadosToBeBought * Avocado.COST_PRICE);
-          Output.appendToLogFileAmountOfFruitsPurchase(numberOfAvocadosToBeBought, "Avocado", "Fruits Are Here",
-              Avocado.COST_PRICE, numberOfAvocadosToBeBought * Avocado.COST_PRICE);
-          itemsPurchased[0] += numberOfAvocadosToBeBought;
+          Avocado[] avocadosBought = fruitsAreHere.sellAvocados(numberOfAvocadosToBeBought);
+          cashOnHand -= (avocadosBought.length * Avocado.COST_PRICE);
+          Output.appendToLogFileAmountOfFruitsPurchase(avocadosBought.length, "Avocado", "Fruits Are Here",
+              Avocado.COST_PRICE, avocadosBought.length * Avocado.COST_PRICE);
+          itemsPurchased[0] += avocadosBought.length;
           Avocado[] updatedAvocadosInventory = new Avocado[avocadoInventory.length
-              + avocadosSold.length];
+              + avocadosBought.length];
           for (int i = 0; i < avocadoInventory.length; i++) {
             updatedAvocadosInventory[i] = avocadoInventory[i];
           }
           int shiftIndex = avocadoInventory.length;
-          for (int i = 0; i < (avocadosSold.length); i++) {
-            updatedAvocadosInventory[(i + shiftIndex)] = avocadosSold[i];
+          for (int i = 0; i < (avocadosBought.length); i++) {
+            updatedAvocadosInventory[(i + shiftIndex)] = avocadosBought[i];
           }
           avocadoInventory = updatedAvocadosInventory;
         } else {
@@ -2171,19 +2215,19 @@ public class Supermarket {
         } else {
           int numberOfAvocadosToBeBought = (MAXIMUM_NUMBER_OF_FRUITS - avocadoInventory.length);
           if (cashOnHand >= (numberOfAvocadosToBeBought * Avocado.COST_PRICE)) {
-            Avocado[] avocadosSold = allYouCanEat.sellAvocados(numberOfAvocadosToBeBought);
-            cashOnHand -= (numberOfAvocadosToBeBought * Avocado.COST_PRICE);
-            Output.appendToLogFileAmountOfFruitsPurchase(numberOfAvocadosToBeBought, "Avocado", "All You Can Eat",
-                Avocado.COST_PRICE, numberOfAvocadosToBeBought * Avocado.COST_PRICE);
-            itemsPurchased[0] += numberOfAvocadosToBeBought;
+            Avocado[] avocadosBought = allYouCanEat.sellAvocados(numberOfAvocadosToBeBought);
+            cashOnHand -= (avocadosBought.length * Avocado.COST_PRICE);
+            Output.appendToLogFileAmountOfFruitsPurchase(avocadosBought.length, "Avocado", "All You Can Eat",
+                Avocado.COST_PRICE, avocadosBought.length * Avocado.COST_PRICE);
+            itemsPurchased[0] += avocadosBought.length;
             Avocado[] updatedAvocadosInventory = new Avocado[avocadoInventory.length
-                + avocadosSold.length];
+                + avocadosBought.length];
             for (int i = 0; i < avocadoInventory.length; i++) {
               updatedAvocadosInventory[i] = avocadoInventory[i];
             }
             int shiftIndex = avocadoInventory.length;
-            for (int i = 0; i < (avocadosSold.length); i++) {
-              updatedAvocadosInventory[(i + shiftIndex)] = avocadosSold[i];
+            for (int i = 0; i < (avocadosBought.length); i++) {
+              updatedAvocadosInventory[(i + shiftIndex)] = avocadosBought[i];
             }
             avocadoInventory = updatedAvocadosInventory;
           } else {
@@ -2202,19 +2246,19 @@ public class Supermarket {
       if (fruitsAreHere.getAvailablity()) {
         int numberOfBananasToBeBought = (MAXIMUM_NUMBER_OF_FRUITS - bananaInventory.length);
         if (cashOnHand >= (numberOfBananasToBeBought * Banana.COST_PRICE)) {
-          Banana[] bananasSold = fruitsAreHere.sellBananas(numberOfBananasToBeBought);
-          cashOnHand -= (numberOfBananasToBeBought * Banana.COST_PRICE);
-          Output.appendToLogFileAmountOfFruitsPurchase(numberOfBananasToBeBought, "Banana", "Fruits Are Here",
-              Banana.COST_PRICE, numberOfBananasToBeBought * Banana.COST_PRICE);
-          itemsPurchased[1] += numberOfBananasToBeBought;
+          Banana[] bananasBought = fruitsAreHere.sellBananas(numberOfBananasToBeBought);
+          cashOnHand -= (bananasBought.length * Banana.COST_PRICE);
+          Output.appendToLogFileAmountOfFruitsPurchase(bananasBought.length, "Banana", "Fruits Are Here",
+              Banana.COST_PRICE, bananasBought.length * Banana.COST_PRICE);
+          itemsPurchased[1] += bananasBought.length;
           Banana[] updatedBananasInventory = new Banana[bananaInventory.length
-              + bananasSold.length];
+              + bananasBought.length];
           for (int i = 0; i < bananaInventory.length; i++) {
             updatedBananasInventory[i] = bananaInventory[i];
           }
           int shiftIndex = bananaInventory.length;
-          for (int i = 0; i < (bananasSold.length); i++) {
-            updatedBananasInventory[(i + shiftIndex)] = bananasSold[i];
+          for (int i = 0; i < (bananasBought.length); i++) {
+            updatedBananasInventory[(i + shiftIndex)] = bananasBought[i];
           }
           bananaInventory = updatedBananasInventory;
         } else {
@@ -2227,19 +2271,19 @@ public class Supermarket {
         } else {
           int numberOfBananasToBeBought = (MAXIMUM_NUMBER_OF_FRUITS - bananaInventory.length);
           if (cashOnHand >= (numberOfBananasToBeBought * Banana.COST_PRICE)) {
-            Banana[] bananasSold = allYouCanEat.sellBananas(numberOfBananasToBeBought);
-            cashOnHand -= (numberOfBananasToBeBought * Banana.COST_PRICE);
-            Output.appendToLogFileAmountOfFruitsPurchase(numberOfBananasToBeBought, "Banana", "All You Can Eat",
-                Banana.COST_PRICE, numberOfBananasToBeBought * Banana.COST_PRICE);
-            itemsPurchased[1] += numberOfBananasToBeBought;
+            Banana[] bananasBought = allYouCanEat.sellBananas(numberOfBananasToBeBought);
+            cashOnHand -= (bananasBought.length * Banana.COST_PRICE);
+            Output.appendToLogFileAmountOfFruitsPurchase(bananasBought.length, "Banana", "All You Can Eat",
+                Banana.COST_PRICE, bananasBought.length * Banana.COST_PRICE);
+            itemsPurchased[1] += bananasBought.length;
             Banana[] updatedBananasInventory = new Banana[bananaInventory.length
-                + bananasSold.length];
+                + bananasBought.length];
             for (int i = 0; i < bananaInventory.length; i++) {
               updatedBananasInventory[i] = bananaInventory[i];
             }
             int shiftIndex = bananaInventory.length;
-            for (int i = 0; i < (bananasSold.length); i++) {
-              updatedBananasInventory[(i + shiftIndex)] = bananasSold[i];
+            for (int i = 0; i < (bananasBought.length); i++) {
+              updatedBananasInventory[(i + shiftIndex)] = bananasBought[i];
             }
             bananaInventory = updatedBananasInventory;
           } else {
@@ -2258,19 +2302,19 @@ public class Supermarket {
       if (tastyVegetables.getAvailablity()) {
         int numberOfCarrotsToBeBought = (MAXIMUM_NUMBER_OF_VEGETABLES - carrotInventory.length);
         if (cashOnHand >= (numberOfCarrotsToBeBought * Carrot.COST_PRICE)) {
-          Carrot[] carrotsSold = tastyVegetables.sellCarrots(numberOfCarrotsToBeBought);
-          cashOnHand -= (numberOfCarrotsToBeBought * Carrot.COST_PRICE);
-          Output.appendToLogFileAmountOfVegetablesPurchase(numberOfCarrotsToBeBought, "Carrot", "Tasty Vegetables",
-              Carrot.COST_PRICE, numberOfCarrotsToBeBought * Carrot.COST_PRICE);
-          itemsPurchased[2] += numberOfCarrotsToBeBought;
+          Carrot[] carrotsBought = tastyVegetables.sellCarrots(numberOfCarrotsToBeBought);
+          cashOnHand -= (carrotsBought.length * Carrot.COST_PRICE);
+          Output.appendToLogFileAmountOfVegetablesPurchase(carrotsBought.length, "Carrot", "Tasty Vegetables",
+              Carrot.COST_PRICE, carrotsBought.length * Carrot.COST_PRICE);
+          itemsPurchased[2] += carrotsBought.length;
           Carrot[] updatedCarrotsInventory = new Carrot[carrotInventory.length
-              + carrotsSold.length];
+              + carrotsBought.length];
           for (int i = 0; i < carrotInventory.length; i++) {
             updatedCarrotsInventory[i] = carrotInventory[i];
           }
           int shiftIndex = carrotInventory.length;
-          for (int i = 0; i < (carrotsSold.length); i++) {
-            updatedCarrotsInventory[(i + shiftIndex)] = carrotsSold[i];
+          for (int i = 0; i < (carrotsBought.length); i++) {
+            updatedCarrotsInventory[(i + shiftIndex)] = carrotsBought[i];
           }
           carrotInventory = updatedCarrotsInventory;
         } else {
@@ -2283,19 +2327,19 @@ public class Supermarket {
         } else {
           int numberOfCarrotsToBeBought = (MAXIMUM_NUMBER_OF_FRUITS - carrotInventory.length);
           if (cashOnHand >= (numberOfCarrotsToBeBought * Carrot.COST_PRICE)) {
-            Carrot[] carrotsSold = allYouCanEat.sellCarrots(numberOfCarrotsToBeBought);
-            cashOnHand -= (numberOfCarrotsToBeBought * Carrot.COST_PRICE);
-            Output.appendToLogFileAmountOfVegetablesPurchase(numberOfCarrotsToBeBought, "Carrot", "All You Can Eat",
-                Carrot.COST_PRICE, numberOfCarrotsToBeBought * Carrot.COST_PRICE);
-            itemsPurchased[2] += numberOfCarrotsToBeBought;
+            Carrot[] carrotsBought = allYouCanEat.sellCarrots(numberOfCarrotsToBeBought);
+            cashOnHand -= (carrotsBought.length * Carrot.COST_PRICE);
+            Output.appendToLogFileAmountOfVegetablesPurchase(carrotsBought.length, "Carrot", "All You Can Eat",
+                Carrot.COST_PRICE, carrotsBought.length * Carrot.COST_PRICE);
+            itemsPurchased[2] += carrotsBought.length;
             Carrot[] updatedCarrotsInventory = new Carrot[carrotInventory.length
-                + carrotsSold.length];
+                + carrotsBought.length];
             for (int i = 0; i < carrotInventory.length; i++) {
               updatedCarrotsInventory[i] = carrotInventory[i];
             }
             int shiftIndex = carrotInventory.length;
-            for (int i = 0; i < (carrotsSold.length); i++) {
-              updatedCarrotsInventory[(i + shiftIndex)] = carrotsSold[i];
+            for (int i = 0; i < (carrotsBought.length); i++) {
+              updatedCarrotsInventory[(i + shiftIndex)] = carrotsBought[i];
             }
             carrotInventory = updatedCarrotsInventory;
           } else {
@@ -2314,19 +2358,19 @@ public class Supermarket {
       if (tastyVegetables.getAvailablity()) {
         int numberOfCucumbersToBeBought = (MAXIMUM_NUMBER_OF_VEGETABLES - cucumberInventory.length);
         if (cashOnHand >= (numberOfCucumbersToBeBought * Cucumber.COST_PRICE)) {
-          Cucumber[] cucumbersSold = tastyVegetables.sellCucumbers(numberOfCucumbersToBeBought);
-          cashOnHand -= (numberOfCucumbersToBeBought * Cucumber.COST_PRICE);
-          Output.appendToLogFileAmountOfVegetablesPurchase(numberOfCucumbersToBeBought, "Cucumber", "Tasty Vegetables",
-              Cucumber.COST_PRICE, numberOfCucumbersToBeBought * Cucumber.COST_PRICE);
-          itemsPurchased[3] += numberOfCucumbersToBeBought;
+          Cucumber[] cucumbersBought = tastyVegetables.sellCucumbers(numberOfCucumbersToBeBought);
+          cashOnHand -= (cucumbersBought.length * Cucumber.COST_PRICE);
+          Output.appendToLogFileAmountOfVegetablesPurchase(cucumbersBought.length, "Cucumber", "Tasty Vegetables",
+              Cucumber.COST_PRICE, cucumbersBought.length * Cucumber.COST_PRICE);
+          itemsPurchased[3] += cucumbersBought.length;
           Cucumber[] updatedCucumbersInventory = new Cucumber[cucumberInventory.length
-              + cucumbersSold.length];
+              + cucumbersBought.length];
           for (int i = 0; i < cucumberInventory.length; i++) {
             updatedCucumbersInventory[i] = cucumberInventory[i];
           }
           int shiftIndex = cucumberInventory.length;
-          for (int i = 0; i < (cucumbersSold.length); i++) {
-            updatedCucumbersInventory[(i + shiftIndex)] = cucumbersSold[i];
+          for (int i = 0; i < (cucumbersBought.length); i++) {
+            updatedCucumbersInventory[(i + shiftIndex)] = cucumbersBought[i];
           }
           cucumberInventory = updatedCucumbersInventory;
         } else {
@@ -2339,19 +2383,19 @@ public class Supermarket {
         } else {
           int numberOfCucumbersToBeBought = (MAXIMUM_NUMBER_OF_FRUITS - cucumberInventory.length);
           if (cashOnHand >= (numberOfCucumbersToBeBought * Cucumber.COST_PRICE)) {
-            Cucumber[] cucumbersSold = allYouCanEat.sellCucumbers(numberOfCucumbersToBeBought);
-            cashOnHand -= (numberOfCucumbersToBeBought * Cucumber.COST_PRICE);
-            Output.appendToLogFileAmountOfVegetablesPurchase(numberOfCucumbersToBeBought, "Cucumber", "All You Can Eat",
-                Cucumber.COST_PRICE, numberOfCucumbersToBeBought * Cucumber.COST_PRICE);
-            itemsPurchased[3] += numberOfCucumbersToBeBought;
+            Cucumber[] cucumbersBought = allYouCanEat.sellCucumbers(numberOfCucumbersToBeBought);
+            cashOnHand -= (cucumbersBought.length * Cucumber.COST_PRICE);
+            Output.appendToLogFileAmountOfVegetablesPurchase(cucumbersBought.length, "Cucumber", "All You Can Eat",
+                Cucumber.COST_PRICE, cucumbersBought.length * Cucumber.COST_PRICE);
+            itemsPurchased[3] += cucumbersBought.length;
             Cucumber[] updatedCucumbersInventory = new Cucumber[cucumberInventory.length
-                + cucumbersSold.length];
+                + cucumbersBought.length];
             for (int i = 0; i < cucumberInventory.length; i++) {
               updatedCucumbersInventory[i] = cucumberInventory[i];
             }
             int shiftIndex = cucumberInventory.length;
-            for (int i = 0; i < (cucumbersSold.length); i++) {
-              updatedCucumbersInventory[(i + shiftIndex)] = cucumbersSold[i];
+            for (int i = 0; i < (cucumbersBought.length); i++) {
+              updatedCucumbersInventory[(i + shiftIndex)] = cucumbersBought[i];
             }
             cucumberInventory = updatedCucumbersInventory;
           } else {
@@ -2370,19 +2414,19 @@ public class Supermarket {
       if (tastyVegetables.getAvailablity()) {
         int numberOfLettucesToBeBought = (MAXIMUM_NUMBER_OF_VEGETABLES - lettuceInventory.length);
         if (cashOnHand >= (numberOfLettucesToBeBought * Lettuce.COST_PRICE)) {
-          Lettuce[] lettucesSold = tastyVegetables.sellLettuces(numberOfLettucesToBeBought);
-          cashOnHand -= (numberOfLettucesToBeBought * Lettuce.COST_PRICE);
-          Output.appendToLogFileAmountOfVegetablesPurchase(numberOfLettucesToBeBought, "Lettuce", "Tasty Vegetables",
-              Lettuce.COST_PRICE, numberOfLettucesToBeBought * Lettuce.COST_PRICE);
-          itemsPurchased[4] += numberOfLettucesToBeBought;
+          Lettuce[] lettucesBought = tastyVegetables.sellLettuces(numberOfLettucesToBeBought);
+          cashOnHand -= (lettucesBought.length * Lettuce.COST_PRICE);
+          Output.appendToLogFileAmountOfVegetablesPurchase(lettucesBought.length, "Lettuce", "Tasty Vegetables",
+              Lettuce.COST_PRICE, lettucesBought.length * Lettuce.COST_PRICE);
+          itemsPurchased[4] += lettucesBought.length;
           Lettuce[] updatedLettucesInventory = new Lettuce[lettuceInventory.length
-              + lettucesSold.length];
+              + lettucesBought.length];
           for (int i = 0; i < lettuceInventory.length; i++) {
             updatedLettucesInventory[i] = lettuceInventory[i];
           }
           int shiftIndex = lettuceInventory.length;
-          for (int i = 0; i < (lettucesSold.length); i++) {
-            updatedLettucesInventory[(i + shiftIndex)] = lettucesSold[i];
+          for (int i = 0; i < (lettucesBought.length); i++) {
+            updatedLettucesInventory[(i + shiftIndex)] = lettucesBought[i];
           }
           lettuceInventory = updatedLettucesInventory;
         } else {
@@ -2395,19 +2439,19 @@ public class Supermarket {
         } else {
           int numberOfLettucesToBeBought = (MAXIMUM_NUMBER_OF_FRUITS - lettuceInventory.length);
           if (cashOnHand >= (numberOfLettucesToBeBought * Lettuce.COST_PRICE)) {
-            Lettuce[] lettucesSold = allYouCanEat.sellLettuces(numberOfLettucesToBeBought);
-            cashOnHand -= (numberOfLettucesToBeBought * Lettuce.COST_PRICE);
-            Output.appendToLogFileAmountOfVegetablesPurchase(numberOfLettucesToBeBought, "Lettuce", "All You Can Eat",
-                Lettuce.COST_PRICE, numberOfLettucesToBeBought * Lettuce.COST_PRICE);
-            itemsPurchased[4] += numberOfLettucesToBeBought;
+            Lettuce[] lettucesBought = allYouCanEat.sellLettuces(numberOfLettucesToBeBought);
+            cashOnHand -= (lettucesBought.length * Lettuce.COST_PRICE);
+            Output.appendToLogFileAmountOfVegetablesPurchase(lettucesBought.length, "Lettuce", "All You Can Eat",
+                Lettuce.COST_PRICE, lettucesBought.length * Lettuce.COST_PRICE);
+            itemsPurchased[4] += lettucesBought.length;
             Lettuce[] updatedLettucesInventory = new Lettuce[lettuceInventory.length
-                + lettucesSold.length];
+                + lettucesBought.length];
             for (int i = 0; i < lettuceInventory.length; i++) {
               updatedLettucesInventory[i] = lettuceInventory[i];
             }
             int shiftIndex = lettuceInventory.length;
-            for (int i = 0; i < (lettucesSold.length); i++) {
-              updatedLettucesInventory[(i + shiftIndex)] = lettucesSold[i];
+            for (int i = 0; i < (lettucesBought.length); i++) {
+              updatedLettucesInventory[(i + shiftIndex)] = lettucesBought[i];
             }
             lettuceInventory = updatedLettucesInventory;
           } else {
@@ -2426,19 +2470,19 @@ public class Supermarket {
       if (fruitsAreHere.getAvailablity()) {
         int numberOfLimesToBeBought = (MAXIMUM_NUMBER_OF_FRUITS - limeInventory.length);
         if (cashOnHand >= (numberOfLimesToBeBought * Lime.COST_PRICE)) {
-          Lime[] limesSold = fruitsAreHere.sellLimes(numberOfLimesToBeBought);
-          cashOnHand -= (numberOfLimesToBeBought * Lime.COST_PRICE);
-          Output.appendToLogFileAmountOfFruitsPurchase(numberOfLimesToBeBought, "Lime", "Fruits Are Here",
-              Lime.COST_PRICE, numberOfLimesToBeBought * Lime.COST_PRICE);
-          itemsPurchased[5] += numberOfLimesToBeBought;
+          Lime[] limesBought = fruitsAreHere.sellLimes(numberOfLimesToBeBought);
+          cashOnHand -= (limesBought.length * Lime.COST_PRICE);
+          Output.appendToLogFileAmountOfFruitsPurchase(limesBought.length, "Lime", "Fruits Are Here",
+              Lime.COST_PRICE, limesBought.length * Lime.COST_PRICE);
+          itemsPurchased[5] += limesBought.length;
           Lime[] updatedLimesInventory = new Lime[limeInventory.length
-              + limesSold.length];
+              + limesBought.length];
           for (int i = 0; i < limeInventory.length; i++) {
             updatedLimesInventory[i] = limeInventory[i];
           }
           int shiftIndex = limeInventory.length;
-          for (int i = 0; i < (limesSold.length); i++) {
-            updatedLimesInventory[(i + shiftIndex)] = limesSold[i];
+          for (int i = 0; i < (limesBought.length); i++) {
+            updatedLimesInventory[(i + shiftIndex)] = limesBought[i];
           }
           limeInventory = updatedLimesInventory;
         } else {
@@ -2451,19 +2495,19 @@ public class Supermarket {
         } else {
           int numberOfLimesToBeBought = (MAXIMUM_NUMBER_OF_FRUITS - limeInventory.length);
           if (cashOnHand >= (numberOfLimesToBeBought * Lime.COST_PRICE)) {
-            Lime[] limesSold = allYouCanEat.sellLimes(numberOfLimesToBeBought);
-            cashOnHand -= (numberOfLimesToBeBought * Lime.COST_PRICE);
-            Output.appendToLogFileAmountOfFruitsPurchase(numberOfLimesToBeBought, "Lime", "All You Can Eat",
-                Lime.COST_PRICE, numberOfLimesToBeBought * Lime.COST_PRICE);
-            itemsPurchased[5] += numberOfLimesToBeBought;
+            Lime[] limesBought = allYouCanEat.sellLimes(numberOfLimesToBeBought);
+            cashOnHand -= (limesBought.length * Lime.COST_PRICE);
+            Output.appendToLogFileAmountOfFruitsPurchase(limesBought.length, "Lime", "All You Can Eat",
+                Lime.COST_PRICE, limesBought.length * Lime.COST_PRICE);
+            itemsPurchased[5] += limesBought.length;
             Lime[] updatedLimesInventory = new Lime[limeInventory.length
-                + limesSold.length];
+                + limesBought.length];
             for (int i = 0; i < limeInventory.length; i++) {
               updatedLimesInventory[i] = limeInventory[i];
             }
             int shiftIndex = limeInventory.length;
-            for (int i = 0; i < (limesSold.length); i++) {
-              updatedLimesInventory[(i + shiftIndex)] = limesSold[i];
+            for (int i = 0; i < (limesBought.length); i++) {
+              updatedLimesInventory[(i + shiftIndex)] = limesBought[i];
             }
             limeInventory = updatedLimesInventory;
           } else {
