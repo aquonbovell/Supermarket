@@ -11,8 +11,8 @@ public class Supermarket {
   private double profit;
   private int lossesCausedbyRandomEvent;
   private double cashOnHand = 460_000;
-  private int totalFruitsPruchsedByCustomer;
-  private int totalVegetablesPruchsedByCustomer;
+  private int totalFruitsPurchsedByCustomer;
+  private int totalVegetablesPurchsedByCustomer;
   private int[] itemsSold;
   private int[] itemsPurchased;
   private int[] numberOfSpoiltItems;
@@ -63,10 +63,10 @@ public class Supermarket {
     initVegetablesInventory(onionInventory);
     initVegetablesInventory(parsleyInventory);
     initFruitsInventory(watermelonInventory);
-    totalFruitsPruchsedByCustomer = 0;
-    totalVegetablesPruchsedByCustomer = 0;
+    totalFruitsPurchsedByCustomer = 0;
+    totalVegetablesPurchsedByCustomer = 0;
   }
-
+  
   private void initCustomers() {
     for (int index = 0; index < customers.length; index++) {
       customers[index] = new Customer();
@@ -1028,8 +1028,8 @@ public class Supermarket {
     if (Customer.willPurchase()) {
       Random rand = new Random();
       int items = 0;
-      int totalFruitsPruchsedByCustomer = 0;
-      int totalVegetablesPruchsedByCustomer = 0;
+      totalFruitsPurchsedByCustomer = 0;
+      totalVegetablesPurchsedByCustomer = 0;
       for (int index = 0; index < customers.length; index++) {
         switch (rand.nextInt(customers.length)) {
           case 0:
@@ -1076,7 +1076,7 @@ public class Supermarket {
             break;
         }
       }
-      Print.verboseTotalAmountCustomerPurchase(totalFruitsPruchsedByCustomer, totalVegetablesPruchsedByCustomer);
+      Print.verboseTotalAmountCustomerPurchase(totalFruitsPurchsedByCustomer, totalVegetablesPurchsedByCustomer);
     }
   }
 
@@ -1108,7 +1108,7 @@ public class Supermarket {
         Output.appendCustomerPurchaseFruitsToLogFile(availableItems.length, "Avocado",
             (availableItems.length * Avocado.SELLING_PRICE));
         itemsSold[0] += availableItems.length;
-        totalFruitsPruchsedByCustomer += availableItems.length;
+        totalFruitsPurchsedByCustomer += availableItems.length;
         k = 0;
         for (int j = 0; j < avocadoInventory.length; j++) {
           if (avocadoInventory[j].getSpoiltValue() <= 0) {
@@ -1123,7 +1123,7 @@ public class Supermarket {
         Output.appendCustomerPurchaseFruitsToLogFile(items, "Avocado",
             (items * Avocado.SELLING_PRICE));
         itemsSold[0] += items;
-        totalFruitsPruchsedByCustomer += items;
+        totalFruitsPurchsedByCustomer += items;
         k = 0;
         for (int j = 0; j < avocadoInventory.length; j++) {
           if (avocadoInventory[j].getSpoiltValue() <= 0) {
@@ -1170,7 +1170,7 @@ public class Supermarket {
         Output.appendCustomerPurchaseFruitsToLogFile(availableItems.length, "Banana",
             (availableItems.length * Banana.SELLING_PRICE));
         itemsSold[1] += availableItems.length;
-        totalFruitsPruchsedByCustomer += availableItems.length;
+        totalFruitsPurchsedByCustomer += availableItems.length;
         k = 0;
         for (int j = 0; j < bananaInventory.length; j++) {
           if (bananaInventory[j].getSpoiltValue() <= 0) {
@@ -1185,7 +1185,7 @@ public class Supermarket {
         Output.appendCustomerPurchaseFruitsToLogFile(items, "Banana",
             (items * Banana.SELLING_PRICE));
         itemsSold[1] += items;
-        totalFruitsPruchsedByCustomer += items;
+        totalFruitsPurchsedByCustomer += items;
         k = 0;
         for (int j = 0; j < bananaInventory.length; j++) {
           if (bananaInventory[j].getSpoiltValue() <= 0) {
@@ -1231,7 +1231,7 @@ public class Supermarket {
         Output.appendCustomerPurchaseVegetablesToLogFile(availableItems.length, "Carrot",
             (availableItems.length * Carrot.SELLING_PRICE));
         itemsSold[2] += availableItems.length;
-        totalVegetablesPruchsedByCustomer += availableItems.length;
+        totalVegetablesPurchsedByCustomer += availableItems.length;
         k = 0;
         for (int j = 0; j < carrotInventory.length; j++) {
           if (carrotInventory[j].getSpoiltValue() <= 0) {
@@ -1246,7 +1246,7 @@ public class Supermarket {
         Output.appendCustomerPurchaseVegetablesToLogFile(items, "Carrot",
             (items * Carrot.SELLING_PRICE));
         itemsSold[2] += items;
-        totalVegetablesPruchsedByCustomer += items;
+        totalVegetablesPurchsedByCustomer += items;
         k = 0;
         for (int j = 0; j < carrotInventory.length; j++) {
           if (carrotInventory[j].getSpoiltValue() <= 0) {
@@ -1292,7 +1292,7 @@ public class Supermarket {
         Output.appendCustomerPurchaseVegetablesToLogFile(availableItems.length, "Cucumber",
             (availableItems.length * Cucumber.SELLING_PRICE));
         itemsSold[3] += availableItems.length;
-        totalVegetablesPruchsedByCustomer += availableItems.length;
+        totalVegetablesPurchsedByCustomer += availableItems.length;
         k = 0;
         for (int j = 0; j < cucumberInventory.length; j++) {
           if (cucumberInventory[j].getSpoiltValue() <= 0) {
@@ -1307,7 +1307,7 @@ public class Supermarket {
         Output.appendCustomerPurchaseVegetablesToLogFile(items, "Cucumber",
             (items * Cucumber.SELLING_PRICE));
         itemsSold[3] += items;
-        totalVegetablesPruchsedByCustomer += items;
+        totalVegetablesPurchsedByCustomer += items;
         k = 0;
         for (int j = 0; j < cucumberInventory.length; j++) {
           if (cucumberInventory[j].getSpoiltValue() <= 0) {
@@ -1353,7 +1353,7 @@ public class Supermarket {
         Output.appendCustomerPurchaseVegetablesToLogFile(availableItems.length, "Lettuce",
             (availableItems.length * Lettuce.SELLING_PRICE));
         itemsSold[4] += availableItems.length;
-        totalVegetablesPruchsedByCustomer += availableItems.length;
+        totalVegetablesPurchsedByCustomer += availableItems.length;
         k = 0;
         for (int j = 0; j < lettuceInventory.length; j++) {
           if (lettuceInventory[j].getSpoiltValue() <= 0) {
@@ -1368,7 +1368,7 @@ public class Supermarket {
         Output.appendCustomerPurchaseVegetablesToLogFile(items, "Lettuce",
             (items * Lettuce.SELLING_PRICE));
         itemsSold[4] += items;
-        totalVegetablesPruchsedByCustomer += items;
+        totalVegetablesPurchsedByCustomer += items;
         k = 0;
         for (int j = 0; j < lettuceInventory.length; j++) {
           if (lettuceInventory[j].getSpoiltValue() <= 0) {
@@ -1414,7 +1414,7 @@ public class Supermarket {
         Output.appendCustomerPurchaseFruitsToLogFile(availableItems.length, "Lime",
             (availableItems.length * Lime.SELLING_PRICE));
         itemsSold[5] += availableItems.length;
-        totalFruitsPruchsedByCustomer += availableItems.length;
+        totalFruitsPurchsedByCustomer += availableItems.length;
         k = 0;
         for (int j = 0; j < limeInventory.length; j++) {
           if (limeInventory[j].getSpoiltValue() <= 0) {
@@ -1429,7 +1429,7 @@ public class Supermarket {
         Output.appendCustomerPurchaseFruitsToLogFile(items, "Lime",
             (items * Lime.SELLING_PRICE));
         itemsSold[5] += items;
-        totalFruitsPruchsedByCustomer += items;
+        totalFruitsPurchsedByCustomer += items;
         k = 0;
         for (int j = 0; j < limeInventory.length; j++) {
           if (limeInventory[j].getSpoiltValue() <= 0) {
@@ -1475,7 +1475,7 @@ public class Supermarket {
         Output.appendCustomerPurchaseFruitsToLogFile(availableItems.length, "Mango",
             (availableItems.length * Mango.SELLING_PRICE));
         itemsSold[6] += availableItems.length;
-        totalFruitsPruchsedByCustomer += availableItems.length;
+        totalFruitsPurchsedByCustomer += availableItems.length;
         k = 0;
         for (int j = 0; j < mangoInventory.length; j++) {
           if (mangoInventory[j].getSpoiltValue() <= 0) {
@@ -1490,7 +1490,7 @@ public class Supermarket {
         Output.appendCustomerPurchaseFruitsToLogFile(items, "Lime",
             (items * Lime.SELLING_PRICE));
         itemsSold[6] += items;
-        totalFruitsPruchsedByCustomer += items;
+        totalFruitsPurchsedByCustomer += items;
         k = 0;
         for (int j = 0; j < mangoInventory.length; j++) {
           if (mangoInventory[j].getSpoiltValue() <= 0) {
@@ -1536,7 +1536,7 @@ public class Supermarket {
         Output.appendCustomerPurchaseVegetablesToLogFile(availableItems.length, "Onion",
             (availableItems.length * Onion.SELLING_PRICE));
         itemsSold[7] += availableItems.length;
-        totalVegetablesPruchsedByCustomer += availableItems.length;
+        totalVegetablesPurchsedByCustomer += availableItems.length;
         k = 0;
         for (int j = 0; j < onionInventory.length; j++) {
           if (onionInventory[j].getSpoiltValue() <= 0) {
@@ -1551,7 +1551,7 @@ public class Supermarket {
         Output.appendCustomerPurchaseVegetablesToLogFile(items, "Onion",
             (items * Onion.SELLING_PRICE));
         itemsSold[7] += items;
-        totalVegetablesPruchsedByCustomer += items;
+        totalVegetablesPurchsedByCustomer += items;
         k = 0;
         for (int j = 0; j < onionInventory.length; j++) {
           if (onionInventory[j].getSpoiltValue() <= 0) {
@@ -1597,7 +1597,7 @@ public class Supermarket {
         Output.appendCustomerPurchaseVegetablesToLogFile(availableItems.length, "Parsley",
             (availableItems.length * Parsley.SELLING_PRICE));
         itemsSold[8] += availableItems.length;
-        totalVegetablesPruchsedByCustomer += availableItems.length;
+        totalVegetablesPurchsedByCustomer += availableItems.length;
         k = 0;
         for (int j = 0; j < parsleyInventory.length; j++) {
           if (parsleyInventory[j].getSpoiltValue() <= 0) {
@@ -1612,7 +1612,7 @@ public class Supermarket {
         Output.appendCustomerPurchaseVegetablesToLogFile(items, "Parsley",
             (items * Parsley.SELLING_PRICE));
         itemsSold[8] += items;
-        totalVegetablesPruchsedByCustomer += items;
+        totalVegetablesPurchsedByCustomer += items;
         k = 0;
         for (int j = 0; j < parsleyInventory.length; j++) {
           if (parsleyInventory[j].getSpoiltValue() <= 0) {
@@ -1658,7 +1658,7 @@ public class Supermarket {
         Output.appendCustomerPurchaseFruitsToLogFile(availableItems.length, "Watermelon",
             (availableItems.length * Watermelon.SELLING_PRICE));
         itemsSold[9] += availableItems.length;
-        totalVegetablesPruchsedByCustomer += availableItems.length;
+        totalVegetablesPurchsedByCustomer += availableItems.length;
         k = 0;
         for (int j = 0; j < watermelonInventory.length; j++) {
           if (watermelonInventory[j].getSpoiltValue() <= 0) {
@@ -1673,7 +1673,7 @@ public class Supermarket {
         Output.appendCustomerPurchaseFruitsToLogFile(items, "Watermelon",
             (items * Watermelon.SELLING_PRICE));
         itemsSold[9] += items;
-        totalVegetablesPruchsedByCustomer += items;
+        totalVegetablesPurchsedByCustomer += items;
         k = 0;
         for (int j = 0; j < watermelonInventory.length; j++) {
           if (watermelonInventory[j].getSpoiltValue() <= 0) {

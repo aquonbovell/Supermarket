@@ -6,6 +6,14 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch Test",
+      "request": "launch",
+      "mainClass": "Test",
+      "projectName": "SupermarketSimulation_5fbb557f",
+      "args": "${command:SpecifyProgramArgs}"
+    },
+    {
+      "type": "java",
       "name": "Launch Current File",
       "request": "launch",
       "mainClass": "${file}",

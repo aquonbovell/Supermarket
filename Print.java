@@ -7,8 +7,8 @@ public class Print {
     System.out.println("Spoilt: Vegetable (" + name + "): " + amount);
   }
 
-  public static void verboseTotalAmountCustomerPurchase(int fruitsAmount, int vegetableAmount) {
-    System.out.println("Total customer purchases: Fruits (" + fruitsAmount + "), Vegetables (" + vegetableAmount + ")");
+  public static void verboseTotalAmountCustomerPurchase(int fruitsAmount, int vegetablesAmount) {
+    System.out.println("Total customer purchases: Fruits (" + fruitsAmount + "), Vegetables (" + vegetablesAmount + ")");
   }
 
   public static void verboseTotalItemsPurchased(String vendor, String type, int amount) {
