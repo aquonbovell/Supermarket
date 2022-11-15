@@ -1,14 +1,17 @@
 import java.util.Random;
 
+/*This class details the fruit vendor and its behaviour and operations.
+*Kenez Horne*/
 public class FruitsAreHere extends Vendor {
-  private Watermelon[] watermelonInventory;
-  private Mango[] mangoInventory;
-  private Banana[] bananaInventory;
-  private Lime[] limeInventory;
-  private Avocado[] avocadoInventory;
-  private int totalWatermelons, totalMangoes, totalBananas, totalLimes, totalAvocado;
-  private double watermelonProfit, mangoProfit, bananaProfit, limeProfit, avocadoProfit, totalProfit;
-
+  private Watermelon[] watermelonInventory;//This field stores the number of watermelon object that the Vendor possesses.
+  private Mango[] mangoInventory;// This method stores the number of mango objects that the vendor possesses.
+  private Banana[] bananaInventory;// This method stores the number of banana objects that the vendor possesses.
+  private Lime[] limeInventory;//This field stores the number of Lime object that the vendor possesses.
+  private Avocado[] avocadoInventory;// This field stores the number of Avocado that the vendor possesses.
+  private int totalWatermelons, totalMangoes, totalBananas, totalLimes, totalAvocado; // These fields store the total number of the diiferent items that were sold by the vendor.
+  private double watermelonProfit, mangoProfit, bananaProfit, limeProfit, avocadoProfit, totalProfit;// These fields store the profit gained from the sale of the various items.
+  /*FruitsAreHere constructor which assigns each field to an initial value.
+  This method neither accepts parameters nor returns any values.*/
   FruitsAreHere() {
     super("Fruits Are Here");
     Random rand = new Random();
@@ -35,7 +38,8 @@ public class FruitsAreHere extends Vendor {
     avocadoProfit = 0.0;
     totalProfit = 0.0;
   }
-
+  /*This method initializes each instance of the items to an object of its type
+  This method accepts an array as parameters and returns no values */
   private void initArray(Fruit[] inventory) {
     if (inventory instanceof Watermelon[]) {
       for (int counter = 0; counter < inventory.length; counter++) {
@@ -59,7 +63,8 @@ public class FruitsAreHere extends Vendor {
       }
     }
   }
-
+  /*This method accepts a purchases request from the supermarket which it processes and returns the amount requested once available
+  *this method accepts and integer and returns an array of objects.*/
   public Watermelon[] sellWatermelons(int request) {
     int limit = 0;
     Watermelon[] sellWatermelon;
@@ -86,7 +91,8 @@ public class FruitsAreHere extends Vendor {
     totalWatermelons += sellWatermelon.length;
     return sellWatermelon;
   }
-
+  /*This method accepts a purchases request for Avocado, processes it and returns the request amount once it doesnot exceed the available inventory
+  *This method accepts an integer and returns an array of type Avocado*/
   public Avocado[] sellAvocados(int request) {
     int limit = 0;
     Avocado[] sellAvocado;
@@ -113,7 +119,8 @@ public class FruitsAreHere extends Vendor {
     totalAvocado += sellAvocado.length;
     return sellAvocado;
   }
-
+  /*This method accepts a purchases request for Limes, processes it and returns the request amount once it doesnot exceed the available inventory
+  *This method accepts an integer and returns an array of type Lime.*/
   public Lime[] sellLimes(int request) {
     int limit = 0;
     Lime[] sellLime;
@@ -140,7 +147,8 @@ public class FruitsAreHere extends Vendor {
     totalLimes += sellLime.length;
     return sellLime;
   }
-
+  /*This method accepts a purchases request for Banana, processes it and returns the request amount once it doesnot exceed the available inventory
+  *This method accepts an integer and returns an array of type Banana*/
   public Banana[] sellBananas(int request) {
     int limit = 0;
     Banana[] sellBanana;
@@ -167,7 +175,8 @@ public class FruitsAreHere extends Vendor {
     totalBananas += sellBanana.length;
     return sellBanana;
   }
-
+  /*This method accepts a purchases request for Mango, processes it and returns the request amount once it doesnot exceed the available inventory
+  *This method accepts an integer and returns an array of type Mango*/
   public Mango[] sellMangoes(int request) {
     int limit = 0;
     Mango[] sellMango;
@@ -194,7 +203,8 @@ public class FruitsAreHere extends Vendor {
     totalMangoes += sellMango.length;
     return sellMango;
   }
-
+  /*This method retocks the items that vendor has available for sale. An calls for the vendor availablity to change accordingly
+  *This method neither accepts parameters nor returns a value.*/
   public void restock() {
     Random rand = new Random();
     watermelonInventory = new Watermelon[rand.nextInt(91) + 10];
@@ -209,7 +219,8 @@ public class FruitsAreHere extends Vendor {
     initArray(mangoInventory);
     setAvailable();
   }
-
+  /*This Method Calculates the inidividual items and overall profits of the vendor
+  *This method Neither accepts parameters nor returns and values.*/
   public void calculateProfit() {
     watermelonProfit = totalWatermelons * Watermelon.COST_PRICE;
     totalProfit += watermelonProfit;
@@ -222,7 +233,8 @@ public class FruitsAreHere extends Vendor {
     mangoProfit = totalMangoes * Mango.COST_PRICE;
     totalProfit += mangoProfit;
   }
-
+  /*This method tells the value of the overall profits of the vendor
+  *This method does not accept parameters but returns a double*/
   public double getProfit() {
     calculateProfit();
     return totalProfit;
