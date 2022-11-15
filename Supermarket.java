@@ -2193,7 +2193,7 @@ public class Supermarket {
           Avocado[] avocadosBought = fruitsAreHere.sellAvocados(numberOfAvocadosToBeBought);
           cashOnHand -= (avocadosBought.length * Avocado.COST_PRICE);
           Output.appendToLogFileAmountOfFruitsPurchase(avocadosBought.length, "Avocado", "Fruits Are Here",
-              Avocado.COST_PRICE, avocadosBought.length * Avocado.COST_PRICE);
+              Avocado.COST_PRICE);
           itemsPurchased[0] += avocadosBought.length;
           Avocado[] updatedAvocadosInventory = new Avocado[avocadoInventory.length
               + avocadosBought.length];
@@ -2218,7 +2218,7 @@ public class Supermarket {
             Avocado[] avocadosBought = allYouCanEat.sellAvocados(numberOfAvocadosToBeBought);
             cashOnHand -= (avocadosBought.length * Avocado.COST_PRICE);
             Output.appendToLogFileAmountOfFruitsPurchase(avocadosBought.length, "Avocado", "All You Can Eat",
-                Avocado.COST_PRICE, avocadosBought.length * Avocado.COST_PRICE);
+                Avocado.COST_PRICE);
             itemsPurchased[0] += avocadosBought.length;
             Avocado[] updatedAvocadosInventory = new Avocado[avocadoInventory.length
                 + avocadosBought.length];
@@ -2249,7 +2249,7 @@ public class Supermarket {
           Banana[] bananasBought = fruitsAreHere.sellBananas(numberOfBananasToBeBought);
           cashOnHand -= (bananasBought.length * Banana.COST_PRICE);
           Output.appendToLogFileAmountOfFruitsPurchase(bananasBought.length, "Banana", "Fruits Are Here",
-              Banana.COST_PRICE, bananasBought.length * Banana.COST_PRICE);
+              Banana.COST_PRICE);
           itemsPurchased[1] += bananasBought.length;
           Banana[] updatedBananasInventory = new Banana[bananaInventory.length
               + bananasBought.length];
@@ -2274,7 +2274,7 @@ public class Supermarket {
             Banana[] bananasBought = allYouCanEat.sellBananas(numberOfBananasToBeBought);
             cashOnHand -= (bananasBought.length * Banana.COST_PRICE);
             Output.appendToLogFileAmountOfFruitsPurchase(bananasBought.length, "Banana", "All You Can Eat",
-                Banana.COST_PRICE, bananasBought.length * Banana.COST_PRICE);
+                Banana.COST_PRICE);
             itemsPurchased[1] += bananasBought.length;
             Banana[] updatedBananasInventory = new Banana[bananaInventory.length
                 + bananasBought.length];
@@ -2305,7 +2305,7 @@ public class Supermarket {
           Carrot[] carrotsBought = tastyVegetables.sellCarrots(numberOfCarrotsToBeBought);
           cashOnHand -= (carrotsBought.length * Carrot.COST_PRICE);
           Output.appendToLogFileAmountOfVegetablesPurchase(carrotsBought.length, "Carrot", "Tasty Vegetables",
-              Carrot.COST_PRICE, carrotsBought.length * Carrot.COST_PRICE);
+              Carrot.COST_PRICE);
           itemsPurchased[2] += carrotsBought.length;
           Carrot[] updatedCarrotsInventory = new Carrot[carrotInventory.length
               + carrotsBought.length];
@@ -2330,7 +2330,7 @@ public class Supermarket {
             Carrot[] carrotsBought = allYouCanEat.sellCarrots(numberOfCarrotsToBeBought);
             cashOnHand -= (carrotsBought.length * Carrot.COST_PRICE);
             Output.appendToLogFileAmountOfVegetablesPurchase(carrotsBought.length, "Carrot", "All You Can Eat",
-                Carrot.COST_PRICE, carrotsBought.length * Carrot.COST_PRICE);
+                Carrot.COST_PRICE);
             itemsPurchased[2] += carrotsBought.length;
             Carrot[] updatedCarrotsInventory = new Carrot[carrotInventory.length
                 + carrotsBought.length];
@@ -2361,7 +2361,7 @@ public class Supermarket {
           Cucumber[] cucumbersBought = tastyVegetables.sellCucumbers(numberOfCucumbersToBeBought);
           cashOnHand -= (cucumbersBought.length * Cucumber.COST_PRICE);
           Output.appendToLogFileAmountOfVegetablesPurchase(cucumbersBought.length, "Cucumber", "Tasty Vegetables",
-              Cucumber.COST_PRICE, cucumbersBought.length * Cucumber.COST_PRICE);
+              Cucumber.COST_PRICE);
           itemsPurchased[3] += cucumbersBought.length;
           Cucumber[] updatedCucumbersInventory = new Cucumber[cucumberInventory.length
               + cucumbersBought.length];
@@ -2386,7 +2386,7 @@ public class Supermarket {
             Cucumber[] cucumbersBought = allYouCanEat.sellCucumbers(numberOfCucumbersToBeBought);
             cashOnHand -= (cucumbersBought.length * Cucumber.COST_PRICE);
             Output.appendToLogFileAmountOfVegetablesPurchase(cucumbersBought.length, "Cucumber", "All You Can Eat",
-                Cucumber.COST_PRICE, cucumbersBought.length * Cucumber.COST_PRICE);
+                Cucumber.COST_PRICE);
             itemsPurchased[3] += cucumbersBought.length;
             Cucumber[] updatedCucumbersInventory = new Cucumber[cucumberInventory.length
                 + cucumbersBought.length];
@@ -2417,7 +2417,7 @@ public class Supermarket {
           Lettuce[] lettucesBought = tastyVegetables.sellLettuces(numberOfLettucesToBeBought);
           cashOnHand -= (lettucesBought.length * Lettuce.COST_PRICE);
           Output.appendToLogFileAmountOfVegetablesPurchase(lettucesBought.length, "Lettuce", "Tasty Vegetables",
-              Lettuce.COST_PRICE, lettucesBought.length * Lettuce.COST_PRICE);
+              Lettuce.COST_PRICE);
           itemsPurchased[4] += lettucesBought.length;
           Lettuce[] updatedLettucesInventory = new Lettuce[lettuceInventory.length
               + lettucesBought.length];
@@ -2442,7 +2442,7 @@ public class Supermarket {
             Lettuce[] lettucesBought = allYouCanEat.sellLettuces(numberOfLettucesToBeBought);
             cashOnHand -= (lettucesBought.length * Lettuce.COST_PRICE);
             Output.appendToLogFileAmountOfVegetablesPurchase(lettucesBought.length, "Lettuce", "All You Can Eat",
-                Lettuce.COST_PRICE, lettucesBought.length * Lettuce.COST_PRICE);
+                Lettuce.COST_PRICE);
             itemsPurchased[4] += lettucesBought.length;
             Lettuce[] updatedLettucesInventory = new Lettuce[lettuceInventory.length
                 + lettucesBought.length];
@@ -2473,7 +2473,7 @@ public class Supermarket {
           Lime[] limesBought = fruitsAreHere.sellLimes(numberOfLimesToBeBought);
           cashOnHand -= (limesBought.length * Lime.COST_PRICE);
           Output.appendToLogFileAmountOfFruitsPurchase(limesBought.length, "Lime", "Fruits Are Here",
-              Lime.COST_PRICE, limesBought.length * Lime.COST_PRICE);
+              Lime.COST_PRICE);
           itemsPurchased[5] += limesBought.length;
           Lime[] updatedLimesInventory = new Lime[limeInventory.length
               + limesBought.length];
@@ -2498,7 +2498,7 @@ public class Supermarket {
             Lime[] limesBought = allYouCanEat.sellLimes(numberOfLimesToBeBought);
             cashOnHand -= (limesBought.length * Lime.COST_PRICE);
             Output.appendToLogFileAmountOfFruitsPurchase(limesBought.length, "Lime", "All You Can Eat",
-                Lime.COST_PRICE, limesBought.length * Lime.COST_PRICE);
+                Lime.COST_PRICE);
             itemsPurchased[5] += limesBought.length;
             Lime[] updatedLimesInventory = new Lime[limeInventory.length
                 + limesBought.length];
@@ -2529,7 +2529,7 @@ public class Supermarket {
           Mango[] mangoesBought = fruitsAreHere.sellMangoes(numberOfMangoesToBeBought);
           cashOnHand -= (mangoesBought.length * Mango.COST_PRICE);
           Output.appendToLogFileAmountOfFruitsPurchase(mangoesBought.length, "Mango", "Fruits Are Here",
-              Mango.COST_PRICE, mangoesBought.length * Mango.COST_PRICE);
+              Mango.COST_PRICE);
           itemsPurchased[6] += mangoesBought.length;
           Mango[] updatedMangoesInventory = new Mango[mangoInventory.length
               + mangoesBought.length];
@@ -2554,7 +2554,7 @@ public class Supermarket {
             Mango[] mangoesBought = allYouCanEat.sellMangoes(numberOfMangoesToBeBought);
             cashOnHand -= (mangoesBought.length * Mango.COST_PRICE);
             Output.appendToLogFileAmountOfFruitsPurchase(mangoesBought.length, "Mango", "All You Can Eat",
-                Mango.COST_PRICE, mangoesBought.length * Mango.COST_PRICE);
+                Mango.COST_PRICE);
             itemsPurchased[6] += mangoesBought.length;
             Mango[] updatedMangoesInventory = new Mango[mangoInventory.length
                 + mangoesBought.length];
@@ -2585,7 +2585,7 @@ public class Supermarket {
           Onion[] onionsBought = tastyVegetables.sellOnions(numberOfOnionsToBeBought);
           cashOnHand -= (onionsBought.length * Onion.COST_PRICE);
           Output.appendToLogFileAmountOfVegetablesPurchase(onionsBought.length, "Onion", "Tasty Vegetables",
-              Onion.COST_PRICE, onionsBought.length * Onion.COST_PRICE);
+              Onion.COST_PRICE);
           itemsPurchased[7] += onionsBought.length;
           Onion[] updatedOnionsInventory = new Onion[onionInventory.length
               + onionsBought.length];
@@ -2610,7 +2610,7 @@ public class Supermarket {
             Onion[] onionsBought = allYouCanEat.sellOnions(numberOfOnionsToBeBought);
             cashOnHand -= (onionsBought.length * Onion.COST_PRICE);
             Output.appendToLogFileAmountOfVegetablesPurchase(onionsBought.length, "Onion", "All You Can Eat",
-                Onion.COST_PRICE, onionsBought.length * Onion.COST_PRICE);
+                Onion.COST_PRICE);
             itemsPurchased[7] += onionsBought.length;
             Onion[] updatedOnionsInventory = new Onion[onionInventory.length
                 + onionsBought.length];
@@ -2641,7 +2641,7 @@ public class Supermarket {
           Parsley[] parsleysBought = tastyVegetables.sellParsleys(numberOfParsleysToBeBought);
           cashOnHand -= (parsleysBought.length * Parsley.COST_PRICE);
           Output.appendToLogFileAmountOfVegetablesPurchase(parsleysBought.length, "Parsley", "Tasty Vegetables",
-              Parsley.COST_PRICE, parsleysBought.length * Parsley.COST_PRICE);
+              Parsley.COST_PRICE);
           itemsPurchased[8] += parsleysBought.length;
           Parsley[] updatedParsleysInventory = new Parsley[parsleyInventory.length
               + parsleysBought.length];
@@ -2666,7 +2666,7 @@ public class Supermarket {
             Parsley[] parsleysBought = allYouCanEat.sellParsleys(numberOfParsleysToBeBought);
             cashOnHand -= (parsleysBought.length * Parsley.COST_PRICE);
             Output.appendToLogFileAmountOfVegetablesPurchase(parsleysBought.length, "Parsley", "All You Can Eat",
-                Parsley.COST_PRICE, parsleysBought.length * Parsley.COST_PRICE);
+                Parsley.COST_PRICE);
             itemsPurchased[8] += parsleysBought.length;
             Parsley[] updatedParsleysInventory = new Parsley[parsleyInventory.length
                 + parsleysBought.length];
@@ -2697,7 +2697,7 @@ public class Supermarket {
           Watermelon[] watermelonsBought = fruitsAreHere.sellWatermelons(numberOfWatermelonsToBeBought);
           cashOnHand -= (watermelonsBought.length * Watermelon.COST_PRICE);
           Output.appendToLogFileAmountOfFruitsPurchase(watermelonsBought.length, "Watermelon", "Fruits Are Here",
-              Watermelon.COST_PRICE, watermelonsBought.length * Watermelon.COST_PRICE);
+              Watermelon.COST_PRICE);
           itemsPurchased[9] += watermelonsBought.length;
           Watermelon[] updatedWatermelonsInventory = new Watermelon[watermelonInventory.length
               + watermelonsBought.length];
@@ -2722,7 +2722,7 @@ public class Supermarket {
             Watermelon[] watermelonsBought = allYouCanEat.sellWatermelons(numberOfWatermelonsToBeBought);
             cashOnHand -= (watermelonsBought.length * Watermelon.COST_PRICE);
             Output.appendToLogFileAmountOfFruitsPurchase(watermelonsBought.length, "Watermelon", "All You Can Eat",
-                Watermelon.COST_PRICE, watermelonsBought.length * Watermelon.COST_PRICE);
+                Watermelon.COST_PRICE);
             itemsPurchased[9] += watermelonsBought.length;
             Watermelon[] updatedWatermelonsInventory = new Watermelon[watermelonInventory.length
                 + watermelonsBought.length];
@@ -2788,7 +2788,7 @@ public class Supermarket {
           cashOnHand -= (avocadosBought.length * Avocado.COST_PRICE);
           Print.verboseTotalItemsPurchased("Fruits Are Here", "Avocado", avocadosBought.length);
           Output.appendToLogFileAmountOfFruitsPurchase(avocadosBought.length, "Avocado", "Fruits Are Here",
-              Avocado.COST_PRICE, avocadosBought.length * Avocado.COST_PRICE);
+              Avocado.COST_PRICE);
           itemsPurchased[0] += avocadosBought.length;
           Avocado[] updatedAvocadosInventory = new Avocado[avocadoInventory.length
               + avocadosBought.length];
@@ -2814,7 +2814,7 @@ public class Supermarket {
             cashOnHand -= (avocadosBought.length * Avocado.COST_PRICE);
             Print.verboseTotalItemsPurchased("All You Can Eat", "Avocado", avocadosBought.length);
             Output.appendToLogFileAmountOfFruitsPurchase(avocadosBought.length, "Avocado", "All You Can Eat",
-                Avocado.COST_PRICE, avocadosBought.length * Avocado.COST_PRICE);
+                Avocado.COST_PRICE);
             itemsPurchased[0] += avocadosBought.length;
             Avocado[] updatedAvocadosInventory = new Avocado[avocadoInventory.length
                 + avocadosBought.length];
@@ -2846,7 +2846,7 @@ public class Supermarket {
           cashOnHand -= (bananasBought.length * Banana.COST_PRICE);
           Print.verboseTotalItemsPurchased("Fruits Are Here", "Banana", bananasBought.length);
           Output.appendToLogFileAmountOfFruitsPurchase(bananasBought.length, "Banana", "Fruits Are Here",
-              Banana.COST_PRICE, bananasBought.length * Banana.COST_PRICE);
+              Banana.COST_PRICE);
           itemsPurchased[1] += bananasBought.length;
           Banana[] updatedBananasInventory = new Banana[bananaInventory.length
               + bananasBought.length];
@@ -2873,7 +2873,7 @@ public class Supermarket {
 
             Print.verboseTotalItemsPurchased("All You Can Eat", "Banana", bananasBought.length);
             Output.appendToLogFileAmountOfFruitsPurchase(bananasBought.length, "Banana", "All You Can Eat",
-                Banana.COST_PRICE, bananasBought.length * Banana.COST_PRICE);
+                Banana.COST_PRICE);
             itemsPurchased[1] += bananasBought.length;
             Banana[] updatedBananasInventory = new Banana[bananaInventory.length
                 + bananasBought.length];
@@ -2905,7 +2905,7 @@ public class Supermarket {
           cashOnHand -= (carrotsBought.length * Carrot.COST_PRICE);
           Print.verboseTotalItemsPurchased("Tasty Vegetables", "Carrot", carrotsBought.length);
           Output.appendToLogFileAmountOfVegetablesPurchase(carrotsBought.length, "Carrot", "Tasty Vegetables",
-              Carrot.COST_PRICE, carrotsBought.length * Carrot.COST_PRICE);
+              Carrot.COST_PRICE);
           itemsPurchased[2] += carrotsBought.length;
           Carrot[] updatedCarrotsInventory = new Carrot[carrotInventory.length
               + carrotsBought.length];
@@ -2931,7 +2931,7 @@ public class Supermarket {
             cashOnHand -= (carrotsBought.length * Carrot.COST_PRICE);
             Print.verboseTotalItemsPurchased("All You Can Eat", "Carrot", carrotsBought.length);
             Output.appendToLogFileAmountOfVegetablesPurchase(carrotsBought.length, "Carrot", "All You Can Eat",
-                Carrot.COST_PRICE, carrotsBought.length * Carrot.COST_PRICE);
+                Carrot.COST_PRICE);
             itemsPurchased[2] += carrotsBought.length;
             Carrot[] updatedCarrotsInventory = new Carrot[carrotInventory.length
                 + carrotsBought.length];
@@ -2963,7 +2963,7 @@ public class Supermarket {
           cashOnHand -= (cucumbersBought.length * Cucumber.COST_PRICE);
           Print.verboseTotalItemsPurchased("Tasty Vegetables", "Cucumber", cucumbersBought.length);
           Output.appendToLogFileAmountOfVegetablesPurchase(cucumbersBought.length, "Cucumber", "Tasty Vegetables",
-              Cucumber.COST_PRICE, cucumbersBought.length * Cucumber.COST_PRICE);
+              Cucumber.COST_PRICE);
           itemsPurchased[3] += cucumbersBought.length;
           Cucumber[] updatedCucumbersInventory = new Cucumber[cucumberInventory.length
               + cucumbersBought.length];
@@ -2989,7 +2989,7 @@ public class Supermarket {
             cashOnHand -= (cucumbersBought.length * Cucumber.COST_PRICE);
             Print.verboseTotalItemsPurchased("All You Can Eat", "Cucumber", cucumbersBought.length);
             Output.appendToLogFileAmountOfVegetablesPurchase(cucumbersBought.length, "Cucumber", "All You Can Eat",
-                Cucumber.COST_PRICE, cucumbersBought.length * Cucumber.COST_PRICE);
+                Cucumber.COST_PRICE);
             itemsPurchased[3] += cucumbersBought.length;
             Cucumber[] updatedCucumbersInventory = new Cucumber[cucumberInventory.length
                 + cucumbersBought.length];
@@ -3021,7 +3021,7 @@ public class Supermarket {
           cashOnHand -= (lettucesBought.length * Lettuce.COST_PRICE);
           Print.verboseTotalItemsPurchased("Tasty Vegetables", "Lettuce", lettucesBought.length);
           Output.appendToLogFileAmountOfVegetablesPurchase(lettucesBought.length, "Lettuce", "Tasty Vegetables",
-              Lettuce.COST_PRICE, lettucesBought.length * Lettuce.COST_PRICE);
+              Lettuce.COST_PRICE);
           itemsPurchased[4] += lettucesBought.length;
           Lettuce[] updatedLettucesInventory = new Lettuce[lettuceInventory.length
               + lettucesBought.length];
@@ -3047,7 +3047,7 @@ public class Supermarket {
             cashOnHand -= (lettucesBought.length * Lettuce.COST_PRICE);
             Print.verboseTotalItemsPurchased("All You Can Eat", "Lettuce", lettucesBought.length);
             Output.appendToLogFileAmountOfVegetablesPurchase(lettucesBought.length, "Lettuce", "All You Can Eat",
-                Lettuce.COST_PRICE, lettucesBought.length * Lettuce.COST_PRICE);
+                Lettuce.COST_PRICE);
             itemsPurchased[4] += lettucesBought.length;
             Lettuce[] updatedLettucesInventory = new Lettuce[lettuceInventory.length
                 + lettucesBought.length];
@@ -3079,7 +3079,7 @@ public class Supermarket {
           cashOnHand -= (limesBought.length * Lime.COST_PRICE);
           Print.verboseTotalItemsPurchased("Fruits Are Here", "Lime", limesBought.length);
           Output.appendToLogFileAmountOfFruitsPurchase(limesBought.length, "Lime", "Fruits Are Here",
-              Lime.COST_PRICE, limesBought.length * Lime.COST_PRICE);
+              Lime.COST_PRICE);
           itemsPurchased[5] += limesBought.length;
           Lime[] updatedLimesInventory = new Lime[limeInventory.length
               + limesBought.length];
@@ -3105,7 +3105,7 @@ public class Supermarket {
             cashOnHand -= (limesBought.length * Lime.COST_PRICE);
             Print.verboseTotalItemsPurchased("All You Can Eat", "Lime", limesBought.length);
             Output.appendToLogFileAmountOfFruitsPurchase(limesBought.length, "Lime", "All You Can Eat",
-                Lime.COST_PRICE, limesBought.length * Lime.COST_PRICE);
+                Lime.COST_PRICE);
             itemsPurchased[5] += limesBought.length;
             Lime[] updatedLimesInventory = new Lime[limeInventory.length
                 + limesBought.length];
@@ -3137,7 +3137,7 @@ public class Supermarket {
           cashOnHand -= (mangoesBought.length * Mango.COST_PRICE);
           Print.verboseTotalItemsPurchased("Fruits Are Here", "Mango", mangoesBought.length);
           Output.appendToLogFileAmountOfFruitsPurchase(mangoesBought.length, "Mango", "Fruits Are Here",
-              Mango.COST_PRICE, mangoesBought.length * Mango.COST_PRICE);
+              Mango.COST_PRICE);
           itemsPurchased[6] += mangoesBought.length;
           Mango[] updatedMangoesInventory = new Mango[mangoInventory.length
               + mangoesBought.length];
@@ -3163,7 +3163,7 @@ public class Supermarket {
             cashOnHand -= (mangoesBought.length * Mango.COST_PRICE);
             Print.verboseTotalItemsPurchased("All You Can Eat", "Mango", mangoesBought.length);
             Output.appendToLogFileAmountOfFruitsPurchase(mangoesBought.length, "Mango", "All You Can Eat",
-                Mango.COST_PRICE, mangoesBought.length * Mango.COST_PRICE);
+                Mango.COST_PRICE);
             itemsPurchased[6] += mangoesBought.length;
             Mango[] updatedMangoesInventory = new Mango[mangoInventory.length
                 + mangoesBought.length];
@@ -3195,7 +3195,7 @@ public class Supermarket {
           cashOnHand -= (onionsBought.length * Onion.COST_PRICE);
           Print.verboseTotalItemsPurchased("Tasty Vegetables", "Lime", onionsBought.length);
           Output.appendToLogFileAmountOfVegetablesPurchase(onionsBought.length, "Onion", "Tasty Vegetables",
-              Onion.COST_PRICE, onionsBought.length * Onion.COST_PRICE);
+              Onion.COST_PRICE);
           itemsPurchased[7] += onionsBought.length;
           Onion[] updatedOnionsInventory = new Onion[onionInventory.length
               + onionsBought.length];
@@ -3221,7 +3221,7 @@ public class Supermarket {
             cashOnHand -= (onionsBought.length * Onion.COST_PRICE);
             Print.verboseTotalItemsPurchased("All You Can Eat", "Onions", onionsBought.length);
             Output.appendToLogFileAmountOfVegetablesPurchase(onionsBought.length, "Onion", "All You Can Eat",
-                Onion.COST_PRICE, onionsBought.length * Onion.COST_PRICE);
+                Onion.COST_PRICE);
             itemsPurchased[7] += onionsBought.length;
             Onion[] updatedOnionsInventory = new Onion[onionInventory.length
                 + onionsBought.length];
@@ -3253,7 +3253,7 @@ public class Supermarket {
           cashOnHand -= (parsleysBought.length * Parsley.COST_PRICE);
           Print.verboseTotalItemsPurchased("Tasty Vegetables", "Parsley", parsleysBought.length);
           Output.appendToLogFileAmountOfVegetablesPurchase(parsleysBought.length, "Parsley", "Tasty Vegetables",
-              Parsley.COST_PRICE, parsleysBought.length * Parsley.COST_PRICE);
+              Parsley.COST_PRICE);
           itemsPurchased[8] += parsleysBought.length;
           Parsley[] updatedParsleysInventory = new Parsley[parsleyInventory.length
               + parsleysBought.length];
@@ -3279,7 +3279,7 @@ public class Supermarket {
             cashOnHand -= (parsleysBought.length * Parsley.COST_PRICE);
             Print.verboseTotalItemsPurchased("All You Can Eat", "Parsley", parsleysBought.length);
             Output.appendToLogFileAmountOfVegetablesPurchase(parsleysBought.length, "Parsley", "All You Can Eat",
-                Parsley.COST_PRICE, parsleysBought.length * Parsley.COST_PRICE);
+                Parsley.COST_PRICE);
             itemsPurchased[8] += parsleysBought.length;
             Parsley[] updatedParsleysInventory = new Parsley[parsleyInventory.length
                 + parsleysBought.length];
@@ -3311,7 +3311,7 @@ public class Supermarket {
           cashOnHand -= (watermelonsBought.length * Watermelon.COST_PRICE);
           Print.verboseTotalItemsPurchased("Fruits Are Here", "Watermelon", watermelonsBought.length);
           Output.appendToLogFileAmountOfFruitsPurchase(watermelonsBought.length, "Watermelon", "Fruits Are Here",
-              Watermelon.COST_PRICE, watermelonsBought.length * Watermelon.COST_PRICE);
+              Watermelon.COST_PRICE);
           itemsPurchased[9] += watermelonsBought.length;
           Watermelon[] updatedWatermelonsInventory = new Watermelon[watermelonInventory.length
               + watermelonsBought.length];
@@ -3337,7 +3337,7 @@ public class Supermarket {
             cashOnHand -= (watermelonsBought.length * Watermelon.COST_PRICE);
             Print.verboseTotalItemsPurchased("All You Can Eat", "Watermelon", watermelonsBought.length);
             Output.appendToLogFileAmountOfFruitsPurchase(watermelonsBought.length, "Watermelon", "All You Can Eat",
-                Watermelon.COST_PRICE, watermelonsBought.length * Watermelon.COST_PRICE);
+                Watermelon.COST_PRICE);
             itemsPurchased[9] += watermelonsBought.length;
             Watermelon[] updatedWatermelonsInventory = new Watermelon[watermelonInventory.length
                 + watermelonsBought.length];

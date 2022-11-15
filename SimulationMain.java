@@ -25,6 +25,7 @@ public class SimulationMain {
     isVerbose = false;
   }
 
+  // the main function is the entry point to the entire Simulation. It takes 5 parameters 
   public static void main(String[] args) {
     // creates an instance of the Supermarket Class
     Supermarket market = new Supermarket();
