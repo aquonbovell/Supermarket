@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch SimulationMain",
+      "request": "launch",
+      "mainClass": "SimulationMain",
+      "projectName": "SupermarketSimulation_5fbb557f"
+    },
+    {
+      "type": "java",
       "name": "Launch Test",
       "request": "launch",
       "mainClass": "Test",

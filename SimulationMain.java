@@ -4,7 +4,8 @@ import java.util.Scanner;
 /**
  * The names of the programmers are: Aquon Bovell and Dwayne Archer
  * The SimulationMain class contains one method called main and is the entry
- * point to the entire Supermarket Simulation and two fields.
+ * point to the entire Supermarket Simulation and one field to store the
+ * commands passed in.
  * The SimulationMain class's functionality is to execute the run method of the
  * Supermarket class in two modes: verbose and nonverbose.
  * The default mode is non-verbose, and the "verbose" command must be used at
@@ -13,19 +14,22 @@ import java.util.Scanner;
  * path are also required to define where the log file will be saved.
  */
 public class SimulationMain {
-  // determines if to run the verbose functionality or not to
-  // the default is false
-  private static boolean isVerbose;
   // holds commands that are passed in a at the command line
   private static String[] commandsPassed;
 
   static {
     // initalise all the static field of SimulationMain
     commandsPassed = new String[0];
-    isVerbose = false;
   }
 
-  // the main function is the entry point to the entire Simulation. It takes 5 parameters 
+  // the main function is the entry point to the entire Supermarket Simulation. It
+  // takes 5 parameters an "iter" command which is accompanied by the iteration
+  // amount , the "verbose" command which determines if to run is the verbose mode
+  // or not : the default mode is non verbose and the "log" command together with
+  // a file path will change the default file location for the logging to specific
+  // actions. The function returns nothing and is static for the JVM to run it
+  // without any instance of SimulationMain to be created
+
   public static void main(String[] args) {
     // creates an instance of the Supermarket Class
     Supermarket market = new Supermarket();
@@ -78,7 +82,7 @@ public class SimulationMain {
           commandsPassed[0] = args[i];
         }
         // set the isVerbose field to true to turn on the verbose functionality
-        isVerbose = true;
+        market.turnOnVerbose();
       }
       // check for if the "log" command is passed in
       if (args[i].equalsIgnoreCase("log")) {
@@ -165,14 +169,8 @@ public class SimulationMain {
             System.out.println(commandsPassed[i]);
           }
         }
-        // checks if the isVerbose is turned on then the runVerbose in market will run
-        // in the verbose mode
-        if (isVerbose)
-          market.runVerbose();
-        // checks if the isVerbose is turned off then the run will run in it's default
-        // mode i.e verbose off
-        else
-          market.run();
+        // execute market run method
+        market.run();
         System.out.println("Simulation has ended");
         break;
       case 'B':
