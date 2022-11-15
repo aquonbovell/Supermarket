@@ -1,7 +1,7 @@
 import java.util.Random;
 
 public class Supermarket {
-  public final int DEFAULT_TOTAL_ITERATIONS = 550;
+  public final int DEFAULT_TOTAL_ITERATIONS = 50;
   public final int MAXIMUM_NUMBER_OF_FRUITS = 100;
   public final int MAXIMUM_NUMBER_OF_VEGETABLES = 200;
   public final int NUMBER_OF_TYPES_OF_ITEMS = 10;
