@@ -2,7 +2,6 @@ import java.util.Random;
 
 // This class decribes the functionality and state of the AllYouCanEat vendor. It extends from the Vendor class - Kenez Horne
 public class AllYouCanEat extends Vendor {
-  private boolean isAvailable; // This field stores the availablity status of the vendor
   private Watermelon[] watermelonInventory;//This feild stores the total watermelon items that are available 
   private Mango[] mangoInventory;//This field store the total mango items that are available.
   private Banana[] bananaInventory;//this feild stores the total banana items available.
@@ -66,7 +65,6 @@ public class AllYouCanEat extends Vendor {
     cucumberProfit = 0.0;
     parsleyProfit = 0.0;
     totalProfit = 0;
-    isAvailable = true;
   }
    /*This method creates an array of obects for each fruit items' inventory.
   *This method accepts an array but returns no value.*/
