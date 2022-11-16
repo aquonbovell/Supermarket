@@ -1754,92 +1754,110 @@ public class Supermarket {
       // reassign the mango inventory to the new one
       mangoInventory = updatedMangoesInventory;
     }
-
   }
 
   /*
-   * This function determined the amount of avocados that have spoilt and removes
+   * This function determined the amount of onions that have spoilt and removes
    * them from the inventory.There are no parameters. There are no return values
    */
   private void removeSpoiltOnions() {
+    // counter to tally the number of spoilt onions
     int sum = 0;
-    for (int i = 0; i < onionInventory.length; i++) {
-      if (onionInventory[i].getSpoiltValue() <= 0) {
+    // loops throught the onions inventory and increase sum by 1
+    for (int index = 0; index < onionInventory.length; index++) {
+      if (onionInventory[index].getSpoiltValue() <= 0) {
         ++sum;
       }
     }
+    // increase the amount of spoilt onions
     numberOfSpoiltItems[7] += sum;
     if (verbose) {
+      // append the message to the log file
       Print.verboseSpoiltVegetable("onion", sum);
     }
     if (sum > 0) {
+      // create a temporary array to hold the unspoilt onions
       Onion updatedOnionsInventory[] = new Onion[onionInventory.length - sum];
-      int k = 0;
-      for (int i = 0; i < onionInventory.length; i++) {
-        if (onionInventory[i].getSpoiltValue() <= 0) {
+      int shiftIndex = 0;
+      // added the unspoilt onions to the temporary array
+      for (int index = 0; index < onionInventory.length; index++) {
+        if (onionInventory[index].getSpoiltValue() <= 0) {
           continue;
         } else {
-          updatedOnionsInventory[k++] = onionInventory[i];
+          updatedOnionsInventory[shiftIndex++] = onionInventory[index];
         }
       }
+      // reassign the onions inventory to the new one
       onionInventory = updatedOnionsInventory;
     }
   }
 
   /*
-   * This function determined the amount of avocados that have spoilt and removes
+   * This function determined the amount of parsleys that have spoilt and removes
    * them from the inventory.There are no parameters. There are no return values
    */
   private void removeSpoiltParsleys() {
+    // counter to tally the number of spoilt parsley
     int sum = 0;
-    for (int i = 0; i < parsleyInventory.length; i++) {
-      if (parsleyInventory[i].getSpoiltValue() <= 0) {
+    for (int index = 0; index < parsleyInventory.length; index++) {
+      if (parsleyInventory[index].getSpoiltValue() <= 0) {
         ++sum;
       }
     }
+    // increase the amount of spoilt parsley
     numberOfSpoiltItems[8] += sum;
     if (verbose) {
+      // append the message to the log file
       Print.verboseSpoiltVegetable("parsley", sum);
     }
     if (sum > 0) {
+      // create a temporary array to hold the unspoilt parsley
       Parsley updatedParsleysInventory[] = new Parsley[parsleyInventory.length - sum];
-      int k = 0;
-      for (int i = 0; i < parsleyInventory.length; i++) {
-        if (parsleyInventory[i].getSpoiltValue() <= 0) {
+      int shiftIndex = 0;
+      // added the unspoilt parsley to the temporary array
+      for (int index = 0; index < parsleyInventory.length; index++) {
+        if (parsleyInventory[index].getSpoiltValue() <= 0) {
           continue;
         } else {
-          updatedParsleysInventory[k++] = parsleyInventory[i];
+          updatedParsleysInventory[shiftIndex++] = parsleyInventory[index];
         }
       }
+      // reassign the parsley inventory to the new one
       parsleyInventory = updatedParsleysInventory;
     }
   }
 
   /*
-   * This function determined the amount of avocados that have spoilt and removes
+   * This function determined the amount of watermelons that have spoilt and removes
    * them from the inventory.There are no parameters. There are no return values
    */
   private void removeSpoiltWatermelons() {
+    // counter to tally the number of spoilt watermelons
     int sum = 0;
-    for (int i = 0; i < watermelonInventory.length; i++) {
-      if (watermelonInventory[i].getSpoiltValue() <= 0) {
+    for (int index = 0; index < watermelonInventory.length; index++) {
+      if (watermelonInventory[index].getSpoiltValue() <= 0) {
         ++sum;
       }
     }
+    // increase the amount of spoilt watermelons
     numberOfSpoiltItems[9] += sum;
     if (verbose) {
+      // append the message to the log file
       Print.verboseSpoiltFruit("wateremelon", sum);
     }
     if (sum > 0) {
+      // create a temporary array to hold the unspoilt watermelons
       Watermelon updatedWatermelonInventory[] = new Watermelon[watermelonInventory.length - sum];
-      int k = 0;
-      for (int i = 0; i < watermelonInventory.length; i++) {
-        if (watermelonInventory[i].getSpoiltValue() <= 0) {
+      int shiftIndex = 0;
+      // added the unspoilt watermelons to the temporary array
+      for (int index = 0; index < watermelonInventory.length; index++) {
+        if (watermelonInventory[index].getSpoiltValue() <= 0) {
           continue;
         } else {
-          updatedWatermelonInventory[k++] = watermelonInventory[i];
+          updatedWatermelonInventory[shiftIndex++] = watermelonInventory[index];
         }
       }
+      // reassign the watermelon inventory to the new one
       watermelonInventory = updatedWatermelonInventory;
     }
   }
