@@ -1,21 +1,24 @@
 import java.util.Random;
 
+// This class decribes the functionality and state of the AllYouCanEat vendor. It extends from the Vendor class - Kenez Horne
 public class AllYouCanEat extends Vendor {
-  private Watermelon[] watermelonInventory;
-  private Mango[] mangoInventory;
-  private Banana[] bananaInventory;
-  private Lime[] limeInventory;
-  private Avocado[] avocadoInventory;
-  private Carrot[] carrotInventory;
-  private Lettuce[] lettuceInventory;
-  private Cucumber[] cucumberInventory;
-  private Parsley[] parsleyInventory;
-  private Onion[] onionInventory;
-  private int totalWatermelons, totalMangoes, totalBananas, totalLimes, totalAvocado;
-  private double watermelonProfit, mangoProfit, bananaProfit, limeProfit, avocadoProfit;
-  private int totalCarrots, totalLettuces, totalCucumbers, totalParsleys, totalOnions;
-  private double carrotProfit, lettuceProfit, cucumberProfit, parsleyProfit, onionProfit, totalProfit;
-
+  private Watermelon[] watermelonInventory;//This feild stores the total watermelon items that are available 
+  private Mango[] mangoInventory;//This field store the total mango items that are available.
+  private Banana[] bananaInventory;//this feild stores the total banana items available.
+  private Lime[] limeInventory;//This field stores total lime items available.
+  private Avocado[] avocadoInventory;//This field stores the total avocado fields available.
+  private Carrot[] carrotInventory;//This field stores the total carrot items available.
+  private Lettuce[] lettuceInventory;//This field stores the total lettuce items available.
+  private Cucumber[] cucumberInventory;//This field stores the total Cucumber items available.
+  private Parsley[] parsleyInventory;// This field stores the total Parsley items available.
+  private Onion[] onionInventory;//This field stores the total Onion items available.
+  private int totalWatermelons, totalMangoes, totalBananas, totalLimes, totalAvocado; // These fields store the total of each fruit item sold by the vendor.
+  private double watermelonProfit, mangoProfit, bananaProfit, limeProfit, avocadoProfit;//These fields store the total profit and individual profit of the fruit items.
+  private int totalCarrots, totalLettuces, totalCucumbers, totalParsleys, totalOnions;// These fields store the total of each vegetables item sold by the vendor.
+  private double carrotProfit, lettuceProfit, cucumberProfit, parsleyProfit, onionProfit, totalProfit; //These fields store the total profit and individual profit of the vegetables items.
+  
+  /*AllYouCanEat is the constructor of the class and it sets the fields of the class to an initial value.
+  this method neither accepts parameters nor returns a value.*/
   AllYouCanEat() {
     super("All You Can Eat");
     Random rand = new Random();
@@ -63,7 +66,8 @@ public class AllYouCanEat extends Vendor {
     parsleyProfit = 0.0;
     totalProfit = 0;
   }
-
+   /*This method creates an array of obects for each fruit items' inventory.
+  *This method accepts an array but returns no value.*/
   private void initArray(Fruit[] inventory) {
     if (inventory instanceof Watermelon[]) {
       for (int counter = 0; counter < inventory.length; counter++) {
@@ -87,7 +91,8 @@ public class AllYouCanEat extends Vendor {
       }
     }
   }
-
+  /*This method creates an array of obects for each vegetable items' inventory.
+  *This method accepts an array but returns no value.*/
   public void initArray(Vegetable[] inventory) {
     if (inventory instanceof Carrot[]) {
       for (int counter = 0; counter < inventory.length; counter++) {
@@ -111,7 +116,9 @@ public class AllYouCanEat extends Vendor {
       }
     }
   }
-
+  /*This method is responsible for providing Watermelons to the vendors customers. it accepts their request, processes it and returns the request amount once its not more than
+  * what is available of provide what can be sold. 
+  *This method accepts an integer and returns and array of type Watermelon*/
   public Watermelon[] sellWatermelons(int request) {
     int limit = 0;
     Watermelon[] sellWatermelon;
@@ -138,7 +145,9 @@ public class AllYouCanEat extends Vendor {
     totalWatermelons += sellWatermelon.length;
     return sellWatermelon;
   }
-
+  /*This method is responsible for providing Avocados to the vendors customers. it accepts their request, processes it and returns the request amount once its not more than
+  * what is available of provide what can be sold. 
+  *This method accepts an integer and returns and array of type Avocado*/
   public Avocado[] sellAvocados(int request) {
     int limit = 0;
     Avocado[] sellAvocado;
@@ -165,7 +174,9 @@ public class AllYouCanEat extends Vendor {
     totalAvocado += sellAvocado.length;
     return sellAvocado;
   }
-
+  /*This method is responsible for providing Limes to the vendors customers. it accepts their request, processes it and returns the request amount once its not more than
+  * what is available of provide what can be sold. 
+  *This method accepts an integer and returns and array of type Lime*/
   public Lime[] sellLimes(int request) {
     int limit = 0;
     Lime[] sellLime;
@@ -192,7 +203,9 @@ public class AllYouCanEat extends Vendor {
     totalLimes += sellLime.length;
     return sellLime;
   }
-
+  /*This method is responsible for providing Bananas to the vendors customers. it accepts their request, processes it and returns the request amount once its not more than
+  * what is available of provide what can be sold. 
+  *This method accepts an integer and returns and array of type Banana*/
   public Banana[] sellBananas(int request) {
     int limit = 0;
     Banana[] sellBanana;
@@ -219,7 +232,9 @@ public class AllYouCanEat extends Vendor {
     totalBananas += sellBanana.length;
     return sellBanana;
   }
-
+  /*This method is responsible for providing Mangoes to the vendors customers. it accepts their request, processes it and returns the request amount once its not more than
+  * what is available of provide what can be sold. 
+  *This method accepts an integer and returns and array of type Mango.*/
   public Mango[] sellMangoes(int request) {
     int limit = 0;
     Mango[] sellMango;
@@ -246,7 +261,9 @@ public class AllYouCanEat extends Vendor {
     totalMangoes += sellMango.length;
     return sellMango;
   }
-
+  /*This method is responsible for providing Carrots to the vendors customers. it accepts their request, processes it and returns the request amount once its not more than
+  * what is available of provide what can be sold. 
+  *This method accepts an integer and returns and array of type Carrots*/
   public Carrot[] sellCarrots(int request) {
     int limit = 0;
     Carrot[] sellCarrot;
@@ -273,7 +290,9 @@ public class AllYouCanEat extends Vendor {
     totalCarrots += sellCarrot.length;
     return sellCarrot;
   }
-
+  /*This method is responsible for providing Lettuces to the vendors customers. it accepts their request, processes it and returns the request amount once its not more than
+  * what is available of provide what can be sold. 
+  *This method accepts an integer and returns and array of type Lettuce*/
   public Lettuce[] sellLettuces(int request) {
     int limit = 0;
     Lettuce[] sellLettuce;
@@ -300,7 +319,9 @@ public class AllYouCanEat extends Vendor {
     totalLettuces += sellLettuce.length;
     return sellLettuce;
   }
-
+  /*This method is responsible for providing Cucumbers to the vendors customers. it accepts their request, processes it and returns the request amount once its not more than
+  * what is available of provide what can be sold. 
+  *This method accepts an integer and returns and array of type Cucumber*/
   public Cucumber[] sellCucumbers(int request) {
     int limit = 0;
     Cucumber[] sellCucumber;
@@ -327,7 +348,9 @@ public class AllYouCanEat extends Vendor {
     totalCucumbers += sellCucumber.length;
     return sellCucumber;
   }
-
+  /*This method is responsible for providing Parsleys to the vendors customers. it accepts their request, processes it and returns the request amount once its not more than
+  * what is available of provide what can be sold. 
+  *This method accepts an integer and returns and array of type Parsley*/
   public Parsley[] sellParsleys(int request) {
     int limit = 0;
     Parsley[] sellParsley;
@@ -354,7 +377,9 @@ public class AllYouCanEat extends Vendor {
     totalParsleys += sellParsley.length;
     return sellParsley;
   }
-
+  /*This method is responsible for providing Onions to the vendors customers. it accepts their request, processes it and returns the request amount once its not more than
+  * what is available of provide what can be sold. 
+  *This method accepts an integer and returns and array of type Onion*/
   public Onion[] sellOnions(int request) {
     int limit = 0;
     Onion[] sellOnion;
@@ -381,7 +406,8 @@ public class AllYouCanEat extends Vendor {
     totalOnions += sellOnion.length;
     return sellOnion;
   }
-
+  /*This method is responsible for restocking the items of the vendor. 
+  *This method neither accepts parameters nor returns a value.*/
   public void restock() {
     Random rand = new Random();
     watermelonInventory = new Watermelon[rand.nextInt(91) + 10];
@@ -406,7 +432,8 @@ public class AllYouCanEat extends Vendor {
     initArray(mangoInventory);
     setAvailable();
   }
-
+  /*This method calculates the total individual items and overall profits of the vendor.
+  This method neithr accepts parameters nor returns a value.*/
   public void calculateProfit() {
     watermelonProfit = totalWatermelons * Watermelon.COST_PRICE;
     totalProfit += watermelonProfit;
@@ -429,7 +456,8 @@ public class AllYouCanEat extends Vendor {
     onionProfit = totalOnions * Onion.COST_PRICE;
     totalProfit += onionProfit;
   }
-
+  /*This method returns the overall profit of the vendor. 
+  * This method accepts no parameters but returns a double.*/
   public double getProfit() {
     calculateProfit();
     return totalProfit;
