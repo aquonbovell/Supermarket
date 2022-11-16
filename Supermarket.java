@@ -1517,7 +1517,7 @@ public class Supermarket {
     // increase the amount of spoilt avocados
     numberOfSpoiltItems[0] += sum;
     if (verbose) {
-      // append the message to the log file
+      // display the message verbosely
       Print.verboseSpoiltFruit("avocado", sum);
     }
     if (sum > 0) {
@@ -1554,7 +1554,7 @@ public class Supermarket {
     // increase the amount of spoilt bananas
     numberOfSpoiltItems[1] += sum;
     if (verbose) {
-      // append the message to the log file
+      // display the message verbosely
       Print.verboseSpoiltFruit("banana", sum);
     }
     if (sum > 0) {
@@ -1591,7 +1591,7 @@ public class Supermarket {
     // increase the amount of spoilt carrots
     numberOfSpoiltItems[2] += sum;
     if (verbose) {
-      // append the message to the log file
+      // display the message verbosely
       Print.verboseSpoiltVegetable("carrot", sum);
     }
     if (sum > 0) {
@@ -1627,7 +1627,7 @@ public class Supermarket {
     // increase the amount of spoilt cucumbers
     numberOfSpoiltItems[3] += sum;
     if (verbose) {
-      // append the message to the log file
+      // display the message verbosely
       Print.verboseSpoiltVegetable("cucumber", sum);
     }
     if (sum > 0) {
@@ -1663,7 +1663,7 @@ public class Supermarket {
     // increase the amount of spoilt lettuces
     numberOfSpoiltItems[4] += sum;
     if (verbose) {
-      // append the message to the log file
+      // display the message verbosely
       Print.verboseSpoiltVegetable("lettuce", sum);
     }
     if (sum > 0) {
@@ -1699,7 +1699,7 @@ public class Supermarket {
     // increase the amount of spoilt limes
     numberOfSpoiltItems[5] += sum;
     if (verbose) {
-      // append the message to the log file
+      // display the message verbosely
       Print.verboseSpoiltFruit("lime", sum);
     }
     if (sum > 0) {
@@ -1736,7 +1736,7 @@ public class Supermarket {
     // increase the amount of spoilt mangoes
     numberOfSpoiltItems[6] += sum;
     if (verbose) {
-      // append the message to the log file
+      // display the message verbosely
       Print.verboseSpoiltFruit("mango", sum);
     }
     if (sum > 0) {
@@ -1772,7 +1772,7 @@ public class Supermarket {
     // increase the amount of spoilt onions
     numberOfSpoiltItems[7] += sum;
     if (verbose) {
-      // append the message to the log file
+      // display the message verbosely
       Print.verboseSpoiltVegetable("onion", sum);
     }
     if (sum > 0) {
@@ -1807,7 +1807,7 @@ public class Supermarket {
     // increase the amount of spoilt parsley
     numberOfSpoiltItems[8] += sum;
     if (verbose) {
-      // append the message to the log file
+      // display the message verbosely
       Print.verboseSpoiltVegetable("parsley", sum);
     }
     if (sum > 0) {
@@ -1828,12 +1828,14 @@ public class Supermarket {
   }
 
   /*
-   * This function determined the amount of watermelons that have spoilt and removes
+   * This function determined the amount of watermelons that have spoilt and
+   * removes
    * them from the inventory.There are no parameters. There are no return values
    */
   private void removeSpoiltWatermelons() {
     // counter to tally the number of spoilt watermelons
     int sum = 0;
+    // increase the amount of spoilt watermelons
     for (int index = 0; index < watermelonInventory.length; index++) {
       if (watermelonInventory[index].getSpoiltValue() <= 0) {
         ++sum;
@@ -1842,7 +1844,7 @@ public class Supermarket {
     // increase the amount of spoilt watermelons
     numberOfSpoiltItems[9] += sum;
     if (verbose) {
-      // append the message to the log file
+      // display the message verbosely
       Print.verboseSpoiltFruit("wateremelon", sum);
     }
     if (sum > 0) {
@@ -1862,61 +1864,94 @@ public class Supermarket {
     }
   }
 
+  /*
+   * This function determines the amount of avocados the Supermarket can be and
+   * throw a Supermarket Runs Out Of Money if the Supermarket trys to buy if there
+   * is no money left.
+   * The function no parameters and returns no value.
+   */
   private void buyAvocados() throws Exception {
     if (cashOnHand <= 0) {
+      // append the message to the log file
       Output.appendToLogFile("Supermarket Runs Out Of Money");
+      // throw a Supermarket Runs Out Of Money
       throw new Exception("Supermarket Runs Out Of Money");
     } else {
       if (fruitsAreHere.getAvailablity()) {
+        // determines the amount of avocados to be bought
         int numberOfAvocadosToBeBought = (MAXIMUM_NUMBER_OF_FRUITS - avocadoInventory.length);
+        // determines if the Supermarket can order avocados
         if (cashOnHand >= (numberOfAvocadosToBeBought * Avocado.COST_PRICE)) {
+          // receive the avocados from the vendor
           Avocado[] avocadosBought = fruitsAreHere.sellAvocados(numberOfAvocadosToBeBought);
+          // pay for the avocados
           cashOnHand -= (avocadosBought.length * Avocado.COST_PRICE);
           if (verbose) {
+            // display the purchase verbosely
             Print.verboseTotalItemsPurchased("Fruits Are Here", "Avocado", avocadosBought.length);
           }
+          // append the message to the log file
           Output.appendToLogFileAmountOfFruitsPurchase(avocadosBought.length, "Avocado", "Fruits Are Here",
               Avocado.COST_PRICE);
+          // increase the number of avocados purchased
           itemsPurchased[0] += avocadosBought.length;
+          // temporary variable to increase inventory
           Avocado[] updatedAvocadosInventory = new Avocado[avocadoInventory.length
               + avocadosBought.length];
-          for (int i = 0; i < avocadoInventory.length; i++) {
-            updatedAvocadosInventory[i] = avocadoInventory[i];
+          // add the odd inventory to the array
+          for (int index = 0; index < avocadoInventory.length; index++) {
+            updatedAvocadosInventory[index] = avocadoInventory[index];
           }
+          // the the new inventory to the array
           int shiftIndex = avocadoInventory.length;
-          for (int i = 0; i < (avocadosBought.length); i++) {
-            updatedAvocadosInventory[(i + shiftIndex)] = avocadosBought[i];
+          for (int index = 0; index < (avocadosBought.length); index++) {
+            updatedAvocadosInventory[(index + shiftIndex)] = avocadosBought[index];
           }
+          // update the avocado inventory
           avocadoInventory = updatedAvocadosInventory;
         } else {
+          // append the message to the log file
           Output.appendToLogFile("NotEnoughFunds: To Buy Avocados");
         }
       } else if (!fruitsAreHere.getAvailablity() && (avocadoInventory.length < MAXIMUM_NUMBER_OF_FRUITS)
           && allYouCanEat.getAvailablity()) {
         if (cashOnHand <= 0) {
+          // append the message to the log file
+          Output.appendToLogFile("Supermarket Runs Out Of Money");
+          // throw a Supermarket Runs Out Of Money
           throw new Exception("Supermarket Runs Out Of Money");
         } else {
+          // determines the amount of avocados to be bought
           int numberOfAvocadosToBeBought = (MAXIMUM_NUMBER_OF_FRUITS - avocadoInventory.length);
           if (cashOnHand >= (numberOfAvocadosToBeBought * Avocado.COST_PRICE)) {
             Avocado[] avocadosBought = allYouCanEat.sellAvocados(numberOfAvocadosToBeBought);
+            // pay for the avocados
             cashOnHand -= (avocadosBought.length * Avocado.COST_PRICE);
             if (verbose) {
+              // display the purchase verbosely
               Print.verboseTotalItemsPurchased("All You Can Eat", "Avocado", avocadosBought.length);
             }
+            // append the message to the log file
             Output.appendToLogFileAmountOfFruitsPurchase(avocadosBought.length, "Avocado", "All You Can Eat",
                 Avocado.COST_PRICE);
+            // increase the number of avocados purchased
             itemsPurchased[0] += avocadosBought.length;
+            // temporary variable to increase inventory
             Avocado[] updatedAvocadosInventory = new Avocado[avocadoInventory.length
                 + avocadosBought.length];
-            for (int i = 0; i < avocadoInventory.length; i++) {
-              updatedAvocadosInventory[i] = avocadoInventory[i];
+            // add the odd inventory to the array
+            for (int index = 0; index < avocadoInventory.length; index++) {
+              updatedAvocadosInventory[index] = avocadoInventory[index];
             }
             int shiftIndex = avocadoInventory.length;
-            for (int i = 0; i < (avocadosBought.length); i++) {
-              updatedAvocadosInventory[(i + shiftIndex)] = avocadosBought[i];
+            // the the new inventory to the array
+            for (int index = 0; index < (avocadosBought.length); index++) {
+              updatedAvocadosInventory[(index + shiftIndex)] = avocadosBought[index];
             }
+            // update the avocado inventory
             avocadoInventory = updatedAvocadosInventory;
           } else {
+            // append the message to the log file
             Output.appendToLogFile("NotEnoughFunds: To Buy Avocados");
           }
         }
@@ -1926,7 +1961,9 @@ public class Supermarket {
 
   private void buyBananas() throws Exception {
     if (cashOnHand <= 0) {
+      // append the message to the log file
       Output.appendToLogFile("Supermarket Runs Out Of Money");
+      // throw a Supermarket Runs Out Of Money
       throw new Exception("Supermarket Runs Out Of Money");
     } else {
       if (fruitsAreHere.getAvailablity()) {
@@ -1956,6 +1993,9 @@ public class Supermarket {
       } else if (!fruitsAreHere.getAvailablity() && (bananaInventory.length < MAXIMUM_NUMBER_OF_FRUITS)
           && allYouCanEat.getAvailablity()) {
         if (cashOnHand <= 0) {
+          // append the message to the log file
+          Output.appendToLogFile("Supermarket Runs Out Of Money");
+          // throw a Supermarket Runs Out Of Money
           throw new Exception("Supermarket Runs Out Of Money");
         } else {
           int numberOfBananasToBeBought = (MAXIMUM_NUMBER_OF_FRUITS - bananaInventory.length);
@@ -1988,7 +2028,9 @@ public class Supermarket {
 
   private void buyCarrots() throws Exception {
     if (cashOnHand <= 0) {
+      // append the message to the log file
       Output.appendToLogFile("Supermarket Runs Out Of Money");
+      // throw a Supermarket Runs Out Of Money
       throw new Exception("Supermarket Runs Out Of Money");
     } else {
       if (tastyVegetables.getAvailablity()) {
@@ -2018,6 +2060,9 @@ public class Supermarket {
       } else if (!tastyVegetables.getAvailablity() && (carrotInventory.length < MAXIMUM_NUMBER_OF_FRUITS)
           && allYouCanEat.getAvailablity()) {
         if (cashOnHand <= 0) {
+          // append the message to the log file
+          Output.appendToLogFile("Supermarket Runs Out Of Money");
+          // throw a Supermarket Runs Out Of Money
           throw new Exception("Supermarket Runs Out Of Money");
         } else {
           int numberOfCarrotsToBeBought = (MAXIMUM_NUMBER_OF_FRUITS - carrotInventory.length);
@@ -2050,7 +2095,9 @@ public class Supermarket {
 
   private void buyCucumbers() throws Exception {
     if (cashOnHand <= 0) {
+      // append the message to the log file
       Output.appendToLogFile("Supermarket Runs Out Of Money");
+      // throw a Supermarket Runs Out Of Money
       throw new Exception("Supermarket Runs Out Of Money");
     } else {
       if (tastyVegetables.getAvailablity()) {
@@ -2080,6 +2127,9 @@ public class Supermarket {
       } else if (!tastyVegetables.getAvailablity() && (cucumberInventory.length < MAXIMUM_NUMBER_OF_FRUITS)
           && allYouCanEat.getAvailablity()) {
         if (cashOnHand <= 0) {
+          // append the message to the log file
+          Output.appendToLogFile("Supermarket Runs Out Of Money");
+          // throw a Supermarket Runs Out Of Money
           throw new Exception("Supermarket Runs Out Of Money");
         } else {
           int numberOfCucumbersToBeBought = (MAXIMUM_NUMBER_OF_FRUITS - cucumberInventory.length);
@@ -2112,7 +2162,9 @@ public class Supermarket {
 
   private void buyLettuces() throws Exception {
     if (cashOnHand <= 0) {
+      // append the message to the log file
       Output.appendToLogFile("Supermarket Runs Out Of Money");
+      // throw a Supermarket Runs Out Of Money
       throw new Exception("Supermarket Runs Out Of Money");
     } else {
       if (tastyVegetables.getAvailablity()) {
@@ -2142,6 +2194,9 @@ public class Supermarket {
       } else if (!tastyVegetables.getAvailablity() && (lettuceInventory.length < MAXIMUM_NUMBER_OF_FRUITS)
           && allYouCanEat.getAvailablity()) {
         if (cashOnHand <= 0) {
+          // append the message to the log file
+          Output.appendToLogFile("Supermarket Runs Out Of Money");
+          // throw a Supermarket Runs Out Of Money
           throw new Exception("Supermarket Runs Out Of Money");
         } else {
           int numberOfLettucesToBeBought = (MAXIMUM_NUMBER_OF_FRUITS - lettuceInventory.length);
@@ -2174,7 +2229,9 @@ public class Supermarket {
 
   private void buyLimes() throws Exception {
     if (cashOnHand <= 0) {
+      // append the message to the log file
       Output.appendToLogFile("Supermarket Runs Out Of Money");
+      // throw a Supermarket Runs Out Of Money
       throw new Exception("Supermarket Runs Out Of Money");
     } else {
       if (fruitsAreHere.getAvailablity()) {
@@ -2204,6 +2261,9 @@ public class Supermarket {
       } else if (!fruitsAreHere.getAvailablity() && (limeInventory.length < MAXIMUM_NUMBER_OF_FRUITS)
           && allYouCanEat.getAvailablity()) {
         if (cashOnHand <= 0) {
+          // append the message to the log file
+          Output.appendToLogFile("Supermarket Runs Out Of Money");
+          // throw a Supermarket Runs Out Of Money
           throw new Exception("Supermarket Runs Out Of Money");
         } else {
           int numberOfLimesToBeBought = (MAXIMUM_NUMBER_OF_FRUITS - limeInventory.length);
@@ -2236,7 +2296,9 @@ public class Supermarket {
 
   private void buyMangoes() throws Exception {
     if (cashOnHand <= 0) {
+      // append the message to the log file
       Output.appendToLogFile("Supermarket Runs Out Of Money");
+      // throw a Supermarket Runs Out Of Money
       throw new Exception("Supermarket Runs Out Of Money");
     } else {
       if (fruitsAreHere.getAvailablity()) {
@@ -2266,6 +2328,9 @@ public class Supermarket {
       } else if (!fruitsAreHere.getAvailablity() && (mangoInventory.length < MAXIMUM_NUMBER_OF_FRUITS)
           && allYouCanEat.getAvailablity()) {
         if (cashOnHand <= 0) {
+          // append the message to the log file
+          Output.appendToLogFile("Supermarket Runs Out Of Money");
+          // throw a Supermarket Runs Out Of Money
           throw new Exception("Supermarket Runs Out Of Money");
         } else {
           int numberOfMangoesToBeBought = (MAXIMUM_NUMBER_OF_FRUITS - mangoInventory.length);
@@ -2298,7 +2363,9 @@ public class Supermarket {
 
   private void buyOnions() throws Exception {
     if (cashOnHand <= 0) {
+      // append the message to the log file
       Output.appendToLogFile("Supermarket Runs Out Of Money");
+      // throw a Supermarket Runs Out Of Money
       throw new Exception("Supermarket Runs Out Of Money");
     } else {
       if (tastyVegetables.getAvailablity()) {
@@ -2328,6 +2395,9 @@ public class Supermarket {
       } else if (!tastyVegetables.getAvailablity() && (onionInventory.length < MAXIMUM_NUMBER_OF_FRUITS)
           && allYouCanEat.getAvailablity()) {
         if (cashOnHand <= 0) {
+          // append the message to the log file
+          Output.appendToLogFile("Supermarket Runs Out Of Money");
+          // throw a Supermarket Runs Out Of Money
           throw new Exception("Supermarket Runs Out Of Money");
         } else {
           int numberOfOnionsToBeBought = (MAXIMUM_NUMBER_OF_FRUITS - onionInventory.length);
@@ -2360,7 +2430,9 @@ public class Supermarket {
 
   private void buyParsleys() throws Exception {
     if (cashOnHand <= 0) {
+      // append the message to the log file
       Output.appendToLogFile("Supermarket Runs Out Of Money");
+      // throw a Supermarket Runs Out Of Money
       throw new Exception("Supermarket Runs Out Of Money");
     } else {
       if (tastyVegetables.getAvailablity()) {
@@ -2371,6 +2443,7 @@ public class Supermarket {
           if (verbose) {
             Print.verboseTotalItemsPurchased("Tasty Vegetables", "Parsley", parsleysBought.length);
           }
+          // append the message to the log file
           Output.appendToLogFileAmountOfVegetablesPurchase(parsleysBought.length, "Parsley", "Tasty Vegetables",
               Parsley.COST_PRICE);
           itemsPurchased[8] += parsleysBought.length;
@@ -2390,6 +2463,9 @@ public class Supermarket {
       } else if (!tastyVegetables.getAvailablity() && (parsleyInventory.length < MAXIMUM_NUMBER_OF_FRUITS)
           && allYouCanEat.getAvailablity()) {
         if (cashOnHand <= 0) {
+          // append the message to the log file
+          Output.appendToLogFile("Supermarket Runs Out Of Money");
+          // throw a Supermarket Runs Out Of Money
           throw new Exception("Supermarket Runs Out Of Money");
         } else {
           int numberOfParsleysToBeBought = (MAXIMUM_NUMBER_OF_FRUITS - parsleyInventory.length);
@@ -2399,6 +2475,7 @@ public class Supermarket {
             if (verbose) {
               Print.verboseTotalItemsPurchased("All You Can Eat", "Parsley", parsleysBought.length);
             }
+            // append the message to the log file
             Output.appendToLogFileAmountOfVegetablesPurchase(parsleysBought.length, "Parsley", "All You Can Eat",
                 Parsley.COST_PRICE);
             itemsPurchased[8] += parsleysBought.length;
@@ -2413,6 +2490,7 @@ public class Supermarket {
             }
             parsleyInventory = updatedParsleysInventory;
           } else {
+            // append the message to the log file
             Output.appendToLogFile("NotEnoughFunds: To Buy Parsleys");
           }
         }
@@ -2422,7 +2500,9 @@ public class Supermarket {
 
   private void buyWatermelons() throws Exception {
     if (cashOnHand <= 0) {
+      // append the message to the log file
       Output.appendToLogFile("Supermarket Runs Out Of Money");
+      // throw a Supermarket Runs Out Of Money
       throw new Exception("Supermarket Runs Out Of Money");
     } else {
       if (fruitsAreHere.getAvailablity()) {
@@ -2433,6 +2513,7 @@ public class Supermarket {
           if (verbose) {
             Print.verboseTotalItemsPurchased("Fruits Are Here", "Watermelon", watermelonsBought.length);
           }
+          // append the message to the log file
           Output.appendToLogFileAmountOfFruitsPurchase(watermelonsBought.length, "Watermelon", "Fruits Are Here",
               Watermelon.COST_PRICE);
           itemsPurchased[9] += watermelonsBought.length;
@@ -2447,11 +2528,15 @@ public class Supermarket {
           }
           watermelonInventory = updatedWatermelonsInventory;
         } else {
+          // append the message to the log file
           Output.appendToLogFile("NotEnoughFunds: To Buy Parsleys");
         }
       } else if (!fruitsAreHere.getAvailablity() && (watermelonInventory.length < MAXIMUM_NUMBER_OF_FRUITS)
           && allYouCanEat.getAvailablity()) {
         if (cashOnHand <= 0) {
+          // append the message to the log file
+          Output.appendToLogFile("Supermarket Runs Out Of Money");
+          // throw a Supermarket Runs Out Of Money
           throw new Exception("Supermarket Runs Out Of Money");
         } else {
           int numberOfWatermelonsToBeBought = (MAXIMUM_NUMBER_OF_FRUITS - watermelonInventory.length);
@@ -2461,6 +2546,7 @@ public class Supermarket {
             if (verbose) {
               Print.verboseTotalItemsPurchased("All You Can Eat", "Watermelon", watermelonsBought.length);
             }
+            // append the message to the log file
             Output.appendToLogFileAmountOfFruitsPurchase(watermelonsBought.length, "Watermelon", "All You Can Eat",
                 Watermelon.COST_PRICE);
             itemsPurchased[9] += watermelonsBought.length;
@@ -2475,6 +2561,7 @@ public class Supermarket {
             }
             watermelonInventory = updatedWatermelonsInventory;
           } else {
+            // append the message to the log file
             Output.appendToLogFile("NotEnoughFunds: To Buy Parsleys");
           }
         }
