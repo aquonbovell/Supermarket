@@ -51,9 +51,9 @@ public class Supermarket {
   // holds the profit the that Supermarket made from the sale and purchasing of
   // items, loss of spoilt items and random events
   private double profit;
-  // holds the losses that the randon event caused
+  // holds the losses that the random event caused
   private int lossesCausedbyRandomEvent;
-  // defines the starting amount that the Supermarket initally has on hand
+  // defines the starting amount that the Supermarket initially has on hand
   private double cashOnHand = 4640_000;
   // holds the total of each fruit the customer buys per cycle
   private int[] fruitsSold;
@@ -63,7 +63,7 @@ public class Supermarket {
   private int[] itemsPurchased;
   // holds the total of each item that has spoilt per cycle
   private int[] numberOfSpoiltItems;
-  // holds the amount of customers that the Supermarket has
+  // holds the customers that the Supermarket has
   private Customer[] customers;
   // creates a fruits are here reference
   private FruitsAreHere fruitsAreHere;
@@ -2569,11 +2569,16 @@ public class Supermarket {
     }
   }
 
+  /*
+   * This function calculates the profit for the Supermarket per cycle. There are
+   * no parameters and no return values
+   */
   private void calculateProfit() {
     double totalPurchases = 0;
     double totalFruitSales = 0;
     double totalVegetableSales = 0;
     double totalCostOfSpolitItems = 0;
+    // loops through both arrays and calculate the total losses
     for (int index = 0; index < NUMBER_OF_TYPES_OF_ITEMS; index++) {
       switch (index) {
         case 0:
@@ -2621,7 +2626,7 @@ public class Supermarket {
           break;
       }
     }
-
+    // loops through array and calculate the total fruits purchases
     for (int index = 0; index < fruitsSold.length; index++) {
       switch (index) {
         case 0:
@@ -2644,7 +2649,7 @@ public class Supermarket {
           break;
       }
     }
-
+    // loops through array and calculate the total fruits purchases
     for (int index = 0; index < vegetablesSold.length; index++) {
       switch (index) {
         case 0:
@@ -2668,24 +2673,35 @@ public class Supermarket {
       }
     }
 
+    // addes the profit to the profit field
     profit += ((totalFruitSales + totalVegetableSales)
         - (totalPurchases + totalCostOfSpolitItems + lossesCausedbyRandomEvent));
+    // added to cashOnHand
     cashOnHand += profit;
   }
 
+  /*
+   * This function reset the counter fields of the Supermarket.
+   * There are no parameters and no return values
+   */
   private void reset() {
-    for (int i = 0; i < NUMBER_OF_TYPES_OF_ITEMS; i++) {
-      itemsPurchased[i] = 0;
-      numberOfSpoiltItems[i] = 0;
+    for (int index = 0; index < NUMBER_OF_TYPES_OF_ITEMS; index++) {
+      itemsPurchased[index] = 0;
+      numberOfSpoiltItems[index] = 0;
     }
-    for (int i = 0; i < 5; i++) {
-      vegetablesSold[i] = 0;
-      fruitsSold[i] = 0;
+    for (int index = 0; index < 5; index++) {
+      vegetablesSold[index] = 0;
+      fruitsSold[index] = 0;
     }
     lossesCausedbyRandomEvent = 0;
   }
 
+  /*
+   * The function set the total amount of iteration when passed in at tha command
+   * line. There are no parameters and no return values
+   */
   public void setTotalIterations(int iter) {
+    // set the total iterations if it is positive
     if (iter >= 0) {
       totalIterations = iter;
     }
