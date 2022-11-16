@@ -135,27 +135,9 @@ public class Supermarket {
     customers = new Customer[NUMBER_OF_CUSTOMERS];
     // assign each customer a new instance of Customer
     initCustomers();
-    // initalise the avocado inventory to have a new instance of avocado
-    initFruitsInventory(avocadoInventory);
-    // initalise the banana inventory to have a new instance of banana
-    initFruitsInventory(bananaInventory);
-    // initalise the carrot inventory to have a new instance of carrot
-    initVegetablesInventory(carrotInventory);
-    // initalise the cucumber inventory to have a new instance of cucumber
-    initVegetablesInventory(cucumberInventory);
-    // initalise the lime inventory to have a new instance of lime
-    initFruitsInventory(limeInventory);
-    // initalise the lettuce inventory to have a new instance of lettuce
-    initVegetablesInventory(lettuceInventory);
-    // initalise the mango inventory to have a new instance of mango
-    initFruitsInventory(mangoInventory);
-    // initalise the onion inventory to have a new instance of onion
-    initVegetablesInventory(onionInventory);
-    // initalise the parsley inventory to have a new instance of parsley
-    initVegetablesInventory(parsleyInventory);
-    // initalise the watermelon inventory to have a new instance of watermelon
-    initFruitsInventory(watermelonInventory);
-
+    // initalise all the items of the Supermarket inventory to have a new instance
+    // of each item
+    initInventory();
     // creates 5 references of int
     fruitsSold = new int[5];
     // creates 5 references of int
@@ -173,27 +155,43 @@ public class Supermarket {
 
   }
 
+  /*
+   * The run method the entry to the start of the actual Supermarket Simulation
+   * and runs the total amount of iterations specified by the totalIterations
+   * field the display the total amount of cycles that were carried out, the
+   * profit the Supermarket made and the profit the vendors made in total. The
+   * function takes no parameters and returns no vaule. It is public so the
+   * SimulationMain class can call it.
+   */
   public void run() {
+    // initalise the carried out amount to 0
     totalPerformedIterations = 0;
+    // creates a log file with a title
     Output.createLogFile();
     try {
+      // loops through the total amount of iterations specified by the totalIterations
+      // field
       for (int i = 0; i < totalIterations; i++) {
+        // output "Day" along with current cycle number and offsetted by 1
         Output.appendToLogFile(new String("Day :" + (1 + i)));
+        // increase the total amount of cycles carried out
         ++totalPerformedIterations;
+        // check if the random event can occur and execute a random event every ten
+        // cycles
         if ((i + 1) % 10 == 0 && i != 0) {
-          // execute a random event every ten cycles
+          // determines random event
           randomEvent();
         }
         // decrement spoilt value for all items
-        decreaseItemsSpoiltValue();
-
-        // sell items to customers
+        decreaseInventorySpoiltValue();
         try {
+          // sell items to customers
           sellGoods();
+          // catch the FruitNotAvailable and VegetableNotAvailable Exception and prevent
+          // the program from terminating
         } catch (Exception e) {
         }
-
-        // remove all spoilt items
+        // remove all spoilt items from the Supermarket inventory
         removeSpoiltAvocados();
         removeSpoiltBananas();
         removeSpoiltCarrots();
@@ -204,126 +202,185 @@ public class Supermarket {
         removeSpoiltParsleys();
         removeSpoiltMangoes();
         removeSpoiltWatermelons();
-
-        // restock on items in the supermarket
-
-        buyGoods();
-
-        // reset the customer getAvailablity for the next day
+        // restock on avocados in the Supermarket
+        if (avocadoInventory.length < MAXIMUM_NUMBER_OF_FRUITS) {
+          buyAvocados();
+        } // restock on bananas in the Supermarket
+        if (bananaInventory.length < MAXIMUM_NUMBER_OF_FRUITS) {
+          buyBananas();
+        } // restock on carrots in the Supermarket
+        if (carrotInventory.length < MAXIMUM_NUMBER_OF_VEGETABLES) {
+          buyCarrots();
+        } // restock on cucumbers in the Supermarket
+        if (cucumberInventory.length < MAXIMUM_NUMBER_OF_VEGETABLES) {
+          buyCucumbers();
+        } // restock on lettuces in the Supermarket
+        if (lettuceInventory.length < MAXIMUM_NUMBER_OF_VEGETABLES) {
+          buyLettuces();
+        } // restock on limes in the Supermarket
+        if (limeInventory.length < MAXIMUM_NUMBER_OF_FRUITS) {
+          buyLimes();
+        } // restock on mangoes in the Supermarket
+        if (mangoInventory.length < MAXIMUM_NUMBER_OF_FRUITS) {
+          buyMangoes();
+        } // restock on onions in the Supermarket
+        if (onionInventory.length < MAXIMUM_NUMBER_OF_VEGETABLES) {
+          buyOnions();
+        } // restock on parsleys in the Supermarket
+        if (parsleyInventory.length < MAXIMUM_NUMBER_OF_VEGETABLES) {
+          buyParsleys();
+        } // restock on watermelons in the Supermarket
+        if (watermelonInventory.length < MAXIMUM_NUMBER_OF_FRUITS) {
+          buyWatermelons();
+        }
+        // reset the customer's availablity for the next day
         Customer.reset();
-
-        // restock the vendors
+        // restock the vendors inventory for the next day
         fruitsAreHere.restock();
         allYouCanEat.restock();
         tastyVegetables.restock();
+        // calcuates the profit the Supermarket for each cycle
         calculateProfit();
+        // set the fruitsSold, vegetablesSolde, itemsPurchased and numberOfSpoiltItems
+        // array back to zero for the next day
         reset();
       }
+      // catches the Supermarket Runs Out Of Money Exception to terminate the program
     } catch (Exception e) {
-      System.out.println(e.getMessage());
     }
-    // output the totals
+    // display the number of iterations that where carried out
     System.out.println("Total number of cycles performed: " + totalPerformedIterations);
+    // display total profit the supermarket made at the end of all the cycles
     System.out.println("Total supermarket profit: $" + profit);
+    // display the total profit the vendors made from sale of items to the
+    // Supermarket
     System.out.println("Total vendor profit: $"
         + (allYouCanEat.getProfit() + fruitsAreHere.getProfit() + tastyVegetables.getProfit()));
   }
 
+  /*
+   * This function turns on the verbose mode for the run method. It take no
+   * parameters and have to return values.
+   */
   public void turnOnVerbose() {
+    // set the verbose field to true since the default mode is false
     verbose = true;
   }
 
+  /*
+   * This function initialises each index in the customers array to a new instance
+   * of Customer. There are no parameters and return no values.
+   */
   private void initCustomers() {
+    // loops through the customers array
     for (int index = 0; index < customers.length; index++) {
+      // create a new instance of Customer and added it to the customers array
       customers[index] = new Customer();
     }
   }
 
-  private void initFruitsInventory(Fruit[] inventory) {
-    if (inventory instanceof Watermelon[]) {
-      for (int i = 0; i < inventory.length; i++) {
-        inventory[i] = new Watermelon();
-      }
-    } else if (inventory instanceof Avocado[]) {
-      for (int i = 0; i < inventory.length; i++) {
-        inventory[i] = new Avocado();
-      }
-    } else if (inventory instanceof Mango[]) {
-      for (int i = 0; i < inventory.length; i++) {
-        inventory[i] = new Mango();
-      }
-    } else if (inventory instanceof Lime[]) {
-      for (int i = 0; i < inventory.length; i++) {
-        inventory[i] = new Lime();
-      }
-    } else if (inventory instanceof Banana[]) {
-      for (int i = 0; i < inventory.length; i++) {
-        inventory[i] = new Banana();
-      }
+  /*
+   * This function initialise a type of item to have a new instance of each type
+   * of Fruit or Vegetable. There are no parameters and there are no values to
+   * return
+   */
+  private void initInventory() {
+    // loops through the watermelons inventory create a new instance of Watermelon
+    for (int index = 0; index < watermelonInventory.length; index++) {
+      watermelonInventory[index] = new Watermelon();
+    } // loops through the avocados inventory create a new instance of Avocado
+    for (int index = 0; index < avocadoInventory.length; index++) {
+      avocadoInventory[index] = new Avocado();
+    } // loops through the mangoes inventory create a new instance of Mango
+    for (int index = 0; index < mangoInventory.length; index++) {
+      mangoInventory[index] = new Mango();
+    } // loops through the limes inventory create a new instance of Lime
+    for (int index = 0; index < limeInventory.length; index++) {
+      limeInventory[index] = new Lime();
+    } // loops through the bananas inventory create a new instance of Banana
+    for (int index = 0; index < bananaInventory.length; index++) {
+      bananaInventory[index] = new Banana();
+    } // loops through the onions inventory create a new instance of Onion
+    for (int index = 0; index < onionInventory.length; index++) {
+      onionInventory[index] = new Onion();
+    } // loops through the parsleys inventory create a new instance of Parsley
+    for (int index = 0; index < parsleyInventory.length; index++) {
+      parsleyInventory[index] = new Parsley();
+    } // loops through the lettuces inventory create a new instance of Lettuce
+    for (int index = 0; index < lettuceInventory.length; index++) {
+      lettuceInventory[index] = new Lettuce();
+    } // loops through the carrots inventory create a new instance of Carrot
+    for (int index = 0; index < carrotInventory.length; index++) {
+      carrotInventory[index] = new Carrot();
+    } // loops through the cucumbers inventory create a new instance of Cucumber
+    for (int index = 0; index < cucumberInventory.length; index++) {
+      cucumberInventory[index] = new Cucumber();
     }
   }
 
-  private void initVegetablesInventory(Vegetable[] inventory) {
-    if (inventory instanceof Onion[]) {
-      for (int i = 0; i < inventory.length; i++) {
-        inventory[i] = new Onion();
-      }
-    } else if (inventory instanceof Parsley[]) {
-      for (int i = 0; i < inventory.length; i++) {
-        inventory[i] = new Parsley();
-      }
-    } else if (inventory instanceof Lettuce[]) {
-      for (int i = 0; i < inventory.length; i++) {
-        inventory[i] = new Lettuce();
-      }
-    } else if (inventory instanceof Carrot[]) {
-      for (int i = 0; i < inventory.length; i++) {
-        inventory[i] = new Carrot();
-      }
-    } else if (inventory instanceof Cucumber[]) {
-      for (int i = 0; i < inventory.length; i++) {
-        inventory[i] = new Cucumber();
-      }
-    }
-  }
-
-  private void decreaseItemsSpoiltValue() {
-    decreaseInventorySpoiltValue(avocadoInventory);
-    decreaseInventorySpoiltValue(bananaInventory);
-    decreaseInventorySpoiltValue(carrotInventory);
-    decreaseInventorySpoiltValue(cucumberInventory);
-    decreaseInventorySpoiltValue(limeInventory);
-    decreaseInventorySpoiltValue(lettuceInventory);
-    decreaseInventorySpoiltValue(mangoInventory);
-    decreaseInventorySpoiltValue(onionInventory);
-    decreaseInventorySpoiltValue(parsleyInventory);
-    decreaseInventorySpoiltValue(watermelonInventory);
-  }
-
-  private void decreaseInventorySpoiltValue(Fruit[] inventory) {
-    for (int i = 0; i < inventory.length; i++) {
-      inventory[i].decreaseSpoiltValue();
-    }
-  }
-
-  private void decreaseInventorySpoiltValue(Vegetable[] inventory) {
-    for (int i = 0; i < inventory.length; i++) {
-      inventory[i].decreaseSpoiltValue();
+  /*
+   * This function decreased the spoilt value of each type of item of Fruit or
+   * Vegetable. There are no parameters and there are no values to return
+   */
+  private void decreaseInventorySpoiltValue() {
+    // loops through the watermelons inventory decrease the spoilt value of each
+    // item
+    for (int index = 0; index < watermelonInventory.length; index++) {
+      watermelonInventory[index].decreaseSpoiltValue();
+    } // loops through the avocados inventory decrease the spoilt value of each item
+    for (int index = 0; index < avocadoInventory.length; index++) {
+      avocadoInventory[index].decreaseSpoiltValue();
+    } // loops through the mangoes inventory decrease the spoilt value of each item
+    for (int index = 0; index < mangoInventory.length; index++) {
+      mangoInventory[index].decreaseSpoiltValue();
+    } // loops through the limes inventory decrease the spoilt value of each item
+    for (int index = 0; index < limeInventory.length; index++) {
+      limeInventory[index].decreaseSpoiltValue();
+    } // loops through the bananas inventory decrease the spoilt value of each item
+    for (int index = 0; index < bananaInventory.length; index++) {
+      bananaInventory[index].decreaseSpoiltValue();
+    } // loops through the onions inventory decrease the spoilt value of each item
+    for (int index = 0; index < onionInventory.length; index++) {
+      onionInventory[index].decreaseSpoiltValue();
+    } // loops through the parsley inventory decrease the spoilt value of each item
+    for (int index = 0; index < parsleyInventory.length; index++) {
+      parsleyInventory[index].decreaseSpoiltValue();
+    } // loops through the lettuce inventory decrease the spoilt value of each item
+    for (int index = 0; index < lettuceInventory.length; index++) {
+      lettuceInventory[index].decreaseSpoiltValue();
+    } // loops through the carrots inventory decrease the spoilt value of each item
+    for (int index = 0; index < carrotInventory.length; index++) {
+      carrotInventory[index].decreaseSpoiltValue();
+    } // loops through the cucumber inventory decrease the spoilt value of each item
+    for (int index = 0; index < cucumberInventory.length; index++) {
+      cucumberInventory[index].decreaseSpoiltValue();
     }
   }
 
   private void randomEvent() {
+    // create a random number generator to generate a random event and other random
+    // numbers that the random event uses
     Random rand = new Random();
     switch (rand.nextInt(5)) {
       case 0:
+        // added the random event to the log file
         Output.appendToLogFile("Fridge Breaks Down");
+        // generate a cost that the Supermarket must pay
         int cost = rand.nextInt(101);
+        // addes the cost to the field lossesCausedbyRandomEvent
         lossesCausedbyRandomEvent += cost;
+        // if the verbose mode is on display the random even name and the cost
+        if (verbose) {
+          System.out.println("Fridge Breaks Down: Supermarket pays $" + cost + ".00");
+        }
         break;
-
       case 1:
-        int numberOfHours = rand.nextInt(5) + 1;
+        // added the random event to the log file
         Output.appendToLogFile("Electricity Goes Off");
+        // generate the amount of hours the Supermarket goes off
+        int numberOfHours = rand.nextInt(5) + 1;
+        // loops throught the amount of hours the electricity and spoil one percent the
+        // total type of Fruit and Vegetable
         for (int i = 0; i < numberOfHours; i++) {
           spoilFruits(avocadoInventory);
           spoilFruits(bananaInventory);
@@ -337,38 +394,63 @@ public class Supermarket {
           spoilFruits(watermelonInventory);
         }
         break;
-
       case 2:
+        // generate a randon number to select any of the three vendor
         int vendorSelection = rand.nextInt(3);
         if (vendorSelection == 0) {
+          // set the field isAvailable of fruitsAreHere to false
           fruitsAreHere.isNotAvailable();
+          // append the message to the log file
           Output.appendToLogFile("Fruits Are Here Does Not Deliver The Goods");
+          if (verbose) {
+            // display the message verbosely to the command line
+            System.out.println("Vendor does not deliver the goods: Fruits Are Here");
+          }
         } else if (vendorSelection == 1) {
+          // set the field isAvailable of tastyVegetables to false
+          tastyVegetables.isNotAvailable();
+          // append the message to the log file
           Output.appendToLogFile("Tasty Vegetables Does Not Deliver The Goods");
+          if (verbose) {
+            // display the message verbosely to the command line
+            System.out.println("Vendor does not deliver the goods: Tasty Vegetables");
+          }
         } else if (vendorSelection == 2) {
+          // set the field isAvailable of allYouCanEat to false
           allYouCanEat.isNotAvailable();
+          // append the message to the log file
           Output.appendToLogFile("All You Can Eat Does Not Deliver The Goods");
+          if (verbose) {
+            // display the message verbosely to the command line
+            System.out.println("Vendor does not deliver the goods: All You Can Eat");
+          }
         }
         break;
 
       case 3:
-        // spoil a random percentage of the total amount of each item
         Output.appendToLogFile("Items spoil faster than expected");
-        spoilFruitsFaster(avocadoInventory);
-        spoilFruitsFaster(bananaInventory);
-        spoilVegetablesFaster(carrotInventory);
-        spoilVegetablesFaster(cucumberInventory);
-        spoilVegetablesFaster(lettuceInventory);
-        spoilFruitsFaster(limeInventory);
-        spoilFruitsFaster(mangoInventory);
-        spoilVegetablesFaster(onionInventory);
-        spoilVegetablesFaster(parsleyInventory);
-        spoilFruitsFaster(watermelonInventory);
+        // generate a random percentage to spoil the items faster
+        double percentage = (rand.nextDouble(9) + 1);
+        spoilFruitsFaster(avocadoInventory, percentage);
+        spoilFruitsFaster(bananaInventory, percentage);
+        spoilVegetablesFaster(carrotInventory, percentage);
+        spoilVegetablesFaster(cucumberInventory, percentage);
+        spoilVegetablesFaster(lettuceInventory, percentage);
+        spoilFruitsFaster(limeInventory, percentage);
+        spoilFruitsFaster(mangoInventory, percentage);
+        spoilVegetablesFaster(onionInventory, percentage);
+        spoilVegetablesFaster(parsleyInventory, percentage);
+        spoilFruitsFaster(watermelonInventory, percentage);
         break;
 
       case 4:
-        Output.appendToLogFile("No purchases are made");
+        // set the willPurchase field of the Customers class to false
         Customer.willNotPurchase();
+        Output.appendToLogFile("No purchases are made: Customers do not buy anything from the supermarket.");
+        if (verbose) {
+          // display the message verbosely to the command line
+          System.out.println("No purchases are made: Customers do not buy anything from the supermarket.");
+        }
         break;
       default:
         break;
@@ -383,6 +465,10 @@ public class Supermarket {
       }
     }
     int numberOfFruitsToSpoil = (int) Math.ceil((0.01 * numberOfUnsploitFruits));
+    if (verbose) {
+      String name = inventory[0].getNameOfFruit();
+      System.out.println("Electricity Goes Off: " + numberOfFruitsToSpoil + " " + name + "s have spoilt");
+    }
     int numberOfSpoiltFruits = 0;
     for (int j = 0; j < inventory.length; j++) {
       if (numberOfSpoiltFruits < numberOfFruitsToSpoil && inventory[j].getSpoiltValue() > 0) {
@@ -400,6 +486,10 @@ public class Supermarket {
       }
     }
     int numberOfVegetablesToSpoil = (int) Math.ceil((0.01 * numberOfUnsploitVegetables));
+    if (verbose) {
+      String name = inventory[0].getNameOfVegetable();
+      System.out.println("Electricity Goes Off: " + numberOfVegetablesToSpoil + " " + name + "s have spoilt");
+    }
     int numberOfSpoiltVegetables = 0;
     for (int j = 0; j < inventory.length; j++) {
       if (numberOfSpoiltVegetables < numberOfVegetablesToSpoil && inventory[j].getSpoiltValue() > 0) {
@@ -409,10 +499,12 @@ public class Supermarket {
     }
   }
 
-  private void spoilFruitsFaster(Fruit[] inventory) {
-    Random rand = new Random();
-    double percentage = (rand.nextDouble(9) + 1);
+  private void spoilFruitsFaster(Fruit[] inventory, double percentage) {
     int numberOfFruitsToSpoil = (int) Math.ceil(((percentage / 100.00) * inventory.length));
+    if (verbose) {
+      String name = inventory[0].getNameOfFruit();
+      System.out.println("Items spoil faster than expected: " + numberOfFruitsToSpoil + " " + name + "s have spoilt.");
+    }
     int numberOfSpoiltFruits = 0;
     for (int j = 0; j < inventory.length; j++) {
       if (numberOfSpoiltFruits < numberOfFruitsToSpoil && inventory[j].getSpoiltValue() > 0) {
@@ -422,10 +514,13 @@ public class Supermarket {
     }
   }
 
-  private void spoilVegetablesFaster(Vegetable[] inventory) {
-    Random rand = new Random();
-    double percentage = (rand.nextDouble(9) + 1);
+  private void spoilVegetablesFaster(Vegetable[] inventory, double percentage) {
     int numberOfVegetablesToSpoil = (int) Math.ceil(((percentage / 100.00) * inventory.length));
+    if (verbose) {
+      String name = inventory[0].getNameOfVegetable();
+      System.out
+          .println("Items spoil faster than expected: " + numberOfVegetablesToSpoil + " " + name + "s have spoilt.");
+    }
     int numberOfSpoiltVegetables = 0;
     for (int j = 0; j < inventory.length; j++) {
       if (numberOfSpoiltVegetables < numberOfVegetablesToSpoil && inventory[j].getSpoiltValue() > 0) {
@@ -1343,39 +1438,6 @@ public class Supermarket {
     }
   }
 
-  private void buyGoods() throws Exception {
-    if (avocadoInventory.length < MAXIMUM_NUMBER_OF_FRUITS) {
-      buyAvocados();
-    }
-    if (bananaInventory.length < MAXIMUM_NUMBER_OF_FRUITS) {
-      buyBananas();
-    }
-    if (carrotInventory.length < MAXIMUM_NUMBER_OF_VEGETABLES) {
-      buyCarrots();
-    }
-    if (cucumberInventory.length < MAXIMUM_NUMBER_OF_VEGETABLES) {
-      buyCucumbers();
-    }
-    if (lettuceInventory.length < MAXIMUM_NUMBER_OF_VEGETABLES) {
-      buyLettuces();
-    }
-    if (limeInventory.length < MAXIMUM_NUMBER_OF_FRUITS) {
-      buyLimes();
-    }
-    if (mangoInventory.length < MAXIMUM_NUMBER_OF_FRUITS) {
-      buyMangoes();
-    }
-    if (onionInventory.length < MAXIMUM_NUMBER_OF_VEGETABLES) {
-      buyOnions();
-    }
-    if (parsleyInventory.length < MAXIMUM_NUMBER_OF_VEGETABLES) {
-      buyParsleys();
-    }
-    if (watermelonInventory.length < MAXIMUM_NUMBER_OF_FRUITS) {
-      buyWatermelons();
-    }
-  }
-
   private void buyAvocados() throws Exception {
     if (cashOnHand <= 0) {
       Output.appendToLogFile("Supermarket Runs Out Of Money");
@@ -2117,5 +2179,4 @@ public class Supermarket {
       totalIterations = iter;
     }
   }
-
 }

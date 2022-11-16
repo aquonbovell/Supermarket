@@ -1,1022 +1,1018 @@
 Supermarket Simulation
 Day :1
-(Fruit) 14 Watermelons were sold and received $78.40
-(Vegetable) 3 Parsleys were sold and received $10.80
-(Fruit) 17 Limes were sold and received $656.20
-(Vegetable) 17 Onions were sold and received $86.70
-(Vegetable) 9 Carrots were sold and received $36.00
-(Vegetable) 6 Carrots were sold and received $24.00
-(Fruit) 12 Avocados were sold and received $199.20
-(Fruit) 4 Limes were sold and received $154.40
-(Fruit) 1 Bananas were sold and received $15.60
-(Fruit) 11 Limes were sold and received $424.60
-(Fruit) 23 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $312.80
-(Fruit) 39 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $518.70
-(Vegetable) 82 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $205.00
-(Vegetable) 67 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $100.50
-(Vegetable) 83 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $373.50
-(Fruit) 67 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $1715.20
-(Fruit) 19 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $55.10
-(Vegetable) 48 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $158.40
-(Vegetable) 86 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $154.80
-(Fruit) 11 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $36.30
-Day :2
-(Fruit) 6 Watermelons were sold and received $33.60
-(Fruit) 1 Limes were sold and received $38.60
-(Vegetable) 7 Onions were sold and received $35.70
-(Vegetable) 12 Carrots were sold and received $48.00
-(Fruit) 9 Bananas were sold and received $140.40
-(Fruit) 6 Avocados were sold and received $99.60
-(Vegetable) 21 Lettuces were sold and received $134.40
-(Vegetable) 12 Cucumbers were sold and received $37.20
-(Vegetable) 6 Lettuces were sold and received $38.40
-(Fruit) 12 Bananas were sold and received $187.20
-(Fruit) 48 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $652.80
-(Fruit) 66 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $877.80
-(Vegetable) 55 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $137.50
-(Vegetable) 48 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $72.00
-(Vegetable) 44 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $198.00
-(Fruit) 1 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $2.90
-(Vegetable) 88 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $290.40
-(Vegetable) 10 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $18.00
-(Fruit) 21 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $69.30
-Day :3
-(Fruit) 20 Avocados were sold and received $332.00
-(Vegetable) 18 Carrots were sold and received $72.00
-(Fruit) 5 Watermelons were sold and received $28.00
-(Fruit) 5 Watermelons were sold and received $28.00
-(Fruit) 14 Avocados were sold and received $232.40
-(Vegetable) 9 Lettuces were sold and received $57.60
-(Fruit) 6 Limes were sold and received $231.60
-(Fruit) 11 Watermelons were sold and received $61.60
-(Vegetable) 16 Carrots were sold and received $64.00
-(Vegetable) 13 Parsleys were sold and received $46.80
-(Fruit) 26 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $353.60
-(Vegetable) 10 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $25.00
-(Vegetable) 55 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $82.50
-(Vegetable) 52 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $234.00
-(Fruit) 6 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $153.60
-(Vegetable) 53 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $174.90
-(Vegetable) 40 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $72.00
-(Fruit) 43 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $141.90
-Day :4
-(Vegetable) 16 Lettuces were sold and received $102.40
-(Vegetable) 16 Carrots were sold and received $64.00
-(Vegetable) 19 Parsleys were sold and received $68.40
-(Vegetable) 6 Parsleys were sold and received $21.60
-(Vegetable) 4 Carrots were sold and received $16.00
-(Fruit) 19 Limes were sold and received $733.40
-(Vegetable) 8 Cucumbers were sold and received $24.80
-(Fruit) 18 Limes were sold and received $694.80
-(Vegetable) 2 Carrots were sold and received $8.00
-(Fruit) 17 Watermelons were sold and received $95.20
-(Fruit) 8 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $108.80
-(Vegetable) 67 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $167.50
-(Vegetable) 8 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $12.00
-(Vegetable) 25 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $112.50
-(Fruit) 18 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $460.80
-(Fruit) 19 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $55.10
-(Vegetable) 31 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $55.80
-(Fruit) 26 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $85.80
-Day :5
-(Fruit) 8 Avocados were sold and received $132.80
-(Fruit) 12 Watermelons were sold and received $67.20
-(Vegetable) 8 Lettuces were sold and received $51.20
-(Vegetable) 6 Cucumbers were sold and received $18.60
-(Fruit) 14 Watermelons were sold and received $78.40
-(Fruit) 7 Limes were sold and received $270.20
-(Fruit) 18 Limes were sold and received $694.80
-(Vegetable) 1 Carrots were sold and received $4.00
-(Fruit) 18 Bananas were sold and received $280.80
-(Fruit) 9 Avocados were sold and received $149.40
-(Fruit) 45 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $612.00
-(Fruit) 22 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $292.60
-(Vegetable) 55 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $137.50
-(Vegetable) 18 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $27.00
-(Vegetable) 26 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $117.00
-(Fruit) 4 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $102.40
-(Fruit) 79 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $229.10
-(Vegetable) 3 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $9.90
-(Vegetable) 27 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $48.60
-(Fruit) 58 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $191.40
-Day :6
-(Fruit) 3 Limes were sold and received $115.80
-(Vegetable) 13 Cucumbers were sold and received $40.30
-(Vegetable) 5 Parsleys were sold and received $18.00
-(Vegetable) 11 Parsleys were sold and received $39.60
-(Vegetable) 3 Parsleys were sold and received $10.80
-(Vegetable) 8 Cucumbers were sold and received $24.80
-(Fruit) 6 Avocados were sold and received $99.60
-(Fruit) 11 Avocados were sold and received $182.60
-(Fruit) 18 Limes were sold and received $694.80
-(Vegetable) 15 Lettuces were sold and received $96.00
-(Fruit) 57 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $775.20
-(Fruit) 6 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $79.80
-(Vegetable) 15 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $37.50
-(Vegetable) 36 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $54.00
-(Vegetable) 12 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $54.00
-(Fruit) 15 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $384.00
-(Fruit) 13 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $37.70
-(Vegetable) 13 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $42.90
-(Vegetable) 58 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $104.40
-(Fruit) 6 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $19.80
-Day :7
-(Vegetable) 6 Carrots were sold and received $24.00
-(Fruit) 3 Avocados were sold and received $49.80
-(Fruit) 7 Bananas were sold and received $109.20
-(Vegetable) 20 Cucumbers were sold and received $62.00
-(Vegetable) 9 Parsleys were sold and received $32.40
-(Vegetable) 18 Parsleys were sold and received $64.80
-(Vegetable) 13 Carrots were sold and received $52.00
-(Vegetable) 1 Cucumbers were sold and received $3.10
-(Vegetable) 7 Onions were sold and received $35.70
-(Fruit) 21 Limes were sold and received $810.60
-(Fruit) 12 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $163.20
-(Fruit) 31 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $412.30
-(Vegetable) 67 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $167.50
-(Vegetable) 49 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $73.50
-(Vegetable) 27 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $121.50
-(Fruit) 13 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $332.80
-(Fruit) 53 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $153.70
-(Vegetable) 20 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $66.00
-(Vegetable) 29 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $52.20
-(Fruit) 6 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $19.80
-Day :8
-(Vegetable) 14 Parsleys were sold and received $50.40
-(Fruit) 19 Limes were sold and received $733.40
-(Vegetable) 17 Carrots were sold and received $68.00
-(Fruit) 5 Watermelons were sold and received $28.00
-(Vegetable) 15 Lettuces were sold and received $96.00
-(Fruit) 15 Watermelons were sold and received $84.00
-(Fruit) 1 Watermelons were sold and received $5.60
-(Fruit) 6 Bananas were sold and received $93.60
-(Vegetable) 5 Parsleys were sold and received $18.00
-(Fruit) 7 Limes were sold and received $270.20
-(Fruit) 21 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $285.60
-(Fruit) 42 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $558.60
-(Vegetable) 51 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $127.50
-(Vegetable) 62 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $93.00
-(Vegetable) 33 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $148.50
-(Fruit) 15 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $384.00
-(Fruit) 58 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $168.20
-(Vegetable) 47 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $155.10
-(Vegetable) 81 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $145.80
-(Fruit) 77 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $254.10
-Day :9
-(Vegetable) 13 Parsleys were sold and received $46.80
-(Fruit) 15 Limes were sold and received $579.00
-(Fruit) 1 Watermelons were sold and received $5.60
-(Vegetable) 8 Parsleys were sold and received $28.80
-(Vegetable) 13 Carrots were sold and received $52.00
 (Vegetable) 3 Cucumbers were sold and received $9.30
-(Fruit) 17 Limes were sold and received $656.20
-(Vegetable) 9 Lettuces were sold and received $57.60
 (Fruit) 5 Limes were sold and received $193.00
-(Fruit) 16 Watermelons were sold and received $89.60
-(Fruit) 5 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $68.00
-(Fruit) 16 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $212.80
-(Vegetable) 14 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $35.00
-(Vegetable) 47 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $70.50
-(Vegetable) 51 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $229.50
-(Fruit) 89 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $2278.40
-(Fruit) 3 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $8.70
-(Vegetable) 51 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $168.30
-(Vegetable) 77 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $138.60
-(Fruit) 43 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $141.90
-Day :10
-Fridge Breaks Down
-(Vegetable) 12 Parsleys were sold and received $43.20
-(Fruit) 14 Avocados were sold and received $232.40
-(Vegetable) 1 Carrots were sold and received $4.00
-(Fruit) 7 Avocados were sold and received $116.20
-(Vegetable) 15 Carrots were sold and received $60.00
-(Vegetable) 18 Carrots were sold and received $72.00
-(Fruit) 20 Avocados were sold and received $332.00
-(Vegetable) 20 Onions were sold and received $102.00
-(Fruit) 14 Limes were sold and received $540.40
-(Fruit) 16 Bananas were sold and received $249.60
-(Fruit) 73 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $992.80
-(Fruit) 36 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $478.80
-(Vegetable) 95 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $237.50
-(Vegetable) 55 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $82.50
-(Vegetable) 79 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $355.50
-(Fruit) 25 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $640.00
-(Fruit) 7 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $20.30
-(Vegetable) 68 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $224.40
-(Vegetable) 71 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $127.80
-Day :11
-(Vegetable) 1 Onions were sold and received $5.10
-(Fruit) 2 Limes were sold and received $77.20
-(Fruit) 10 Avocados were sold and received $166.00
-(Vegetable) 12 Lettuces were sold and received $76.80
-(Vegetable) 15 Lettuces were sold and received $96.00
-(Vegetable) 12 Cucumbers were sold and received $37.20
-(Vegetable) 6 Lettuces were sold and received $38.40
-(Fruit) 5 Limes were sold and received $193.00
-(Vegetable) 20 Parsleys were sold and received $72.00
-(Vegetable) 11 Carrots were sold and received $44.00
-(Fruit) 37 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $503.20
-(Fruit) 16 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $212.80
-(Vegetable) 67 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $167.50
-(Vegetable) 27 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $40.50
-(Vegetable) 82 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $369.00
-(Fruit) 2 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $51.20
-(Fruit) 15 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $43.50
-(Vegetable) 67 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $221.10
-(Vegetable) 23 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $41.40
-Day :12
-(Fruit) 6 Bananas were sold and received $93.60
-(Fruit) 16 Limes were sold and received $617.60
-(Fruit) 16 Avocados were sold and received $265.60
-(Fruit) 13 Avocados were sold and received $215.80
-(Vegetable) 9 Cucumbers were sold and received $27.90
-(Fruit) 1 Bananas were sold and received $15.60
-(Vegetable) 2 Onions were sold and received $10.20
-(Fruit) 5 Limes were sold and received $193.00
-(Fruit) 12 Limes were sold and received $463.20
-(Vegetable) 14 Onions were sold and received $71.40
-(Fruit) 29 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $394.40
-(Fruit) 27 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $359.10
-(Vegetable) 47 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $117.50
-(Vegetable) 33 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $49.50
-(Vegetable) 36 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $162.00
-(Fruit) 68 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $197.20
-(Vegetable) 38 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $125.40
-(Vegetable) 8 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $14.40
-Day :13
-(Fruit) 20 Limes were sold and received $772.00
-(Fruit) 20 Watermelons were sold and received $112.00
-(Fruit) 11 Avocados were sold and received $182.60
-(Vegetable) 6 Parsleys were sold and received $21.60
-(Fruit) 16 Limes were sold and received $617.60
-(Fruit) 20 Limes were sold and received $772.00
-(Vegetable) 19 Parsleys were sold and received $68.40
-(Fruit) 2 Watermelons were sold and received $11.20
-(Vegetable) 1 Cucumbers were sold and received $3.10
-(Fruit) 9 Watermelons were sold and received $50.40
-(Fruit) 11 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $149.60
-(Fruit) 10 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $133.00
-(Vegetable) 6 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $15.00
-(Vegetable) 31 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $46.50
-(Vegetable) 68 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $306.00
-(Fruit) 20 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $512.00
-(Fruit) 81 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $234.90
-(Vegetable) 37 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $122.10
-(Vegetable) 43 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $77.40
-(Fruit) 52 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $171.60
-Day :14
-(Vegetable) 16 Lettuces were sold and received $102.40
-(Fruit) 6 Avocados were sold and received $99.60
-(Vegetable) 21 Carrots were sold and received $84.00
-(Vegetable) 15 Parsleys were sold and received $54.00
-(Fruit) 16 Limes were sold and received $617.60
-(Fruit) 7 Bananas were sold and received $109.20
-(Fruit) 16 Watermelons were sold and received $89.60
-(Fruit) 17 Avocados were sold and received $282.20
-(Vegetable) 6 Carrots were sold and received $24.00
-(Fruit) 18 Watermelons were sold and received $100.80
-(Fruit) 23 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $312.80
-(Fruit) 11 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $146.30
-(Vegetable) 27 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $67.50
-(Vegetable) 18 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $27.00
-(Vegetable) 20 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $90.00
-(Fruit) 39 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $998.40
-(Vegetable) 49 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $161.70
-(Vegetable) 27 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $48.60
-(Fruit) 84 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $277.20
-Day :15
-(Vegetable) 20 Onions were sold and received $102.00
-(Fruit) 7 Limes were sold and received $270.20
-(Vegetable) 19 Cucumbers were sold and received $58.90
-(Fruit) 20 Limes were sold and received $772.00
-(Vegetable) 15 Carrots were sold and received $60.00
+(Fruit) 10 Bananas were sold and received $156.00
 (Vegetable) 5 Carrots were sold and received $20.00
-(Vegetable) 12 Lettuces were sold and received $76.80
-(Vegetable) 3 Onions were sold and received $15.30
-(Fruit) 8 Avocados were sold and received $132.80
-(Fruit) 7 Limes were sold and received $270.20
-(Fruit) 38 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $516.80
-(Fruit) 23 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $305.90
-(Vegetable) 60 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $150.00
-(Vegetable) 70 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $105.00
-(Vegetable) 14 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $63.00
-(Fruit) 39 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $998.40
-(Fruit) 2 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $5.80
-(Vegetable) 68 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $224.40
-(Vegetable) 55 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $99.00
-Day :16
-(Vegetable) 1 Cucumbers were sold and received $3.10
-(Vegetable) 8 Parsleys were sold and received $28.80
-(Fruit) 3 Limes were sold and received $115.80
-(Fruit) 8 Limes were sold and received $308.80
-(Fruit) 2 Watermelons were sold and received $11.20
-(Fruit) 5 Watermelons were sold and received $28.00
-(Vegetable) 9 Cucumbers were sold and received $27.90
-(Fruit) 6 Limes were sold and received $231.60
-(Vegetable) 21 Carrots were sold and received $84.00
-(Vegetable) 6 Onions were sold and received $30.60
-(Fruit) 6 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $81.60
-(Fruit) 11 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $146.30
-(Vegetable) 71 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $177.50
-(Vegetable) 57 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $85.50
-(Vegetable) 21 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $94.50
-(Fruit) 29 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $742.40
-(Fruit) 9 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $26.10
-(Vegetable) 85 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $280.50
-(Vegetable) 85 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $153.00
-(Fruit) 7 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $23.10
-Day :17
-(Fruit) 12 Bananas were sold and received $187.20
-(Fruit) 20 Avocados were sold and received $332.00
-(Fruit) 21 Watermelons were sold and received $117.60
-(Fruit) 21 Limes were sold and received $810.60
-(Vegetable) 8 Carrots were sold and received $32.00
-(Fruit) 10 Limes were sold and received $386.00
-(Fruit) 19 Bananas were sold and received $296.40
-(Fruit) 21 Limes were sold and received $810.60
-(Fruit) 3 Watermelons were sold and received $16.80
-(Fruit) 19 Limes were sold and received $733.40
-(Fruit) 35 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $476.00
-(Fruit) 53 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $704.90
-(Vegetable) 60 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $150.00
-(Vegetable) 97 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $145.50
-(Vegetable) 18 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $81.00
-(Fruit) 37 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $947.20
-(Fruit) 62 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $179.80
-(Vegetable) 19 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $62.70
-(Vegetable) 27 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $48.60
-(Fruit) 36 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $118.80
-Day :18
-(Fruit) 4 Avocados were sold and received $66.40
-(Vegetable) 13 Parsleys were sold and received $46.80
-(Fruit) 14 Avocados were sold and received $232.40
-(Fruit) 6 Limes were sold and received $231.60
-(Vegetable) 15 Onions were sold and received $76.50
-(Fruit) 13 Watermelons were sold and received $72.80
-(Vegetable) 16 Onions were sold and received $81.60
-(Vegetable) 13 Carrots were sold and received $52.00
-(Fruit) 12 Watermelons were sold and received $67.20
-(Fruit) 17 Limes were sold and received $656.20
-(Fruit) 26 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $353.60
-(Fruit) 37 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $492.10
-(Vegetable) 18 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $45.00
-(Vegetable) 33 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $49.50
-(Vegetable) 32 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $144.00
-(Fruit) 21 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $537.60
-(Fruit) 51 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $147.90
-(Vegetable) 25 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $82.50
-(Vegetable) 69 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $124.20
-(Fruit) 37 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $122.10
-Day :19
-(Fruit) 7 Limes were sold and received $270.20
-(Vegetable) 20 Parsleys were sold and received $72.00
-(Vegetable) 12 Cucumbers were sold and received $37.20
-(Vegetable) 7 Parsleys were sold and received $25.20
-(Fruit) 17 Bananas were sold and received $265.20
-(Fruit) 1 Avocados were sold and received $16.60
-(Fruit) 18 Limes were sold and received $694.80
-(Vegetable) 21 Onions were sold and received $107.10
-(Vegetable) 20 Lettuces were sold and received $128.00
-(Fruit) 18 Watermelons were sold and received $100.80
-(Fruit) 59 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $802.40
-(Fruit) 27 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $359.10
-(Vegetable) 66 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $165.00
-(Vegetable) 32 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $48.00
-(Vegetable) 65 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $292.50
-(Fruit) 10 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $256.00
-(Fruit) 24 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $69.60
-(Vegetable) 22 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $72.60
-(Vegetable) 61 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $109.80
-(Fruit) 34 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $112.20
-Day :20
-No purchases are made
-(Fruit) 18 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $244.80
-(Fruit) 4 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $53.20
-(Vegetable) 18 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $45.00
-(Vegetable) 3 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $4.50
-(Vegetable) 17 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $76.50
-(Fruit) 6 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $153.60
-(Fruit) 7 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $20.30
-(Vegetable) 49 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $161.70
-(Vegetable) 34 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $61.20
-(Fruit) 10 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $33.00
-Day :21
-(Fruit) 20 Limes were sold and received $772.00
-(Vegetable) 16 Lettuces were sold and received $102.40
-(Fruit) 11 Watermelons were sold and received $61.60
-(Vegetable) 21 Onions were sold and received $107.10
-(Vegetable) 5 Cucumbers were sold and received $15.50
-(Fruit) 5 Limes were sold and received $193.00
-(Vegetable) 12 Parsleys were sold and received $43.20
-(Vegetable) 2 Onions were sold and received $10.20
-(Vegetable) 18 Carrots were sold and received $72.00
-(Fruit) 8 Watermelons were sold and received $44.80
-(Vegetable) 26 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $65.00
-(Vegetable) 23 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $34.50
-(Vegetable) 31 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $139.50
+(Fruit) 16 Limes were sold and received $617.60
+(Fruit) 21 Mangos were sold and received $86.10
+FruitNotAvailable: Mangoes
+(Fruit) 49 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $651.70
+(Vegetable) 98 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $245.00
+(Vegetable) 93 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $139.50
+(Vegetable) 27 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $121.50
 (Fruit) 20 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $512.00
-(Fruit) 36 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $104.40
-(Vegetable) 72 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $237.60
-(Vegetable) 16 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $28.80
-(Fruit) 20 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $66.00
-Day :22
-(Vegetable) 2 Parsleys were sold and received $7.20
-(Fruit) 15 Limes were sold and received $579.00
-(Vegetable) 10 Lettuces were sold and received $64.00
-(Fruit) 1 Bananas were sold and received $15.60
-(Fruit) 5 Limes were sold and received $193.00
-(Vegetable) 12 Cucumbers were sold and received $37.20
-(Fruit) 7 Limes were sold and received $270.20
-(Vegetable) 19 Cucumbers were sold and received $58.90
-(Vegetable) 15 Cucumbers were sold and received $46.50
-(Fruit) 5 Limes were sold and received $193.00
-(Fruit) 15 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $199.50
-(Vegetable) 13 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $32.50
-(Vegetable) 37 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $55.50
-(Vegetable) 13 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $58.50
-(Fruit) 60 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $1536.00
-(Fruit) 29 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $84.10
-(Vegetable) 22 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $72.60
-(Vegetable) 61 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $109.80
-(Fruit) 17 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $56.10
-Day :23
-(Fruit) 17 Watermelons were sold and received $95.20
-(Fruit) 15 Watermelons were sold and received $84.00
-(Fruit) 4 Limes were sold and received $154.40
-(Vegetable) 2 Parsleys were sold and received $7.20
-(Fruit) 8 Avocados were sold and received $132.80
-(Vegetable) 9 Onions were sold and received $45.90
-(Fruit) 5 Avocados were sold and received $83.00
-(Fruit) 15 Bananas were sold and received $234.00
-(Fruit) 3 Watermelons were sold and received $16.80
-(Fruit) 11 Avocados were sold and received $182.60
-(Fruit) 32 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $435.20
-(Fruit) 37 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $492.10
-(Vegetable) 24 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $60.00
-(Vegetable) 19 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $28.50
-(Vegetable) 32 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $144.00
-(Fruit) 12 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $307.20
+(Fruit) 91 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $263.90
+(Vegetable) 81 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $267.30
+(Vegetable) 84 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $151.20
+Day :2
+(Vegetable) 1 Onions were sold and received $5.10
+(Vegetable) 17 Cucumbers were sold and received $52.70
+(Vegetable) 15 Lettuces were sold and received $96.00
+(Fruit) 16 Watermelons were sold and received $89.60
+(Vegetable) 10 Carrots were sold and received $40.00
+(Fruit) 17 Limes were sold and received $656.20
+(Fruit) 21 Bananas were sold and received $327.60
+(Fruit) 12 Avocados were sold and received $199.20
+(Vegetable) 12 Lettuces were sold and received $76.80
+(Fruit) 13 Limes were sold and received $501.80
+(Fruit) 12 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $163.20
+(Fruit) 21 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $279.30
+(Vegetable) 14 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $35.00
+(Vegetable) 49 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $73.50
+(Vegetable) 80 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $360.00
+(Fruit) 17 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $435.20
 (Fruit) 22 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $63.80
 (Vegetable) 80 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $264.00
-(Vegetable) 48 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $86.40
-(Fruit) 76 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $250.80
-Day :24
-(Vegetable) 16 Cucumbers were sold and received $49.60
-(Vegetable) 15 Lettuces were sold and received $96.00
-(Fruit) 16 Limes were sold and received $617.60
-(Vegetable) 1 Parsleys were sold and received $3.60
-(Fruit) 16 Limes were sold and received $617.60
-(Fruit) 1 Watermelons were sold and received $5.60
-(Fruit) 20 Limes were sold and received $772.00
-(Vegetable) 13 Onions were sold and received $66.30
-(Fruit) 12 Avocados were sold and received $199.20
-(Vegetable) 21 Cucumbers were sold and received $65.10
-(Fruit) 34 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $462.40
-(Fruit) 9 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $119.70
-(Vegetable) 57 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $142.50
-(Vegetable) 51 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $76.50
-(Vegetable) 38 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $171.00
-(Fruit) 33 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $844.80
-(Fruit) 36 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $104.40
-(Vegetable) 57 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $188.10
-(Vegetable) 92 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $165.60
-(Fruit) 25 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $82.50
-Day :25
-(Fruit) 9 Bananas were sold and received $140.40
-(Fruit) 21 Limes were sold and received $810.60
-(Fruit) 19 Watermelons were sold and received $106.40
-(Fruit) 6 Bananas were sold and received $93.60
-(Vegetable) 18 Onions were sold and received $91.80
-(Fruit) 11 Avocados were sold and received $182.60
-(Fruit) 6 Bananas were sold and received $93.60
-(Vegetable) 5 Onions were sold and received $25.50
-(Fruit) 10 Limes were sold and received $386.00
-(Vegetable) 11 Carrots were sold and received $44.00
-(Fruit) 25 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $340.00
-(Fruit) 40 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $532.00
-(Vegetable) 25 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $62.50
-(Vegetable) 79 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $118.50
-(Vegetable) 80 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $360.00
-(Fruit) 52 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $1331.20
-(Fruit) 43 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $124.70
-(Vegetable) 59 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $194.70
-(Vegetable) 11 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $19.80
-(Fruit) 19 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $62.70
-Day :26
-(Vegetable) 4 Cucumbers were sold and received $12.40
-(Fruit) 15 Bananas were sold and received $234.00
-(Vegetable) 3 Lettuces were sold and received $19.20
-(Vegetable) 2 Parsleys were sold and received $7.20
-(Fruit) 7 Bananas were sold and received $109.20
-(Vegetable) 15 Lettuces were sold and received $96.00
-(Fruit) 5 Limes were sold and received $193.00
-(Vegetable) 7 Carrots were sold and received $28.00
-(Vegetable) 21 Cucumbers were sold and received $65.10
-(Vegetable) 19 Lettuces were sold and received $121.60
-(Fruit) 10 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $136.00
-(Fruit) 82 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $1090.60
-(Vegetable) 28 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $70.00
-(Vegetable) 16 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $24.00
-(Vegetable) 71 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $319.50
-(Fruit) 19 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $486.40
-(Fruit) 48 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $139.20
-(Vegetable) 23 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $75.90
-(Vegetable) 41 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $73.80
-Day :27
-(Fruit) 10 Bananas were sold and received $156.00
-(Vegetable) 19 Carrots were sold and received $76.00
-(Fruit) 16 Watermelons were sold and received $89.60
-(Vegetable) 5 Lettuces were sold and received $32.00
-(Vegetable) 8 Onions were sold and received $40.80
-(Fruit) 10 Bananas were sold and received $156.00
-(Fruit) 4 Limes were sold and received $154.40
-(Fruit) 3 Limes were sold and received $115.80
-(Vegetable) 7 Carrots were sold and received $28.00
-(Fruit) 15 Watermelons were sold and received $84.00
-(Fruit) 16 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $217.60
-(Fruit) 20 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $266.00
-(Vegetable) 66 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $165.00
-(Vegetable) 32 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $48.00
-(Vegetable) 89 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $400.50
-(Fruit) 5 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $128.00
-(Fruit) 14 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $40.60
-(Vegetable) 28 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $92.40
-(Vegetable) 12 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $21.60
-(Fruit) 31 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $102.30
-Day :28
-(Fruit) 3 Limes were sold and received $115.80
-(Fruit) 20 Limes were sold and received $772.00
-(Vegetable) 4 Onions were sold and received $20.40
-(Vegetable) 4 Carrots were sold and received $16.00
-(Vegetable) 11 Carrots were sold and received $44.00
-(Vegetable) 20 Carrots were sold and received $80.00
-(Fruit) 16 Limes were sold and received $617.60
-(Vegetable) 9 Lettuces were sold and received $57.60
-(Vegetable) 15 Cucumbers were sold and received $46.50
-(Vegetable) 14 Onions were sold and received $71.40
-(Fruit) 11 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $149.60
-(Vegetable) 19 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $47.50
-(Vegetable) 55 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $82.50
-(Vegetable) 25 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $112.50
-(Fruit) 19 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $486.40
-(Fruit) 28 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $81.20
-(Vegetable) 53 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $174.90
-(Vegetable) 12 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $21.60
-(Fruit) 13 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $42.90
-Day :29
-(Vegetable) 1 Onions were sold and received $5.10
-(Vegetable) 12 Carrots were sold and received $48.00
-(Fruit) 17 Avocados were sold and received $282.20
-(Fruit) 1 Limes were sold and received $38.60
-(Vegetable) 16 Onions were sold and received $81.60
-(Fruit) 18 Bananas were sold and received $280.80
-(Vegetable) 15 Parsleys were sold and received $54.00
-(Fruit) 4 Bananas were sold and received $62.40
-(Fruit) 11 Watermelons were sold and received $61.60
-(Vegetable) 19 Onions were sold and received $96.90
-(Fruit) 48 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $652.80
-(Fruit) 22 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $292.60
-(Vegetable) 38 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $95.00
-(Vegetable) 12 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $18.00
-(Vegetable) 11 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $49.50
-(Fruit) 13 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $332.80
-(Vegetable) 49 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $161.70
-(Vegetable) 65 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $117.00
-(Fruit) 25 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $82.50
-Day :30
-Fridge Breaks Down
-(Fruit) 19 Avocados were sold and received $315.40
-(Fruit) 4 Avocados were sold and received $66.40
-(Fruit) 14 Bananas were sold and received $218.40
-(Vegetable) 7 Parsleys were sold and received $25.20
-(Fruit) 5 Limes were sold and received $193.00
-(Fruit) 15 Watermelons were sold and received $84.00
-(Vegetable) 20 Onions were sold and received $102.00
-(Vegetable) 16 Cucumbers were sold and received $49.60
-(Vegetable) 1 Parsleys were sold and received $3.60
-(Vegetable) 21 Onions were sold and received $107.10
-(Fruit) 20 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $272.00
-(Fruit) 22 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $292.60
-(Vegetable) 59 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $147.50
-(Vegetable) 48 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $72.00
-(Vegetable) 7 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $31.50
-(Fruit) 15 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $384.00
-(Fruit) 19 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $55.10
-(Vegetable) 12 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $39.60
-(Vegetable) 22 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $39.60
-(Fruit) 33 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $108.90
-Day :31
-(Vegetable) 6 Carrots were sold and received $24.00
-(Fruit) 14 Watermelons were sold and received $78.40
-(Fruit) 18 Watermelons were sold and received $100.80
-(Vegetable) 11 Carrots were sold and received $44.00
-(Fruit) 21 Limes were sold and received $810.60
-(Vegetable) 6 Lettuces were sold and received $38.40
-(Vegetable) 4 Carrots were sold and received $16.00
-(Vegetable) 15 Parsleys were sold and received $54.00
-(Fruit) 4 Limes were sold and received $154.40
+(Vegetable) 32 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $57.60
+(Fruit) 16 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $52.80
+Day :3
 (Fruit) 9 Limes were sold and received $347.40
-(Fruit) 21 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $285.60
-(Fruit) 16 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $212.80
-(Vegetable) 35 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $87.50
-(Vegetable) 30 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $45.00
-(Vegetable) 44 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $198.00
-(Fruit) 14 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $358.40
-(Fruit) 51 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $147.90
-(Vegetable) 76 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $250.80
-(Vegetable) 77 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $138.60
-(Fruit) 89 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $293.70
-Day :32
-(Fruit) 21 Bananas were sold and received $327.60
-(Fruit) 7 Avocados were sold and received $116.20
-(Fruit) 12 Watermelons were sold and received $67.20
-(Vegetable) 17 Onions were sold and received $86.70
-(Fruit) 20 Avocados were sold and received $332.00
-(Fruit) 12 Watermelons were sold and received $67.20
-(Vegetable) 21 Parsleys were sold and received $75.60
-(Vegetable) 15 Cucumbers were sold and received $46.50
-(Fruit) 12 Watermelons were sold and received $67.20
-(Fruit) 12 Limes were sold and received $463.20
-(Fruit) 69 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $938.40
-(Fruit) 41 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $545.30
-(Vegetable) 21 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $52.50
-(Vegetable) 53 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $79.50
-(Vegetable) 30 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $135.00
-(Fruit) 42 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $1075.20
-(Fruit) 44 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $127.60
-(Vegetable) 33 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $108.90
-(Vegetable) 29 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $52.20
-(Fruit) 63 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $207.90
-Day :33
-(Fruit) 11 Limes were sold and received $424.60
-(Fruit) 1 Bananas were sold and received $15.60
-(Fruit) 20 Avocados were sold and received $332.00
-(Fruit) 8 Bananas were sold and received $124.80
-(Vegetable) 17 Cucumbers were sold and received $52.70
-(Fruit) 7 Limes were sold and received $270.20
-(Vegetable) 18 Carrots were sold and received $72.00
-(Fruit) 3 Avocados were sold and received $49.80
-(Fruit) 14 Limes were sold and received $540.40
-(Vegetable) 3 Cucumbers were sold and received $9.30
-(Fruit) 28 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $380.80
-(Fruit) 45 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $598.50
-(Vegetable) 40 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $100.00
-(Vegetable) 64 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $96.00
-(Vegetable) 23 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $103.50
-(Fruit) 12 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $307.20
-(Fruit) 37 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $107.30
-(Vegetable) 12 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $39.60
-(Vegetable) 58 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $104.40
-(Fruit) 19 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $62.70
-Day :34
-(Fruit) 3 Avocados were sold and received $49.80
-(Vegetable) 8 Carrots were sold and received $32.00
-(Fruit) 14 Watermelons were sold and received $78.40
-(Vegetable) 3 Parsleys were sold and received $10.80
 (Vegetable) 17 Lettuces were sold and received $108.80
-(Vegetable) 9 Carrots were sold and received $36.00
-(Vegetable) 2 Onions were sold and received $10.20
-(Vegetable) 3 Onions were sold and received $15.30
-(Fruit) 18 Limes were sold and received $694.80
-(Fruit) 11 Avocados were sold and received $182.60
-(Fruit) 71 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $965.60
-(Fruit) 13 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $172.90
-(Vegetable) 54 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $135.00
-(Vegetable) 70 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $105.00
-(Vegetable) 20 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $90.00
-(Fruit) 13 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $332.80
-(Fruit) 18 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $52.20
-(Vegetable) 34 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $112.20
-(Vegetable) 60 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $108.00
-(Fruit) 21 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $69.30
-Day :35
-(Fruit) 11 Bananas were sold and received $171.60
-(Fruit) 4 Bananas were sold and received $62.40
-(Fruit) 11 Watermelons were sold and received $61.60
-(Vegetable) 5 Cucumbers were sold and received $15.50
-(Fruit) 8 Limes were sold and received $308.80
-(Vegetable) 11 Lettuces were sold and received $70.40
-(Vegetable) 12 Cucumbers were sold and received $37.20
-(Fruit) 9 Avocados were sold and received $149.40
-(Vegetable) 17 Parsleys were sold and received $61.20
+(Fruit) 21 Avocados were sold and received $348.60
+(Vegetable) 15 Lettuces were sold and received $96.00
+(Fruit) 9 Limes were sold and received $347.40
+(Fruit) 4 Avocados were sold and received $66.40
 (Fruit) 10 Limes were sold and received $386.00
-(Fruit) 14 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $190.40
-(Fruit) 55 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $731.50
-(Vegetable) 25 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $62.50
-(Vegetable) 94 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $141.00
+(Fruit) 6 Limes were sold and received $231.60
+(Fruit) 10 Avocados were sold and received $166.00
+(Fruit) 8 Limes were sold and received $308.80
+(Fruit) 35 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $476.00
+(Vegetable) 42 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $105.00
+(Vegetable) 12 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $54.00
+(Fruit) 23 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $588.80
+(Fruit) 10 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $29.00
+(Vegetable) 57 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $102.60
+Day :4
+(Vegetable) 9 Cucumbers were sold and received $27.90
+(Vegetable) 2 Onions were sold and received $10.20
+(Fruit) 14 Watermelons were sold and received $78.40
+(Fruit) 8 Watermelons were sold and received $44.80
+(Fruit) 18 Watermelons were sold and received $100.80
+(Vegetable) 13 Cucumbers were sold and received $40.30
+(Vegetable) 7 Onions were sold and received $35.70
+(Fruit) 12 Limes were sold and received $463.20
+(Vegetable) 14 Carrots were sold and received $56.00
+(Fruit) 13 Limes were sold and received $501.80
+(Vegetable) 49 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $122.50
+(Vegetable) 17 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $25.50
+(Vegetable) 94 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $423.00
+(Fruit) 22 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $563.20
+(Fruit) 12 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $34.80
+(Vegetable) 9 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $29.70
+(Fruit) 40 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $132.00
+Day :5
+(Fruit) 14 Limes were sold and received $540.40
+(Vegetable) 5 Lettuces were sold and received $32.00
+(Fruit) 4 Watermelons were sold and received $22.40
+(Fruit) 1 Bananas were sold and received $15.60
+(Vegetable) 1 Carrots were sold and received $4.00
+(Fruit) 14 Limes were sold and received $540.40
+(Fruit) 10 Bananas were sold and received $156.00
+(Fruit) 1 Bananas were sold and received $15.60
+(Fruit) 8 Limes were sold and received $308.80
+(Vegetable) 8 Lettuces were sold and received $51.20
+(Fruit) 13 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $176.80
+(Fruit) 29 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $385.70
+(Vegetable) 9 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $22.50
+(Vegetable) 19 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $28.50
 (Vegetable) 39 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $175.50
 (Fruit) 34 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $870.40
-(Vegetable) 39 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $128.70
-(Vegetable) 47 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $84.60
-(Fruit) 11 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $36.30
-Day :36
-(Vegetable) 16 Parsleys were sold and received $57.60
-(Vegetable) 13 Parsleys were sold and received $46.80
-(Vegetable) 2 Onions were sold and received $10.20
-(Vegetable) 11 Parsleys were sold and received $39.60
-(Fruit) 3 Avocados were sold and received $49.80
-(Fruit) 6 Bananas were sold and received $93.60
-(Fruit) 1 Bananas were sold and received $15.60
-(Fruit) 7 Bananas were sold and received $109.20
-(Fruit) 21 Avocados were sold and received $348.60
-(Vegetable) 18 Cucumbers were sold and received $55.80
-(Fruit) 24 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $326.40
-(Fruit) 79 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $1050.70
-(Vegetable) 54 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $135.00
-(Vegetable) 58 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $87.00
-(Vegetable) 100 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $450.00
-(Fruit) 27 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $691.20
-(Fruit) 7 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $20.30
-(Vegetable) 40 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $132.00
-(Vegetable) 26 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $46.80
-Day :37
-(Vegetable) 16 Parsleys were sold and received $57.60
-(Vegetable) 10 Parsleys were sold and received $36.00
-(Fruit) 17 Limes were sold and received $656.20
-(Fruit) 9 Avocados were sold and received $149.40
-(Fruit) 10 Watermelons were sold and received $56.00
-(Vegetable) 10 Onions were sold and received $51.00
+(Vegetable) 4 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $13.20
+(Vegetable) 7 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $12.60
+(Fruit) 22 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $72.60
+Day :6
+(Vegetable) 14 Onions were sold and received $71.40
+(Fruit) 4 Avocados were sold and received $66.40
+(Vegetable) 4 Lettuces were sold and received $25.60
+(Vegetable) 8 Onions were sold and received $40.80
 (Fruit) 8 Avocados were sold and received $132.80
-(Vegetable) 6 Parsleys were sold and received $21.60
-(Fruit) 4 Limes were sold and received $154.40
-(Vegetable) 21 Carrots were sold and received $84.00
-(Fruit) 33 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $448.80
-(Fruit) 21 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $279.30
-(Vegetable) 63 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $157.50
-(Vegetable) 41 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $61.50
-(Vegetable) 40 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $180.00
-(Fruit) 36 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $921.60
-(Fruit) 39 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $113.10
-(Vegetable) 50 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $165.00
-(Vegetable) 24 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $43.20
-(Fruit) 30 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $99.00
-Day :38
-(Vegetable) 2 Parsleys were sold and received $7.20
-(Fruit) 19 Limes were sold and received $733.40
-(Vegetable) 10 Parsleys were sold and received $36.00
-(Fruit) 13 Limes were sold and received $501.80
-(Fruit) 17 Avocados were sold and received $282.20
-(Vegetable) 2 Onions were sold and received $10.20
-(Vegetable) 15 Cucumbers were sold and received $46.50
-(Fruit) 20 Limes were sold and received $772.00
-(Fruit) 15 Limes were sold and received $579.00
-(Vegetable) 17 Onions were sold and received $86.70
-(Fruit) 25 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $340.00
-(Vegetable) 17 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $42.50
-(Vegetable) 41 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $61.50
-(Vegetable) 5 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $22.50
-(Fruit) 13 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $332.80
-(Fruit) 68 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $197.20
-(Vegetable) 26 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $85.80
-(Vegetable) 81 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $145.80
-(Fruit) 12 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $39.60
-Day :39
-(Vegetable) 21 Parsleys were sold and received $75.60
-(Vegetable) 11 Lettuces were sold and received $70.40
-(Vegetable) 6 Cucumbers were sold and received $18.60
-(Fruit) 6 Avocados were sold and received $99.60
-(Vegetable) 17 Carrots were sold and received $68.00
-(Vegetable) 20 Cucumbers were sold and received $62.00
-(Vegetable) 12 Lettuces were sold and received $76.80
-(Fruit) 12 Watermelons were sold and received $67.20
-(Fruit) 21 Avocados were sold and received $348.60
-(Fruit) 9 Limes were sold and received $347.40
-(Fruit) 42 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $571.20
-(Vegetable) 59 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $147.50
-(Vegetable) 33 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $49.50
-(Vegetable) 55 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $247.50
-(Fruit) 23 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $588.80
-(Fruit) 27 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $78.30
-(Vegetable) 54 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $178.20
-(Vegetable) 13 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $23.40
-(Fruit) 20 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $66.00
-Day :40
-Tasty Vegetables Does Not Deliver The Goods
-(Fruit) 20 Watermelons were sold and received $112.00
-(Fruit) 5 Limes were sold and received $193.00
-(Fruit) 21 Bananas were sold and received $327.60
-(Fruit) 11 Watermelons were sold and received $61.60
-(Vegetable) 20 Cucumbers were sold and received $62.00
-(Vegetable) 6 Parsleys were sold and received $21.60
-(Vegetable) 4 Cucumbers were sold and received $12.40
-(Fruit) 16 Bananas were sold and received $249.60
-(Fruit) 3 Limes were sold and received $115.80
-(Fruit) 13 Limes were sold and received $501.80
-(Fruit) 35 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $476.00
-(Fruit) 37 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $492.10
-(Vegetable) 17 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $42.50
-(Vegetable) 13 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $19.50
-(Vegetable) 13 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $58.50
-(Fruit) 45 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $1152.00
-(Fruit) 9 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $26.10
-(Vegetable) 34 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $112.20
-(Vegetable) 100 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $180.00
-(Fruit) 73 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $240.90
-Day :41
-(Vegetable) 20 Onions were sold and received $102.00
-(Fruit) 18 Bananas were sold and received $280.80
-(Fruit) 8 Avocados were sold and received $132.80
-(Vegetable) 10 Onions were sold and received $51.00
-(Vegetable) 6 Cucumbers were sold and received $18.60
-(Fruit) 17 Bananas were sold and received $265.20
-(Fruit) 5 Watermelons were sold and received $28.00
-(Vegetable) 19 Carrots were sold and received $76.00
-(Vegetable) 1 Onions were sold and received $5.10
-(Vegetable) 0 Onions were sold and received $.00
-(Fruit) 22 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $299.20
-(Fruit) 34 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $452.20
-(Vegetable) 25 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $62.50
-(Vegetable) 30 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $45.00
-(Vegetable) 24 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $108.00
-(Fruit) 16 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $409.60
-(Fruit) 2 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $5.80
-(Vegetable) 70 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $231.00
-(Vegetable) 50 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $90.00
-(Fruit) 32 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $105.60
-Day :42
-(Fruit) 8 Watermelons were sold and received $44.80
-(Fruit) 19 Limes were sold and received $733.40
-(Fruit) 18 Limes were sold and received $694.80
-(Fruit) 6 Avocados were sold and received $99.60
-(Fruit) 17 Bananas were sold and received $265.20
-(Fruit) 19 Limes were sold and received $733.40
-(Vegetable) 20 Onions were sold and received $102.00
-(Fruit) 3 Limes were sold and received $115.80
-(Fruit) 2 Watermelons were sold and received $11.20
-(Fruit) 20 Watermelons were sold and received $112.00
-(Fruit) 22 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $299.20
-(Fruit) 14 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $186.20
-(Vegetable) 15 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $37.50
-(Vegetable) 60 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $90.00
-(Vegetable) 20 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $90.00
-(Fruit) 28 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $716.80
-(Fruit) 24 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $69.60
-(Vegetable) 16 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $52.80
-(Vegetable) 1 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $1.80
-(Fruit) 27 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $89.10
-Day :43
-(Vegetable) 12 Parsleys were sold and received $43.20
-(Vegetable) 7 Lettuces were sold and received $44.80
-(Fruit) 11 Limes were sold and received $424.60
+(Vegetable) 14 Lettuces were sold and received $89.60
+(Vegetable) 3 Carrots were sold and received $12.00
 (Fruit) 11 Limes were sold and received $424.60
 (Vegetable) 11 Cucumbers were sold and received $34.10
-(Fruit) 5 Watermelons were sold and received $28.00
-(Fruit) 10 Bananas were sold and received $156.00
 (Fruit) 4 Bananas were sold and received $62.40
-(Fruit) 10 Avocados were sold and received $166.00
-(Fruit) 13 Limes were sold and received $501.80
-(Fruit) 12 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $163.20
-(Fruit) 40 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $532.00
-(Vegetable) 36 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $90.00
-(Vegetable) 43 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $64.50
-(Vegetable) 59 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $265.50
-(Fruit) 51 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $1305.60
-(Fruit) 22 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $63.80
-(Vegetable) 93 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $306.90
-(Vegetable) 24 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $43.20
-(Fruit) 8 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $26.40
-Day :44
-(Fruit) 6 Limes were sold and received $231.60
-(Vegetable) 1 Onions were sold and received $5.10
-(Fruit) 10 Watermelons were sold and received $56.00
-(Vegetable) 10 Cucumbers were sold and received $31.00
-(Fruit) 6 Bananas were sold and received $93.60
-(Vegetable) 16 Carrots were sold and received $64.00
-(Fruit) 14 Bananas were sold and received $218.40
-(Vegetable) 15 Carrots were sold and received $60.00
-(Vegetable) 11 Lettuces were sold and received $70.40
-(Vegetable) 18 Carrots were sold and received $72.00
-(Fruit) 17 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $231.20
-(Fruit) 87 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $1157.10
-(Vegetable) 56 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $140.00
-(Vegetable) 68 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $102.00
-(Vegetable) 61 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $274.50
-(Fruit) 55 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $1408.00
-(Fruit) 11 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $31.90
-(Vegetable) 42 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $138.60
-(Vegetable) 6 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $10.80
-(Fruit) 10 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $33.00
-Day :45
-(Vegetable) 3 Parsleys were sold and received $10.80
-(Fruit) 19 Watermelons were sold and received $106.40
-(Fruit) 8 Bananas were sold and received $124.80
-(Fruit) 9 Watermelons were sold and received $50.40
-(Vegetable) 18 Lettuces were sold and received $115.20
-(Fruit) 16 Limes were sold and received $617.60
-(Vegetable) 9 Parsleys were sold and received $32.40
-(Vegetable) 10 Carrots were sold and received $40.00
-(Vegetable) 21 Lettuces were sold and received $134.40
-(Vegetable) 14 Onions were sold and received $71.40
-(Fruit) 7 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $95.20
-(Fruit) 23 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $305.90
-(Vegetable) 94 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $235.00
-(Vegetable) 24 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $36.00
-(Vegetable) 44 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $198.00
-(Fruit) 16 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $409.60
-(Fruit) 11 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $31.90
-(Vegetable) 14 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $46.20
-(Vegetable) 61 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $109.80
-(Fruit) 51 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $168.30
-Day :46
-(Vegetable) 9 Carrots were sold and received $36.00
-(Vegetable) 1 Cucumbers were sold and received $3.10
-(Fruit) 14 Avocados were sold and received $232.40
-(Fruit) 3 Limes were sold and received $115.80
-(Vegetable) 4 Onions were sold and received $20.40
-(Vegetable) 9 Parsleys were sold and received $32.40
-(Vegetable) 7 Carrots were sold and received $28.00
-(Vegetable) 4 Parsleys were sold and received $14.40
-(Vegetable) 12 Parsleys were sold and received $43.20
-(Fruit) 18 Limes were sold and received $694.80
-(Fruit) 30 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $408.00
-(Fruit) 4 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $53.20
-(Vegetable) 76 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $190.00
-(Vegetable) 20 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $30.00
-(Vegetable) 93 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $418.50
-(Fruit) 3 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $76.80
-(Fruit) 23 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $66.70
-(Vegetable) 22 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $72.60
-(Vegetable) 29 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $52.20
-(Fruit) 21 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $69.30
-Day :47
-(Fruit) 4 Bananas were sold and received $62.40
-(Fruit) 6 Limes were sold and received $231.60
-(Fruit) 6 Bananas were sold and received $93.60
-(Vegetable) 21 Cucumbers were sold and received $65.10
-(Fruit) 2 Limes were sold and received $77.20
-(Fruit) 18 Avocados were sold and received $298.80
-(Vegetable) 13 Onions were sold and received $66.30
-(Vegetable) 6 Parsleys were sold and received $21.60
-(Fruit) 9 Avocados were sold and received $149.40
-(Fruit) 5 Limes were sold and received $193.00
-(Fruit) 68 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $924.80
-(Fruit) 10 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $133.00
-(Vegetable) 70 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $105.00
-(Vegetable) 18 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $81.00
-(Fruit) 5 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $128.00
-(Fruit) 53 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $153.70
-(Vegetable) 26 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $85.80
-(Vegetable) 67 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $120.60
+(Fruit) 32 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $435.20
+(Fruit) 75 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $997.50
+(Vegetable) 45 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $112.50
+(Vegetable) 73 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $109.50
+(Vegetable) 57 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $256.50
+(Fruit) 58 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $1484.80
+(Fruit) 31 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $89.90
+(Vegetable) 80 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $264.00
+(Vegetable) 19 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $34.20
 (Fruit) 9 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $29.70
-Day :48
-(Fruit) 19 Avocados were sold and received $315.40
-(Fruit) 14 Watermelons were sold and received $78.40
-(Fruit) 21 Avocados were sold and received $348.60
-(Fruit) 2 Limes were sold and received $77.20
-(Vegetable) 9 Lettuces were sold and received $57.60
-(Vegetable) 14 Onions were sold and received $71.40
-(Fruit) 18 Limes were sold and received $694.80
-(Fruit) 11 Avocados were sold and received $182.60
-(Fruit) 1 Limes were sold and received $38.60
-(Vegetable) 11 Lettuces were sold and received $70.40
-(Fruit) 82 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $1115.20
-(Vegetable) 19 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $28.50
-(Vegetable) 11 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $49.50
-(Fruit) 18 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $460.80
-(Fruit) 49 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $142.10
-(Vegetable) 81 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $267.30
-(Vegetable) 81 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $145.80
-(Fruit) 26 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $85.80
-Day :49
+Day :7
 (Vegetable) 17 Lettuces were sold and received $108.80
+(Fruit) 8 Avocados were sold and received $132.80
+(Vegetable) 20 Onions were sold and received $102.00
+(Fruit) 6 Bananas were sold and received $93.60
+(Vegetable) 12 Carrots were sold and received $48.00
+(Fruit) 12 Bananas were sold and received $187.20
+(Fruit) 8 Avocados were sold and received $132.80
+(Vegetable) 6 Onions were sold and received $30.60
+(Fruit) 11 Bananas were sold and received $171.60
+(Fruit) 18 Bananas were sold and received $280.80
+(Fruit) 15 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $204.00
+(Fruit) 31 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $412.30
+(Vegetable) 42 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $105.00
+(Vegetable) 22 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $33.00
+(Vegetable) 30 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $135.00
+(Fruit) 2 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $51.20
+(Fruit) 11 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $31.90
+(Vegetable) 52 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $171.60
+(Vegetable) 12 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $21.60
+(Fruit) 8 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $26.40
+Day :8
+(Vegetable) 9 Lettuces were sold and received $57.60
+(Fruit) 2 Watermelons were sold and received $11.20
+(Fruit) 18 Limes were sold and received $694.80
+(Fruit) 6 Bananas were sold and received $93.60
+(Vegetable) 11 Carrots were sold and received $44.00
+(Fruit) 1 Bananas were sold and received $15.60
+(Fruit) 4 Limes were sold and received $154.40
+(Vegetable) 12 Carrots were sold and received $48.00
+(Vegetable) 2 Lettuces were sold and received $12.80
+(Vegetable) 13 Carrots were sold and received $52.00
+(Fruit) 70 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $952.00
+(Fruit) 23 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $305.90
+(Vegetable) 96 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $240.00
+(Vegetable) 23 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $34.50
+(Vegetable) 76 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $342.00
+(Fruit) 22 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $563.20
+(Fruit) 30 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $87.00
+(Vegetable) 39 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $128.70
+(Vegetable) 34 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $61.20
+(Fruit) 24 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $79.20
+Day :9
+(Fruit) 15 Watermelons were sold and received $84.00
+(Fruit) 16 Limes were sold and received $617.60
+(Vegetable) 12 Carrots were sold and received $48.00
+(Vegetable) 21 Lettuces were sold and received $134.40
+(Vegetable) 10 Cucumbers were sold and received $31.00
+(Vegetable) 7 Onions were sold and received $35.70
+(Fruit) 2 Limes were sold and received $77.20
+(Vegetable) 5 Carrots were sold and received $20.00
+(Vegetable) 2 Carrots were sold and received $8.00
 (Fruit) 17 Limes were sold and received $656.20
+(Fruit) 5 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $68.00
+(Vegetable) 77 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $192.50
+(Vegetable) 78 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $117.00
+(Vegetable) 67 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $301.50
+(Fruit) 20 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $512.00
+(Fruit) 54 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $156.60
+(Vegetable) 46 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $151.80
+(Vegetable) 32 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $57.60
+(Fruit) 35 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $115.50
+Day :10
+Fridge Breaks Down
+(Vegetable) 8 Cucumbers were sold and received $24.80
+(Vegetable) 19 Parsleys were sold and received $68.40
+(Vegetable) 15 Cucumbers were sold and received $46.50
+(Vegetable) 3 Cucumbers were sold and received $9.30
+(Vegetable) 17 Onions were sold and received $86.70
+(Fruit) 10 Watermelons were sold and received $56.00
+(Fruit) 12 Limes were sold and received $463.20
+(Fruit) 5 Avocados were sold and received $83.00
+(Fruit) 12 Limes were sold and received $463.20
+(Vegetable) 13 Parsleys were sold and received $46.80
+(Fruit) 25 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $340.00
+(Fruit) 4 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $53.20
+(Vegetable) 46 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $115.00
+(Vegetable) 76 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $114.00
+(Vegetable) 30 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $135.00
+(Fruit) 13 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $332.80
+(Fruit) 36 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $104.40
+(Vegetable) 88 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $290.40
+(Vegetable) 76 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $136.80
+(Fruit) 12 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $39.60
+Day :11
+(Fruit) 1 Limes were sold and received $38.60
+(Fruit) 17 Watermelons were sold and received $95.20
+(Vegetable) 16 Parsleys were sold and received $57.60
+(Fruit) 14 Avocados were sold and received $232.40
+(Fruit) 9 Avocados were sold and received $149.40
+(Vegetable) 16 Lettuces were sold and received $102.40
+(Vegetable) 20 Carrots were sold and received $80.00
+(Fruit) 1 Bananas were sold and received $15.60
+(Fruit) 11 Bananas were sold and received $171.60
+(Vegetable) 11 Carrots were sold and received $44.00
+(Fruit) 23 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $312.80
+(Fruit) 48 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $638.40
+(Vegetable) 31 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $77.50
+(Vegetable) 95 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $142.50
+(Vegetable) 68 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $306.00
+(Fruit) 42 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $1075.20
+(Fruit) 17 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $49.30
+(Vegetable) 26 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $85.80
+(Vegetable) 10 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $18.00
+(Fruit) 22 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $72.60
+Day :12
+(Vegetable) 7 Cucumbers were sold and received $21.70
+(Vegetable) 17 Cucumbers were sold and received $52.70
+(Fruit) 9 Watermelons were sold and received $50.40
+(Fruit) 21 Bananas were sold and received $327.60
+(Vegetable) 5 Lettuces were sold and received $32.00
+(Fruit) 18 Limes were sold and received $694.80
+(Vegetable) 2 Lettuces were sold and received $12.80
+(Fruit) 8 Limes were sold and received $308.80
+(Vegetable) 20 Onions were sold and received $102.00
+(Fruit) 21 Bananas were sold and received $327.60
+(Fruit) 2 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $27.20
+(Fruit) 48 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $638.40
+(Vegetable) 53 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $79.50
+(Vegetable) 10 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $45.00
+(Fruit) 36 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $921.60
+(Fruit) 18 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $52.20
+(Vegetable) 43 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $141.90
+(Vegetable) 37 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $66.60
+(Fruit) 33 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $108.90
+Day :13
+(Vegetable) 8 Carrots were sold and received $32.00
+(Vegetable) 14 Parsleys were sold and received $50.40
+(Vegetable) 6 Parsleys were sold and received $21.60
+(Fruit) 13 Limes were sold and received $501.80
 (Vegetable) 8 Onions were sold and received $40.80
+(Vegetable) 7 Onions were sold and received $35.70
+(Fruit) 2 Limes were sold and received $77.20
+(Fruit) 11 Limes were sold and received $424.60
+(Fruit) 20 Limes were sold and received $772.00
+(Vegetable) 15 Cucumbers were sold and received $46.50
+(Fruit) 8 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $108.80
+(Fruit) 52 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $691.60
+(Vegetable) 28 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $70.00
+(Vegetable) 15 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $22.50
+(Vegetable) 18 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $81.00
+(Fruit) 32 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $819.20
+(Fruit) 13 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $37.70
+(Vegetable) 68 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $224.40
+(Vegetable) 73 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $131.40
+(Fruit) 48 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $158.40
+Day :14
+(Vegetable) 17 Lettuces were sold and received $108.80
+(Fruit) 21 Limes were sold and received $810.60
+(Fruit) 11 Watermelons were sold and received $61.60
+(Fruit) 2 Bananas were sold and received $31.20
+(Fruit) 1 Watermelons were sold and received $5.60
+(Vegetable) 10 Cucumbers were sold and received $31.00
+(Vegetable) 15 Carrots were sold and received $60.00
+(Fruit) 7 Limes were sold and received $270.20
+(Vegetable) 11 Lettuces were sold and received $70.40
+(Fruit) 5 Bananas were sold and received $78.00
+(Fruit) 14 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $190.40
+(Fruit) 7 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $93.10
+(Vegetable) 18 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $45.00
+(Vegetable) 10 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $15.00
+(Vegetable) 81 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $364.50
+(Fruit) 48 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $1228.80
+(Fruit) 31 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $89.90
+(Vegetable) 45 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $148.50
+(Vegetable) 34 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $61.20
+(Fruit) 41 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $135.30
+Day :15
+(Fruit) 14 Watermelons were sold and received $78.40
+(Vegetable) 18 Cucumbers were sold and received $55.80
+(Fruit) 17 Limes were sold and received $656.20
+(Fruit) 13 Limes were sold and received $501.80
+(Vegetable) 19 Carrots were sold and received $76.00
+(Fruit) 20 Limes were sold and received $772.00
+(Fruit) 6 Avocados were sold and received $99.60
+(Vegetable) 11 Parsleys were sold and received $39.60
+(Fruit) 10 Bananas were sold and received $156.00
+(Fruit) 12 Limes were sold and received $463.20
+(Fruit) 32 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $435.20
+(Fruit) 10 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $133.00
+(Vegetable) 62 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $155.00
+(Vegetable) 31 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $46.50
+(Vegetable) 47 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $211.50
+(Fruit) 42 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $1075.20
+(Fruit) 15 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $43.50
+(Vegetable) 19 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $62.70
+(Vegetable) 59 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $106.20
+(Fruit) 14 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $46.20
+Day :16
+(Vegetable) 16 Lettuces were sold and received $102.40
+(Vegetable) 9 Parsleys were sold and received $32.40
+(Fruit) 10 Avocados were sold and received $166.00
+(Vegetable) 2 Lettuces were sold and received $12.80
+(Fruit) 5 Bananas were sold and received $78.00
+(Fruit) 17 Limes were sold and received $656.20
+(Fruit) 12 Limes were sold and received $463.20
+(Fruit) 7 Limes were sold and received $270.20
+(Vegetable) 8 Carrots were sold and received $32.00
+(Fruit) 15 Limes were sold and received $579.00
+(Fruit) 44 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $598.40
+(Fruit) 5 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $66.50
+(Vegetable) 41 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $102.50
+(Vegetable) 25 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $37.50
+(Vegetable) 27 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $121.50
+(Fruit) 23 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $588.80
+(Fruit) 11 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $31.90
+(Vegetable) 17 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $56.10
+(Vegetable) 29 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $52.20
+(Fruit) 1 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $3.30
+Day :17
+(Vegetable) 2 Onions were sold and received $10.20
+(Fruit) 2 Avocados were sold and received $33.20
+(Vegetable) 12 Parsleys were sold and received $43.20
+(Fruit) 20 Limes were sold and received $772.00
+(Fruit) 6 Limes were sold and received $231.60
+(Fruit) 8 Avocados were sold and received $132.80
+(Vegetable) 8 Lettuces were sold and received $51.20
+(Vegetable) 5 Onions were sold and received $25.50
+(Vegetable) 19 Onions were sold and received $96.90
+(Vegetable) 8 Cucumbers were sold and received $24.80
+(Fruit) 60 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $816.00
+(Fruit) 7 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $93.10
+(Vegetable) 46 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $115.00
+(Vegetable) 88 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $132.00
+(Vegetable) 13 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $58.50
+(Fruit) 67 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $1715.20
+(Fruit) 50 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $145.00
+(Vegetable) 77 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $254.10
+(Vegetable) 30 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $54.00
+(Fruit) 7 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $23.10
+Day :18
+(Vegetable) 15 Carrots were sold and received $60.00
+(Fruit) 15 Bananas were sold and received $234.00
+(Vegetable) 17 Cucumbers were sold and received $52.70
+(Vegetable) 13 Cucumbers were sold and received $40.30
+(Fruit) 15 Watermelons were sold and received $84.00
+(Vegetable) 20 Cucumbers were sold and received $62.00
+(Vegetable) 3 Carrots were sold and received $12.00
+(Fruit) 20 Limes were sold and received $772.00
+(Fruit) 4 Limes were sold and received $154.40
+(Vegetable) 11 Parsleys were sold and received $39.60
+(Fruit) 36 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $489.60
+(Fruit) 42 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $558.60
+(Vegetable) 16 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $40.00
+(Vegetable) 24 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $36.00
+(Vegetable) 78 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $351.00
+(Fruit) 27 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $691.20
+(Fruit) 38 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $110.20
+(Vegetable) 28 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $92.40
+(Vegetable) 43 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $77.40
+(Fruit) 23 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $75.90
+Day :19
+(Fruit) 7 Limes were sold and received $270.20
+(Vegetable) 13 Cucumbers were sold and received $40.30
+(Fruit) 13 Limes were sold and received $501.80
+(Vegetable) 13 Onions were sold and received $66.30
+(Fruit) 6 Limes were sold and received $231.60
+(Fruit) 13 Watermelons were sold and received $72.80
+(Fruit) 10 Bananas were sold and received $156.00
+(Fruit) 6 Limes were sold and received $231.60
+(Vegetable) 2 Lettuces were sold and received $12.80
+(Fruit) 3 Bananas were sold and received $46.80
+(Fruit) 3 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $40.80
+(Fruit) 31 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $412.30
+(Vegetable) 50 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $125.00
+(Vegetable) 86 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $129.00
+(Vegetable) 24 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $108.00
+(Fruit) 8 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $204.80
+(Fruit) 91 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $263.90
+(Vegetable) 50 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $165.00
+(Vegetable) 26 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $46.80
+(Fruit) 28 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $92.40
+Day :20
+Items spoil faster than expected
+(Vegetable) 21 Parsleys were sold and received $75.60
+(Vegetable) 8 Carrots were sold and received $32.00
+(Fruit) 18 Watermelons were sold and received $100.80
+(Vegetable) 19 Cucumbers were sold and received $58.90
+(Vegetable) 16 Lettuces were sold and received $102.40
+(Fruit) 14 Watermelons were sold and received $78.40
+(Fruit) 20 Avocados were sold and received $332.00
+(Vegetable) 9 Cucumbers were sold and received $27.90
+(Vegetable) 19 Lettuces were sold and received $121.60
+(Fruit) 2 Limes were sold and received $77.20
+(Fruit) 30 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $408.00
+(Fruit) 64 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $851.20
+(Vegetable) 32 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $80.00
+(Vegetable) 98 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $147.00
+(Vegetable) 71 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $319.50
+(Fruit) 12 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $307.20
+(Fruit) 13 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $37.70
+(Vegetable) 67 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $221.10
+(Vegetable) 77 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $138.60
+(Fruit) 25 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $82.50
+Day :21
+(Vegetable) 17 Onions were sold and received $86.70
+(Fruit) 3 Avocados were sold and received $49.80
+(Fruit) 15 Watermelons were sold and received $84.00
+(Fruit) 3 Avocados were sold and received $49.80
+(Fruit) 1 Bananas were sold and received $15.60
+(Fruit) 9 Limes were sold and received $347.40
+(Fruit) 4 Watermelons were sold and received $22.40
+(Fruit) 5 Watermelons were sold and received $28.00
+(Vegetable) 10 Parsleys were sold and received $36.00
+(Fruit) 1 Watermelons were sold and received $5.60
+(Fruit) 6 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $81.60
+(Fruit) 7 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $93.10
+(Vegetable) 76 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $190.00
+(Vegetable) 22 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $33.00
+(Vegetable) 52 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $234.00
+(Fruit) 13 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $332.80
+(Vegetable) 17 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $56.10
+(Vegetable) 62 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $111.60
+(Fruit) 45 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $148.50
+Day :22
+(Fruit) 12 Limes were sold and received $463.20
+(Vegetable) 19 Cucumbers were sold and received $58.90
+(Fruit) 9 Limes were sold and received $347.40
+(Vegetable) 4 Onions were sold and received $20.40
+(Fruit) 9 Limes were sold and received $347.40
+(Vegetable) 13 Onions were sold and received $66.30
+(Vegetable) 12 Onions were sold and received $61.20
+(Fruit) 14 Limes were sold and received $540.40
+(Vegetable) 16 Cucumbers were sold and received $49.60
+(Fruit) 7 Avocados were sold and received $116.20
+(Fruit) 15 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $204.00
+(Fruit) 2 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $26.60
+(Vegetable) 38 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $95.00
+(Vegetable) 66 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $99.00
+(Vegetable) 36 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $162.00
+(Fruit) 66 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $1689.60
+(Fruit) 21 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $60.90
+(Vegetable) 14 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $46.20
+(Vegetable) 22 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $39.60
+(Fruit) 55 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $181.50
+Day :23
+(Vegetable) 1 Carrots were sold and received $4.00
+(Fruit) 17 Avocados were sold and received $282.20
+(Vegetable) 8 Lettuces were sold and received $51.20
+(Vegetable) 14 Lettuces were sold and received $89.60
+(Vegetable) 15 Cucumbers were sold and received $46.50
+(Vegetable) 14 Carrots were sold and received $56.00
+(Vegetable) 10 Onions were sold and received $51.00
+(Vegetable) 5 Carrots were sold and received $20.00
+(Fruit) 4 Limes were sold and received $154.40
+(Vegetable) 21 Lettuces were sold and received $134.40
+(Fruit) 65 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $884.00
+(Vegetable) 36 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $90.00
+(Vegetable) 17 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $25.50
+(Vegetable) 61 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $274.50
+(Fruit) 8 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $204.80
+(Fruit) 4 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $11.60
+(Vegetable) 79 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $260.70
+(Vegetable) 13 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $23.40
+Day :24
+(Vegetable) 18 Parsleys were sold and received $64.80
+(Vegetable) 10 Lettuces were sold and received $64.00
+(Vegetable) 1 Lettuces were sold and received $6.40
+(Vegetable) 9 Cucumbers were sold and received $27.90
+(Vegetable) 11 Carrots were sold and received $44.00
+(Vegetable) 2 Lettuces were sold and received $12.80
+(Vegetable) 21 Parsleys were sold and received $75.60
+(Vegetable) 0 Lettuces were sold and received $.00
+(Vegetable) 20 Onions were sold and received $102.00
+(Vegetable) 20 Cucumbers were sold and received $62.00
+(Fruit) 9 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $122.40
+(Fruit) 9 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $119.70
+(Vegetable) 25 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $62.50
+(Vegetable) 35 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $52.50
+(Vegetable) 90 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $405.00
+(Fruit) 7 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $179.20
+(Fruit) 15 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $43.50
+(Vegetable) 18 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $59.40
+(Vegetable) 87 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $156.60
+Day :25
+(Vegetable) 13 Onions were sold and received $66.30
+(Vegetable) 13 Parsleys were sold and received $46.80
+(Vegetable) 21 Parsleys were sold and received $75.60
+(Fruit) 4 Limes were sold and received $154.40
+(Vegetable) 20 Cucumbers were sold and received $62.00
+(Fruit) 21 Limes were sold and received $810.60
+(Fruit) 13 Bananas were sold and received $202.80
+(Fruit) 17 Watermelons were sold and received $95.20
+(Fruit) 7 Limes were sold and received $270.20
+(Vegetable) 14 Lettuces were sold and received $89.60
+(Fruit) 6 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $81.60
+(Fruit) 34 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $452.20
+(Vegetable) 9 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $22.50
+(Vegetable) 26 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $39.00
+(Vegetable) 58 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $261.00
+(Fruit) 28 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $716.80
+(Fruit) 76 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $220.40
+(Vegetable) 46 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $151.80
+(Vegetable) 68 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $122.40
+(Fruit) 17 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $56.10
+Day :26
+(Fruit) 3 Watermelons were sold and received $16.80
+(Fruit) 13 Avocados were sold and received $215.80
+(Vegetable) 20 Onions were sold and received $102.00
+(Vegetable) 18 Carrots were sold and received $72.00
+(Fruit) 17 Watermelons were sold and received $95.20
+(Vegetable) 16 Cucumbers were sold and received $49.60
+(Vegetable) 19 Cucumbers were sold and received $58.90
+(Fruit) 16 Avocados were sold and received $265.60
+(Vegetable) 4 Carrots were sold and received $16.00
+(Fruit) 14 Watermelons were sold and received $78.40
+(Fruit) 61 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $829.60
+(Fruit) 12 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $159.60
+(Vegetable) 30 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $75.00
+(Vegetable) 23 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $34.50
+(Vegetable) 66 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $297.00
+(Fruit) 10 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $256.00
+(Fruit) 4 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $11.60
+(Vegetable) 98 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $323.40
+(Vegetable) 95 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $171.00
+(Fruit) 92 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $303.60
+Day :27
+(Vegetable) 9 Cucumbers were sold and received $27.90
+(Vegetable) 5 Onions were sold and received $25.50
+(Fruit) 14 Bananas were sold and received $218.40
+(Fruit) 20 Limes were sold and received $772.00
+(Fruit) 19 Bananas were sold and received $296.40
+(Vegetable) 15 Carrots were sold and received $60.00
+(Vegetable) 6 Lettuces were sold and received $38.40
+(Fruit) 15 Watermelons were sold and received $84.00
+(Fruit) 1 Watermelons were sold and received $5.60
+(Fruit) 10 Avocados were sold and received $166.00
+(Fruit) 32 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $435.20
+(Fruit) 68 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $904.40
+(Vegetable) 64 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $160.00
+(Vegetable) 24 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $36.00
+(Vegetable) 6 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $27.00
+(Fruit) 20 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $512.00
+(Fruit) 18 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $52.20
+(Vegetable) 50 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $165.00
+(Vegetable) 11 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $19.80
+(Fruit) 16 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $52.80
+Day :28
+(Fruit) 6 Limes were sold and received $231.60
+(Fruit) 8 Limes were sold and received $308.80
+(Fruit) 14 Limes were sold and received $540.40
+(Fruit) 12 Avocados were sold and received $199.20
+(Vegetable) 19 Carrots were sold and received $76.00
+(Vegetable) 21 Onions were sold and received $107.10
+(Vegetable) 21 Cucumbers were sold and received $65.10
+(Vegetable) 21 Parsleys were sold and received $75.60
+(Fruit) 20 Limes were sold and received $772.00
+(Vegetable) 19 Onions were sold and received $96.90
+(Fruit) 22 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $299.20
+(Fruit) 15 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $199.50
+(Vegetable) 75 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $187.50
+(Vegetable) 54 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $81.00
+(Fruit) 33 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $844.80
+(Fruit) 21 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $60.90
+(Vegetable) 27 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $89.10
+(Vegetable) 45 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $81.00
+(Fruit) 2 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $6.60
+Day :29
+(Fruit) 6 Limes were sold and received $231.60
+(Vegetable) 7 Carrots were sold and received $28.00
+(Vegetable) 19 Cucumbers were sold and received $58.90
+(Vegetable) 18 Carrots were sold and received $72.00
+(Vegetable) 4 Parsleys were sold and received $14.40
+(Vegetable) 11 Onions were sold and received $56.10
+(Vegetable) 20 Cucumbers were sold and received $62.00
+(Vegetable) 21 Carrots were sold and received $84.00
+(Fruit) 14 Limes were sold and received $540.40
+(Fruit) 9 Limes were sold and received $347.40
+(Fruit) 7 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $95.20
+(Fruit) 10 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $133.00
+(Vegetable) 94 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $235.00
+(Vegetable) 62 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $93.00
+(Vegetable) 11 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $49.50
+(Fruit) 28 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $716.80
+(Fruit) 49 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $142.10
+(Vegetable) 58 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $191.40
+(Vegetable) 10 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $18.00
+(Fruit) 2 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $6.60
+Day :30
+Fridge Breaks Down
+(Vegetable) 6 Cucumbers were sold and received $18.60
+(Fruit) 6 Limes were sold and received $231.60
+(Vegetable) 16 Lettuces were sold and received $102.40
+(Vegetable) 10 Carrots were sold and received $40.00
+(Vegetable) 11 Carrots were sold and received $44.00
+(Vegetable) 17 Parsleys were sold and received $61.20
+(Fruit) 4 Avocados were sold and received $66.40
+(Fruit) 19 Limes were sold and received $733.40
+(Vegetable) 15 Parsleys were sold and received $54.00
+(Vegetable) 12 Onions were sold and received $61.20
+(Fruit) 18 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $244.80
+(Fruit) 7 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $93.10
+(Vegetable) 86 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $215.00
+(Vegetable) 53 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $79.50
+(Vegetable) 58 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $261.00
+(Fruit) 21 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $537.60
+(Fruit) 14 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $40.60
+(Vegetable) 28 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $92.40
+(Vegetable) 15 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $27.00
+(Fruit) 1 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $3.30
+Day :31
+(Vegetable) 6 Cucumbers were sold and received $18.60
+(Vegetable) 4 Onions were sold and received $20.40
+(Vegetable) 9 Lettuces were sold and received $57.60
+(Vegetable) 14 Parsleys were sold and received $50.40
+(Vegetable) 17 Parsleys were sold and received $61.20
+(Vegetable) 21 Onions were sold and received $107.10
+(Vegetable) 7 Parsleys were sold and received $25.20
+(Fruit) 5 Watermelons were sold and received $28.00
+(Vegetable) 0 Parsleys were sold and received $.00
+(Vegetable) 10 Lettuces were sold and received $64.00
+(Fruit) 8 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $108.80
+(Vegetable) 17 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $42.50
+(Vegetable) 91 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $136.50
+(Vegetable) 68 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $306.00
+(Fruit) 10 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $256.00
+(Fruit) 3 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $8.70
+(Vegetable) 28 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $92.40
+(Vegetable) 14 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $25.20
+(Fruit) 33 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $108.90
+Day :32
+(Vegetable) 4 Parsleys were sold and received $14.40
+(Fruit) 7 Limes were sold and received $270.20
+(Fruit) 7 Limes were sold and received $270.20
+(Vegetable) 5 Carrots were sold and received $20.00
+(Vegetable) 5 Cucumbers were sold and received $15.50
+(Vegetable) 20 Carrots were sold and received $80.00
+(Fruit) 16 Limes were sold and received $617.60
+(Fruit) 15 Limes were sold and received $579.00
+(Fruit) 17 Watermelons were sold and received $95.20
+(Fruit) 10 Watermelons were sold and received $56.00
+(Fruit) 17 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $231.20
+(Fruit) 8 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $106.40
+(Vegetable) 49 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $122.50
+(Vegetable) 5 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $7.50
+(Vegetable) 81 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $364.50
+(Fruit) 25 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $640.00
+(Fruit) 21 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $60.90
+(Vegetable) 95 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $313.50
+(Vegetable) 29 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $52.20
+(Fruit) 39 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $128.70
+Day :33
+(Vegetable) 4 Onions were sold and received $20.40
+(Fruit) 17 Limes were sold and received $656.20
+(Vegetable) 9 Parsleys were sold and received $32.40
+(Fruit) 4 Limes were sold and received $154.40
+(Vegetable) 5 Cucumbers were sold and received $15.50
+(Vegetable) 9 Cucumbers were sold and received $27.90
+(Fruit) 7 Limes were sold and received $270.20
+(Fruit) 11 Avocados were sold and received $182.60
+(Fruit) 11 Bananas were sold and received $171.60
+(Fruit) 1 Limes were sold and received $38.60
+(Fruit) 12 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $163.20
+(Fruit) 31 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $412.30
+(Vegetable) 14 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $21.00
+(Vegetable) 26 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $117.00
+(Fruit) 77 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $1971.20
+(Fruit) 33 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $95.70
+(Vegetable) 73 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $240.90
+(Vegetable) 78 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $140.40
+(Fruit) 21 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $69.30
+Day :34
+(Fruit) 3 Limes were sold and received $115.80
+(Vegetable) 18 Lettuces were sold and received $115.20
+(Fruit) 2 Avocados were sold and received $33.20
+(Fruit) 7 Bananas were sold and received $109.20
+(Vegetable) 12 Carrots were sold and received $48.00
+(Vegetable) 12 Parsleys were sold and received $43.20
+(Vegetable) 6 Onions were sold and received $30.60
+(Vegetable) 14 Onions were sold and received $71.40
+(Fruit) 7 Limes were sold and received $270.20
+(Fruit) 5 Avocados were sold and received $83.00
+(Fruit) 80 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $1088.00
+(Fruit) 29 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $385.70
+(Vegetable) 32 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $80.00
+(Vegetable) 6 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $9.00
+(Vegetable) 58 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $261.00
+(Fruit) 11 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $281.60
+(Fruit) 27 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $78.30
+(Vegetable) 26 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $85.80
+(Vegetable) 47 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $84.60
+(Fruit) 16 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $52.80
+Day :35
+(Vegetable) 2 Cucumbers were sold and received $6.20
+(Fruit) 8 Watermelons were sold and received $44.80
+(Vegetable) 8 Cucumbers were sold and received $24.80
+(Fruit) 19 Bananas were sold and received $296.40
+(Fruit) 13 Watermelons were sold and received $72.80
+(Vegetable) 15 Lettuces were sold and received $96.00
+(Vegetable) 4 Onions were sold and received $20.40
+(Fruit) 12 Limes were sold and received $463.20
+(Fruit) 4 Limes were sold and received $154.40
+(Vegetable) 15 Cucumbers were sold and received $46.50
+(Fruit) 15 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $204.00
+(Fruit) 65 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $864.50
+(Vegetable) 15 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $37.50
+(Vegetable) 93 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $139.50
+(Vegetable) 25 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $112.50
+(Fruit) 12 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $307.20
+(Fruit) 30 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $87.00
+(Vegetable) 15 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $49.50
+(Vegetable) 11 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $19.80
+(Fruit) 42 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $138.60
+Day :36
+(Vegetable) 19 Cucumbers were sold and received $58.90
+(Fruit) 21 Limes were sold and received $810.60
+(Fruit) 18 Limes were sold and received $694.80
+(Fruit) 13 Watermelons were sold and received $72.80
+(Vegetable) 5 Onions were sold and received $25.50
+(Vegetable) 14 Lettuces were sold and received $89.60
+(Fruit) 14 Bananas were sold and received $218.40
+(Vegetable) 20 Cucumbers were sold and received $62.00
+(Fruit) 2 Avocados were sold and received $33.20
+(Fruit) 10 Watermelons were sold and received $56.00
+(Fruit) 12 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $163.20
+(Fruit) 44 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $585.20
+(Vegetable) 29 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $72.50
+(Vegetable) 58 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $87.00
+(Vegetable) 24 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $108.00
+(Fruit) 1 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $25.60
+(Fruit) 31 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $89.90
+(Vegetable) 33 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $108.90
+(Vegetable) 47 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $84.60
+(Fruit) 12 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $39.60
+Day :37
+(Fruit) 9 Limes were sold and received $347.40
+(Fruit) 12 Watermelons were sold and received $67.20
+(Fruit) 5 Avocados were sold and received $83.00
+(Vegetable) 10 Parsleys were sold and received $36.00
+(Vegetable) 9 Onions were sold and received $45.90
+(Fruit) 8 Bananas were sold and received $124.80
+(Vegetable) 7 Cucumbers were sold and received $21.70
+(Vegetable) 7 Onions were sold and received $35.70
+(Vegetable) 18 Lettuces were sold and received $115.20
+(Vegetable) 10 Lettuces were sold and received $64.00
+(Fruit) 5 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $68.00
+(Fruit) 38 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $505.40
+(Vegetable) 34 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $85.00
+(Vegetable) 44 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $66.00
+(Vegetable) 27 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $121.50
+(Fruit) 3 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $76.80
+(Fruit) 79 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $229.10
+(Vegetable) 31 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $102.30
+(Vegetable) 18 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $32.40
+(Fruit) 36 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $118.80
+Day :38
+(Fruit) 3 Avocados were sold and received $49.80
+(Vegetable) 10 Onions were sold and received $51.00
+(Fruit) 19 Limes were sold and received $733.40
+(Fruit) 20 Bananas were sold and received $312.00
+(Vegetable) 17 Parsleys were sold and received $61.20
+(Fruit) 10 Limes were sold and received $386.00
+(Vegetable) 3 Onions were sold and received $15.30
+(Vegetable) 19 Parsleys were sold and received $68.40
+(Vegetable) 2 Parsleys were sold and received $7.20
+(Vegetable) 16 Parsleys were sold and received $57.60
+(Fruit) 3 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $40.80
+(Fruit) 30 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $399.00
+(Vegetable) 34 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $85.00
+(Vegetable) 42 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $63.00
+(Vegetable) 16 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $72.00
+(Fruit) 43 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $1100.80
+(Fruit) 18 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $52.20
+(Vegetable) 25 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $82.50
+(Vegetable) 42 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $75.60
+(Fruit) 38 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $125.40
+Day :39
+(Vegetable) 4 Lettuces were sold and received $25.60
+(Fruit) 16 Limes were sold and received $617.60
+(Fruit) 4 Bananas were sold and received $62.40
+(Vegetable) 15 Carrots were sold and received $60.00
+(Vegetable) 18 Lettuces were sold and received $115.20
+(Fruit) 2 Limes were sold and received $77.20
+(Fruit) 13 Watermelons were sold and received $72.80
+(Vegetable) 19 Cucumbers were sold and received $58.90
+(Vegetable) 19 Cucumbers were sold and received $58.90
+(Fruit) 7 Limes were sold and received $270.20
+(Fruit) 14 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $190.40
+(Fruit) 4 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $53.20
+(Vegetable) 20 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $50.00
+(Vegetable) 62 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $93.00
+(Vegetable) 46 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $207.00
+(Fruit) 44 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $1126.40
+(Vegetable) 18 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $59.40
+(Vegetable) 69 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $124.20
+(Fruit) 28 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $92.40
+Day :40
+Items spoil faster than expected
+(Vegetable) 14 Parsleys were sold and received $50.40
+(Vegetable) 3 Carrots were sold and received $12.00
+(Vegetable) 7 Parsleys were sold and received $25.20
+(Fruit) 8 Avocados were sold and received $132.80
+(Fruit) 10 Watermelons were sold and received $56.00
+(Fruit) 14 Avocados were sold and received $232.40
+(Fruit) 17 Limes were sold and received $656.20
+(Fruit) 10 Avocados were sold and received $166.00
+(Fruit) 18 Watermelons were sold and received $100.80
+(Fruit) 5 Limes were sold and received $193.00
+(Fruit) 41 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $557.60
+(Fruit) 9 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $119.70
+(Vegetable) 54 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $135.00
+(Vegetable) 13 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $19.50
+(Vegetable) 77 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $346.50
+(Fruit) 30 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $768.00
+(Fruit) 27 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $78.30
+(Vegetable) 52 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $171.60
+(Vegetable) 50 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $90.00
+(Fruit) 52 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $171.60
+Day :41
+(Vegetable) 21 Lettuces were sold and received $134.40
+(Vegetable) 14 Cucumbers were sold and received $43.40
+(Vegetable) 10 Parsleys were sold and received $36.00
+(Vegetable) 3 Parsleys were sold and received $10.80
+(Vegetable) 4 Onions were sold and received $20.40
+(Vegetable) 17 Lettuces were sold and received $108.80
+(Fruit) 3 Bananas were sold and received $46.80
+(Vegetable) 14 Cucumbers were sold and received $43.40
+(Vegetable) 20 Onions were sold and received $102.00
+(Vegetable) 14 Parsleys were sold and received $50.40
+(Fruit) 59 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $802.40
+(Fruit) 11 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $146.30
+(Vegetable) 10 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $25.00
+(Vegetable) 70 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $105.00
+(Vegetable) 24 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $108.00
+(Fruit) 35 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $896.00
+(Fruit) 1 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $2.90
+(Vegetable) 65 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $214.50
+(Vegetable) 36 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $64.80
+(Fruit) 9 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $29.70
+Day :42
+(Fruit) 15 Watermelons were sold and received $84.00
+(Fruit) 11 Bananas were sold and received $171.60
+(Vegetable) 11 Lettuces were sold and received $70.40
+(Vegetable) 7 Cucumbers were sold and received $21.70
+(Fruit) 7 Avocados were sold and received $116.20
+(Vegetable) 4 Lettuces were sold and received $25.60
+(Fruit) 1 Bananas were sold and received $15.60
+(Fruit) 21 Limes were sold and received $810.60
+(Fruit) 2 Bananas were sold and received $31.20
+(Vegetable) 7 Onions were sold and received $35.70
+(Fruit) 7 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $95.20
+(Fruit) 29 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $385.70
+(Vegetable) 50 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $125.00
+(Vegetable) 53 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $79.50
+(Vegetable) 28 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $126.00
+(Fruit) 21 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $537.60
+(Fruit) 5 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $14.50
+(Vegetable) 93 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $306.90
+(Vegetable) 71 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $127.80
+(Fruit) 29 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $95.70
+Day :43
+(Vegetable) 18 Onions were sold and received $91.80
+(Fruit) 15 Watermelons were sold and received $84.00
+(Vegetable) 17 Lettuces were sold and received $108.80
+(Vegetable) 14 Parsleys were sold and received $50.40
+(Vegetable) 17 Parsleys were sold and received $61.20
+(Fruit) 11 Avocados were sold and received $182.60
+(Fruit) 8 Bananas were sold and received $124.80
+(Vegetable) 16 Cucumbers were sold and received $49.60
+(Vegetable) 5 Carrots were sold and received $20.00
+(Vegetable) 13 Lettuces were sold and received $83.20
+(Fruit) 11 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $149.60
+(Fruit) 59 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $784.70
+(Vegetable) 70 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $175.00
+(Vegetable) 46 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $69.00
+(Vegetable) 92 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $414.00
+(Fruit) 18 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $52.20
+(Vegetable) 33 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $108.90
+(Vegetable) 47 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $84.60
+(Fruit) 23 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $75.90
+Day :44
+(Vegetable) 4 Cucumbers were sold and received $12.40
+(Fruit) 7 Limes were sold and received $270.20
+(Vegetable) 3 Parsleys were sold and received $10.80
+(Vegetable) 3 Cucumbers were sold and received $9.30
 (Vegetable) 6 Cucumbers were sold and received $18.60
 (Fruit) 11 Limes were sold and received $424.60
-(Fruit) 9 Limes were sold and received $347.40
-(Vegetable) 7 Lettuces were sold and received $44.80
-(Fruit) 14 Bananas were sold and received $218.40
-(Vegetable) 12 Onions were sold and received $61.20
-(Fruit) 9 Limes were sold and received $347.40
-(Fruit) 18 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $244.80
-(Fruit) 46 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $611.80
-(Vegetable) 9 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $22.50
-(Vegetable) 24 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $36.00
-(Vegetable) 65 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $292.50
-(Fruit) 47 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $1203.20
-(Fruit) 58 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $168.20
-(Vegetable) 50 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $165.00
-(Vegetable) 29 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $52.20
-(Fruit) 5 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $16.50
-Day :50
-Fridge Breaks Down
-(Vegetable) 19 Carrots were sold and received $76.00
-(Fruit) 16 Avocados were sold and received $265.60
-(Fruit) 13 Limes were sold and received $501.80
-(Fruit) 2 Watermelons were sold and received $11.20
-(Fruit) 3 Watermelons were sold and received $16.80
-(Vegetable) 14 Cucumbers were sold and received $43.40
-(Vegetable) 2 Lettuces were sold and received $12.80
-(Vegetable) 3 Parsleys were sold and received $10.80
-(Fruit) 12 Bananas were sold and received $187.20
-(Vegetable) 1 Carrots were sold and received $4.00
-(Fruit) 16 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $217.60
-(Fruit) 30 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $399.00
-(Vegetable) 22 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $55.00
-(Vegetable) 15 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $22.50
-(Vegetable) 23 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $103.50
+(Vegetable) 7 Onions were sold and received $35.70
+(Vegetable) 13 Lettuces were sold and received $83.20
+(Vegetable) 11 Parsleys were sold and received $39.60
+(Vegetable) 20 Carrots were sold and received $80.00
+(Fruit) 23 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $305.90
+(Vegetable) 56 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $140.00
+(Vegetable) 85 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $127.50
+(Vegetable) 60 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $270.00
 (Fruit) 30 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $768.00
-(Fruit) 21 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $60.90
-(Vegetable) 94 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $310.20
-(Vegetable) 3 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $5.40
-(Fruit) 32 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $105.60
+(Fruit) 10 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $29.00
+(Vegetable) 18 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $59.40
+(Vegetable) 54 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $97.20
+(Fruit) 7 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $23.10
+Day :45
+(Fruit) 3 Watermelons were sold and received $16.80
+(Vegetable) 19 Carrots were sold and received $76.00
+(Vegetable) 9 Cucumbers were sold and received $27.90
+(Vegetable) 21 Lettuces were sold and received $134.40
+(Fruit) 14 Bananas were sold and received $218.40
+(Vegetable) 16 Cucumbers were sold and received $49.60
+(Fruit) 14 Limes were sold and received $540.40
+(Fruit) 5 Bananas were sold and received $78.00
+(Fruit) 12 Watermelons were sold and received $67.20
+(Vegetable) 2 Onions were sold and received $10.20
+(Fruit) 7 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $95.20
+(Fruit) 20 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $266.00
+(Vegetable) 33 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $82.50
+(Vegetable) 57 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $85.50
+(Vegetable) 36 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $162.00
+(Fruit) 44 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $1126.40
+(Fruit) 18 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $52.20
+(Vegetable) 31 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $102.30
+(Vegetable) 8 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $14.40
+(Fruit) 66 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $217.80
+Day :46
+(Fruit) 5 Limes were sold and received $193.00
+(Fruit) 6 Avocados were sold and received $99.60
+(Vegetable) 1 Cucumbers were sold and received $3.10
+(Vegetable) 7 Parsleys were sold and received $25.20
+(Vegetable) 8 Carrots were sold and received $32.00
+(Fruit) 7 Limes were sold and received $270.20
+(Vegetable) 19 Parsleys were sold and received $68.40
+(Vegetable) 5 Carrots were sold and received $20.00
+(Vegetable) 14 Carrots were sold and received $56.00
+(Vegetable) 0 Carrots were sold and received $.00
+(Fruit) 26 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $353.60
+(Fruit) 28 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $372.40
+(Vegetable) 30 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $75.00
+(Vegetable) 50 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $75.00
+(Vegetable) 12 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $54.00
+(Fruit) 25 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $640.00
+(Fruit) 41 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $118.90
+(Vegetable) 15 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $49.50
+(Vegetable) 48 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $86.40
+(Fruit) 6 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $19.80
+Day :47
+(Vegetable) 7 Lettuces were sold and received $44.80
+(Fruit) 11 Bananas were sold and received $171.60
+(Fruit) 1 Watermelons were sold and received $5.60
+(Fruit) 2 Watermelons were sold and received $11.20
+(Vegetable) 16 Parsleys were sold and received $57.60
+(Fruit) 10 Avocados were sold and received $166.00
+(Fruit) 10 Avocados were sold and received $166.00
+(Fruit) 7 Watermelons were sold and received $39.20
+(Fruit) 5 Limes were sold and received $193.00
+(Fruit) 0 Watermelons were sold and received $.00
+(Fruit) 66 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $897.60
+(Fruit) 19 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $252.70
+(Vegetable) 89 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $222.50
+(Vegetable) 49 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $73.50
+(Vegetable) 11 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $49.50
+(Fruit) 25 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $640.00
+(Fruit) 15 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $43.50
+(Vegetable) 33 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $108.90
+(Vegetable) 100 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $180.00
+(Fruit) 71 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $234.30
+Day :48
+(Fruit) 3 Bananas were sold and received $46.80
+(Vegetable) 16 Cucumbers were sold and received $49.60
+(Fruit) 15 Limes were sold and received $579.00
+(Fruit) 9 Bananas were sold and received $140.40
+(Fruit) 15 Watermelons were sold and received $84.00
+(Vegetable) 21 Onions were sold and received $107.10
+(Vegetable) 17 Cucumbers were sold and received $52.70
+(Vegetable) 19 Cucumbers were sold and received $58.90
+(Vegetable) 8 Parsleys were sold and received $28.80
+(Fruit) 5 Watermelons were sold and received $28.00
+(Fruit) 13 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $176.80
+(Fruit) 52 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $691.60
+(Vegetable) 76 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $190.00
+(Vegetable) 59 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $88.50
+(Vegetable) 54 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $243.00
+(Fruit) 16 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $409.60
+(Fruit) 38 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $110.20
+(Vegetable) 74 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $244.20
+(Vegetable) 16 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $28.80
+(Fruit) 49 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $161.70
+Day :49
+(Vegetable) 16 Cucumbers were sold and received $49.60
+(Fruit) 6 Bananas were sold and received $93.60
+(Fruit) 7 Limes were sold and received $270.20
+(Vegetable) 7 Parsleys were sold and received $25.20
+(Fruit) 16 Limes were sold and received $617.60
+(Fruit) 7 Limes were sold and received $270.20
+(Fruit) 15 Limes were sold and received $579.00
+(Vegetable) 3 Carrots were sold and received $12.00
+(Fruit) 7 Avocados were sold and received $116.20
+(Fruit) 18 Limes were sold and received $694.80
+(Fruit) 21 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $285.60
+(Fruit) 16 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $212.80
+(Vegetable) 8 Carrots were purchased from Tasty Vegetables at $2.50. Total Cost: $20.00
+(Vegetable) 56 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $84.00
+(Vegetable) 27 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $121.50
+(Fruit) 55 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $1408.00
+(Fruit) 94 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $272.60
+(Vegetable) 16 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $52.80
+(Vegetable) 44 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $79.20
+Day :50
+No purchases are made
+(Fruit) 13 Avocados were purchased from Fruits Are Here at $13.60. Total Cost: $176.80
+(Fruit) 10 Bananas were purchased from Fruits Are Here at $13.30. Total Cost: $133.00
+(Vegetable) 10 Cucumbers were purchased from Tasty Vegetables at $1.50. Total Cost: $15.00
+(Vegetable) 30 Lettuces were purchased from Tasty Vegetables at $4.50. Total Cost: $135.00
+(Fruit) 22 Limes were purchased from Fruits Are Here at $25.60. Total Cost: $563.20
+(Fruit) 6 Mangos were purchased from Fruits Are Here at $2.90. Total Cost: $17.40
+(Vegetable) 40 Onions were purchased from Tasty Vegetables at $3.30. Total Cost: $132.00
+(Vegetable) 34 Parsleys were purchased from Tasty Vegetables at $1.80. Total Cost: $61.20
