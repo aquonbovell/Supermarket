@@ -2,7 +2,6 @@ import java.util.Random;
 
 //This class describes a vendor which sells vegetables - Kenez Horne 
 public class TastyVegetables extends Vendor {
-  private boolean isAvailable;
   private Carrot[] carrotInventory; // This field stores the number of carrot items available
   private Lettuce[] lettuceInventory;//This field stores the number of Lettuce items available
   private Cucumber[] cucumberInventory;//This field stores the number of Cucumber items available
@@ -37,7 +36,6 @@ public class TastyVegetables extends Vendor {
     cucumberProfit = 0.0;
     parsleyProfit = 0.0;
     totalProfit = 0.0;
-    isAvailable = true;
   }
   /*This method fills all of the items available spaces with an instance of that item.
   *This method accepts an array but returns no value*/
