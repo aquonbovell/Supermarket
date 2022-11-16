@@ -357,6 +357,10 @@ public class Supermarket {
     }
   }
 
+  /*
+   * This function determines a random event and execute that event. The function
+   * takes no parameters and returns no values.
+   */
   private void randomEvent() {
     // create a random number generator to generate a random event and other random
     // numbers that the random event uses
@@ -426,8 +430,8 @@ public class Supermarket {
           }
         }
         break;
-
       case 3:
+        // append the message to the log file
         Output.appendToLogFile("Items spoil faster than expected");
         // generate a random percentage to spoil the items faster
         double percentage = (rand.nextDouble(9) + 1);
@@ -442,10 +446,10 @@ public class Supermarket {
         spoilVegetablesFaster(parsleyInventory, percentage);
         spoilFruitsFaster(watermelonInventory, percentage);
         break;
-
       case 4:
         // set the willPurchase field of the Customers class to false
         Customer.willNotPurchase();
+        // append the message to the log file
         Output.appendToLogFile("No purchases are made: Customers do not buy anything from the supermarket.");
         if (verbose) {
           // display the message verbosely to the command line
@@ -457,256 +461,393 @@ public class Supermarket {
     }
   }
 
+  /*
+   * This function spoils one percent of the available items of type Fruit to
+   * spoil. The function takes an array of type Fruit as a parameter and returns
+   * no values.
+   */
   private void spoilFruits(Fruit[] inventory) {
+    // a counter to determine how many of the item in the inventory is not already
+    // spoilt
     int numberOfUnsploitFruits = 0;
-    for (int j = 0; j < inventory.length; j++) {
-      if (inventory[j].getSpoiltValue() > 0) {
+    // loops through the inventory of type Fruit and increase the
+    // numberOfUnspoiltFruits variable by 1
+    for (int index = 0; index < inventory.length; index++) {
+      if (inventory[index].getSpoiltValue() > 0) {
         numberOfUnsploitFruits++;
       }
     }
+    // calculate one percent of the total amount of unspoilt fruits
     int numberOfFruitsToSpoil = (int) Math.ceil((0.01 * numberOfUnsploitFruits));
     if (verbose) {
-      String name = inventory[0].getNameOfFruit();
-      System.out.println("Electricity Goes Off: " + numberOfFruitsToSpoil + " " + name + "s have spoilt");
+      // display the random event and the amount of each particular item that was
+      // spoilt
+      System.out.println("Electricity Goes Off: " + numberOfFruitsToSpoil + "items have spoilt");
     }
+    // a counter to determine how many of the Fruit item that have spoilt
     int numberOfSpoiltFruits = 0;
-    for (int j = 0; j < inventory.length; j++) {
-      if (numberOfSpoiltFruits < numberOfFruitsToSpoil && inventory[j].getSpoiltValue() > 0) {
-        inventory[j].spoil();
+    // loops throught the inventory array
+    for (int index = 0; index < inventory.length; index++) {
+      // determines if the item can spoil
+      if (numberOfSpoiltFruits < numberOfFruitsToSpoil && inventory[index].getSpoiltValue() > 0) {
+        // set the spoil value for that particular item to zero
+        inventory[index].spoil();
+        // increase the amount of Fruit item that has spoilt
         numberOfSpoiltFruits++;
       }
     }
   }
 
+  /*
+   * This function spoils one percent of the available items of type Vegetable to
+   * spoil. The function takes an array of type Fruit as a parameter and returns
+   * no values.
+   */
   private void spoilVegetables(Vegetable[] inventory) {
+    // a counter to determine how many of the item in the inventory is not already
+    // spoilt
     int numberOfUnsploitVegetables = 0;
-    for (int j = 0; j < inventory.length; j++) {
-      if (inventory[j].getSpoiltValue() > 0) {
+    // loops through the inventory of type Vegetable and increase the
+    // numberOfUnspoiltVegetables variable by 1
+    for (int index = 0; index < inventory.length; index++) {
+      if (inventory[index].getSpoiltValue() > 0) {
         numberOfUnsploitVegetables++;
       }
     }
     int numberOfVegetablesToSpoil = (int) Math.ceil((0.01 * numberOfUnsploitVegetables));
     if (verbose) {
-      String name = inventory[0].getNameOfVegetable();
-      System.out.println("Electricity Goes Off: " + numberOfVegetablesToSpoil + " " + name + "s have spoilt");
+      // display the random event and the amount of each particular item that was
+      // spoilt
+      System.out.println("Electricity Goes Off: " + numberOfVegetablesToSpoil + "items have spoilt");
     }
+    // a counter to determine how many of the Vegetable item that have spoilt
     int numberOfSpoiltVegetables = 0;
-    for (int j = 0; j < inventory.length; j++) {
-      if (numberOfSpoiltVegetables < numberOfVegetablesToSpoil && inventory[j].getSpoiltValue() > 0) {
-        inventory[j].spoil();
+    // loops throught the inventory array
+    for (int index = 0; index < inventory.length; index++) {
+      // determines if the item can spoil
+      if (numberOfSpoiltVegetables < numberOfVegetablesToSpoil && inventory[index].getSpoiltValue() > 0) {
+        // set the spoil value for that particular item to zero
+        inventory[index].spoil();
+        // increase the amount of Vegetable item that has spoilt
         numberOfSpoiltVegetables++;
       }
     }
   }
 
+  /*
+   * This function spoils a percentage of the available items of type Fruit to
+   * spoil. The function takes an array of type Fruit as a parameter and a
+   * percentage of type double and returns no values.
+   */
   private void spoilFruitsFaster(Fruit[] inventory, double percentage) {
+    // determines the an amount base on the amount of items to spoil
     int numberOfFruitsToSpoil = (int) Math.ceil(((percentage / 100.00) * inventory.length));
     if (verbose) {
-      String name = inventory[0].getNameOfFruit();
-      System.out.println("Items spoil faster than expected: " + numberOfFruitsToSpoil + " " + name + "s have spoilt.");
+      // display the random event and the amount of each particular item that was
+      // spoilt
+      System.out.println("Items spoil faster than expected: " + numberOfFruitsToSpoil + " items have spoilt.");
     }
+    // a counter to determine how many of the Fruit item that have spoilt
     int numberOfSpoiltFruits = 0;
-    for (int j = 0; j < inventory.length; j++) {
-      if (numberOfSpoiltFruits < numberOfFruitsToSpoil && inventory[j].getSpoiltValue() > 0) {
-        inventory[j].spoil();
+    // loops throught the inventory array
+    for (int index = 0; index < inventory.length; index++) {
+      // determines if the item can spoil
+      if (numberOfSpoiltFruits < numberOfFruitsToSpoil && inventory[index].getSpoiltValue() > 0) {
+        // set the spoil value for that particular item to zero
+        inventory[index].spoil();
+        // increase the amount of Fruit item that has spoilt
         numberOfSpoiltFruits++;
       }
     }
   }
 
+  /*
+   * This function spoils a percentage of the available items of type Vegetable to
+   * spoil. The function takes an array of type Vegetable as a parameter and a
+   * percentage of type double and returns no values.
+   */
   private void spoilVegetablesFaster(Vegetable[] inventory, double percentage) {
+    // determines the an amount base on the amount of items to spoil
     int numberOfVegetablesToSpoil = (int) Math.ceil(((percentage / 100.00) * inventory.length));
     if (verbose) {
-      String name = inventory[0].getNameOfVegetable();
+      // display the random event and the amount of each particular item that was
+      // spoilt
       System.out
-          .println("Items spoil faster than expected: " + numberOfVegetablesToSpoil + " " + name + "s have spoilt.");
+          .println("Items spoil faster than expected: " + numberOfVegetablesToSpoil + " items have spoilt.");
     }
+    // a counter to determine how many of the Vegetable item that have spoilt
     int numberOfSpoiltVegetables = 0;
-    for (int j = 0; j < inventory.length; j++) {
-      if (numberOfSpoiltVegetables < numberOfVegetablesToSpoil && inventory[j].getSpoiltValue() > 0) {
-        inventory[j].spoil();
+    // loops throught the inventory array
+    for (int index = 0; index < inventory.length; index++) {
+      // determines if the item can spoil
+      if (numberOfSpoiltVegetables < numberOfVegetablesToSpoil && inventory[index].getSpoiltValue() > 0) {
+        // set the spoil value for that particular item to zero
+        inventory[index].spoil();
+        // increase the amount of Vegetable item that has spoilt
         numberOfSpoiltVegetables++;
       }
     }
   }
 
+  /*
+   * This function sells avocados to a customer and decreases the inventory for
+   * the avocados inventory and throw a FruitNotAvailable Exception if there are
+   * no avocados available. There is one parameter item: which is the quanity
+   * the customer would like to buy. There are no return values
+   */
   private void sellAvocados(int items) throws Exception {
     if (avocadoInventory.length == 0) {
+      // append the message to the log file
       Output.appendToLogFile("FruitNotAvailable: Avocados");
+      // throw a FruitNotAvailable: Avocados Exception
       throw new Exception("FruitNotAvailable: Avocados");
     } else {
+      // counter for the numbwer of unspoilt and spoilt avocados
       int numberOfUnsploitAvocados = 0;
       int numberOfSploitAvocados = 0;
-      for (int j = 0; j < avocadoInventory.length; j++) {
-        if (avocadoInventory[j].getSpoiltValue() <= 0) {
+      // total the the numbwer of unspoilt and spoilt avocados
+      for (int index = 0; index < avocadoInventory.length; index++) {
+        if (avocadoInventory[index].getSpoiltValue() <= 0) {
           numberOfSploitAvocados++;
         } else {
           numberOfUnsploitAvocados++;
         }
       }
+      // create a temporary array to hold the available avocados
       Avocado[] availableItems = new Avocado[numberOfUnsploitAvocados];
-      int k = 0;
-      for (int j = 0; j < avocadoInventory.length; j++) {
-        if (avocadoInventory[j].getSpoiltValue() <= 0) {
+      // counter to shift the index of the array in the for loop
+      int shiftIndex = 0;
+      // adds all of the unspoilt avocados to the available array
+      for (int index = 0; index < avocadoInventory.length; index++) {
+        if (avocadoInventory[index].getSpoiltValue() <= 0) {
           continue;
         } else {
-          availableItems[k++] = avocadoInventory[j];
+          availableItems[shiftIndex++] = avocadoInventory[index];
         }
       }
       if (items >= availableItems.length) {
+        // create a temporary array to stored the spoilt Avocados
         Avocado[] updatedInventory = new Avocado[numberOfSploitAvocados];
+        // display log message to the log file
         Output.appendCustomerPurchaseFruitsToLogFile(availableItems.length, "Avocado",
             (availableItems.length * Avocado.SELLING_PRICE));
+        // increase the amount of avocados that was sold
         fruitsSold[0] += availableItems.length;
-        k = 0;
-        for (int j = 0; j < avocadoInventory.length; j++) {
-          if (avocadoInventory[j].getSpoiltValue() <= 0) {
-            updatedInventory[k++] = avocadoInventory[j];
+        // reset the shift index 0
+        shiftIndex = 0;
+        // addes all the spoilt Avocados the updated array since the customer bought all
+        // the available ones
+        for (int index = 0; index < avocadoInventory.length; index++) {
+          if (avocadoInventory[index].getSpoiltValue() <= 0) {
+            updatedInventory[shiftIndex++] = avocadoInventory[index];
           }
         }
+        // reassign the avocados inventory to the updated one
         avocadoInventory = updatedInventory;
 
       } else {
+        // create a temporary array to stored the spoilt Avocados and the unsoilt
+        // Avocadoes that are left back over
         Avocado[] updatedInventory = new Avocado[availableItems.length - items
             + numberOfSploitAvocados];
+        // display log message to the log file
         Output.appendCustomerPurchaseFruitsToLogFile(items, "Avocado",
             (items * Avocado.SELLING_PRICE));
+        // increase the amount of avocados that the customer bought
         fruitsSold[0] += items;
-        k = 0;
-        for (int j = 0; j < avocadoInventory.length; j++) {
-          if (avocadoInventory[j].getSpoiltValue() <= 0) {
-            updatedInventory[k++] = avocadoInventory[j];
+        shiftIndex = 0;
+        // addes all the spoilt Avocados the updated array
+        for (int index = 0; index < avocadoInventory.length; index++) {
+          if (avocadoInventory[index].getSpoiltValue() <= 0) {
+            updatedInventory[shiftIndex++] = avocadoInventory[index];
           }
         }
-        int shiftIndex = numberOfSploitAvocados;
-        k = 0;
-        for (int j = shiftIndex; j < updatedInventory.length; j++) {
-          updatedInventory[j] = avocadoInventory[k++];
+        shiftIndex = 0;
+        // addes the amount of avocados that are left back from the costomers purchase
+        for (int index = numberOfSploitAvocados; index < updatedInventory.length; index++) {
+          updatedInventory[index] = avocadoInventory[shiftIndex++];
         }
+        // reassign the avocados inventory to the updated one
         avocadoInventory = updatedInventory;
-
       }
     }
   }
 
+  /*
+   * This function sells bananas to a customer and decreases the inventory for
+   * the bananas inventory and throw a FruitNotAvailable Exception if there are
+   * no avocados available. There is one parameter item: which is the quanity
+   * the customer would like to buy. There are no return values
+   */
   private void sellBananas(int items) throws Exception {
     if (bananaInventory.length == 0) {
+      // append the message to the log file
       Output.appendToLogFile("FruitNotAvailable: Bananas");
+      // throw a FruitNotAvailable: Bananas Exception
       throw new Exception("FruitNotAvailable: Bananas");
     } else {
+      // counter for the numbwer of unspoilt and spoilt bananas
       int numberOfUnsploitBananas = 0;
       int numberOfSploitBananas = 0;
-      for (int j = 0; j < bananaInventory.length; j++) {
-        if (bananaInventory[j].getSpoiltValue() <= 0) {
+      // total the the numbwer of unspoilt and spoilt bananas
+      for (int index = 0; index < bananaInventory.length; index++) {
+        if (bananaInventory[index].getSpoiltValue() <= 0) {
           numberOfSploitBananas++;
         } else {
           numberOfUnsploitBananas++;
         }
       }
+      // create a temporary array to hold the available bananas
       Banana[] availableItems = new Banana[numberOfUnsploitBananas];
-      int k = 0;
-      for (int j = 0; j < bananaInventory.length; j++) {
-        if (bananaInventory[j].getSpoiltValue() <= 0) {
+      // counter to shift the index of the array in the for loop
+      int shiftIndex = 0;
+      // adds all of the unspoilt bananas to the available array
+      for (int index = 0; index < bananaInventory.length; index++) {
+        if (bananaInventory[index].getSpoiltValue() <= 0) {
           continue;
         } else {
-          availableItems[k++] = bananaInventory[j];
+          availableItems[shiftIndex++] = bananaInventory[index];
         }
       }
 
       if (items >= availableItems.length) {
+        // create a temporary array to stored the spoilt Bananas
         Banana[] updatedInventory = new Banana[numberOfSploitBananas];
-        fruitsSold[1] += availableItems.length;
+        // display log message to the log file
         Output.appendCustomerPurchaseFruitsToLogFile(availableItems.length, "Banana",
             (availableItems.length * Banana.SELLING_PRICE));
-        k = 0;
-        for (int j = 0; j < bananaInventory.length; j++) {
-          if (bananaInventory[j].getSpoiltValue() <= 0) {
-            updatedInventory[k++] = bananaInventory[j];
+        // increase the amount of bananas that was sold
+        fruitsSold[1] += availableItems.length;
+        // reset the shift index 0
+        shiftIndex = 0;
+        // addes all the spoilt Bananas the updated array since the customer bought all
+        // the available ones
+        for (int index = 0; index < bananaInventory.length; index++) {
+          if (bananaInventory[index].getSpoiltValue() <= 0) {
+            updatedInventory[shiftIndex++] = bananaInventory[index];
           }
         }
+        // reassign the bananas inventory to the updated one
         bananaInventory = updatedInventory;
 
       } else {
+        // create a temporary array to stored the spoilt Bananas and the unsoilt
+        // Bananas that are left back over
         Banana[] updatedInventory = new Banana[availableItems.length - items
             + numberOfSploitBananas];
+        // increase the amount of bananas that the customer bought
         fruitsSold[1] += items;
+        // display log message to the log file
         Output.appendCustomerPurchaseFruitsToLogFile(items, "Banana",
             (items * Banana.SELLING_PRICE));
-        k = 0;
-        for (int j = 0; j < bananaInventory.length; j++) {
-          if (bananaInventory[j].getSpoiltValue() <= 0) {
-            updatedInventory[k++] = bananaInventory[j];
+        shiftIndex = 0;
+        // addes all the spoilt bananas the updated array
+        for (int index = 0; index < bananaInventory.length; index++) {
+          if (bananaInventory[index].getSpoiltValue() <= 0) {
+            updatedInventory[shiftIndex++] = bananaInventory[index];
           }
         }
-        int shiftIndex = numberOfSploitBananas;
-        k = 0;
-        for (int j = shiftIndex; j < updatedInventory.length; j++) {
-          updatedInventory[j] = bananaInventory[k++];
+        shiftIndex = 0;
+        // addes the amount of bananas that are left back from the costomers purchase
+        for (int index = numberOfSploitBananas; index < updatedInventory.length; index++) {
+          updatedInventory[index] = bananaInventory[shiftIndex++];
         }
+        // reassign the bananas inventory to the updated one
         bananaInventory = updatedInventory;
       }
     }
   }
 
+  /*
+   * This function sells avocados to a customer and decreases the inventory for
+   * the avocadoes inventory and throw a FruitNotAvailable Exception if there are
+   * no avocados available. There is one parameter item: which is the quanity
+   * the customer would like to buy. There are no return values
+   */
   private void sellCarrots(int items) throws Exception {
     if (carrotInventory.length == 0) {
+      // append the message to the log file
       Output.appendToLogFile("VegetableNotAvailable: Carrots");
+      // throw a VegetableNotAvailable: Carrots Exception
       throw new Exception("VegetableNotAvailable: Carrots");
     } else {
+      // counter for the numbwer of unspoilt and spoilt carrots
       int numberOfUnsploitCarrots = 0;
       int numberOfSploitCarrots = 0;
-      for (int j = 0; j < carrotInventory.length; j++) {
-        if (carrotInventory[j].getSpoiltValue() <= 0) {
+      // total the the numbwer of unspoilt and spoilt carrots
+      for (int index = 0; index < carrotInventory.length; index++) {
+        if (carrotInventory[index].getSpoiltValue() <= 0) {
           numberOfSploitCarrots++;
         } else {
           numberOfUnsploitCarrots++;
         }
       }
+      // create a temporary array to hold the available carrots
       Carrot[] availableItems = new Carrot[numberOfUnsploitCarrots];
-      int k = 0;
-      for (int j = 0; j < carrotInventory.length; j++) {
-        if (carrotInventory[j].getSpoiltValue() <= 0) {
+      // counter to shift the index of the array in the for loop
+      int shiftIndex = 0;
+      // adds all of the unspoilt carrots to the available array
+      for (int index = 0; index < carrotInventory.length; index++) {
+        if (carrotInventory[index].getSpoiltValue() <= 0) {
           continue;
         } else {
-          availableItems[k++] = carrotInventory[j];
+          availableItems[shiftIndex++] = carrotInventory[index];
         }
       }
-
       if (items >= availableItems.length) {
+        // create a temporary array to stored the spoilt carrots
         Carrot[] updatedInventory = new Carrot[numberOfSploitCarrots];
+        // display log message to the log file
         Output.appendCustomerPurchaseVegetablesToLogFile(availableItems.length, "Carrot",
             (availableItems.length * Carrot.SELLING_PRICE));
+        // increase the amount of carrots that was sold
         vegetablesSold[0] += availableItems.length;
-        k = 0;
-        for (int j = 0; j < carrotInventory.length; j++) {
-          if (carrotInventory[j].getSpoiltValue() <= 0) {
-            updatedInventory[k++] = carrotInventory[j];
+        // reset the shift index 0
+        shiftIndex = 0;
+        // addes all the spoilt carrots the updated array since the customer bought all
+        // the available ones
+        for (int index = 0; index < carrotInventory.length; index++) {
+          if (carrotInventory[index].getSpoiltValue() <= 0) {
+            updatedInventory[shiftIndex++] = carrotInventory[index];
           }
         }
+        // reassign the carrots inventory to the updated one
         carrotInventory = updatedInventory;
 
       } else {
+        // create a temporary array to stored the spoilt carrots and the unsoilt
+        // Avocadoes that are left back over
         Carrot[] updatedInventory = new Carrot[availableItems.length - items
             + numberOfSploitCarrots];
+        // display log message to the log file
         Output.appendCustomerPurchaseVegetablesToLogFile(items, "Carrot",
             (items * Carrot.SELLING_PRICE));
+        // increase the amount of carrots that the customer bought
         vegetablesSold[0] += items;
-        k = 0;
-        for (int j = 0; j < carrotInventory.length; j++) {
-          if (carrotInventory[j].getSpoiltValue() <= 0) {
-            updatedInventory[k++] = carrotInventory[j];
+        shiftIndex = 0;
+        // addes all the spoilt carrots the updated array
+        for (int index = 0; index < carrotInventory.length; index++) {
+          if (carrotInventory[index].getSpoiltValue() <= 0) {
+            updatedInventory[shiftIndex++] = carrotInventory[index];
           }
         }
-        int shiftIndex = numberOfSploitCarrots;
-        k = 0;
-        for (int j = shiftIndex; j < updatedInventory.length; j++) {
-          updatedInventory[j] = carrotInventory[k++];
+        shiftIndex = 0;
+        // addes the amount of carrots that are left back from the costomers purchase
+        for (int index = numberOfSploitCarrots; index < updatedInventory.length; index++) {
+          updatedInventory[index] = carrotInventory[shiftIndex++];
         }
+        // reassign the carrots inventory to the updated one
         carrotInventory = updatedInventory;
       }
     }
   }
 
+  /*
+   * This function sells avocados to a customer and decreases the inventory for
+   * the avocadoes inventory and throw a FruitNotAvailable Exception if there are
+   * no avocados available. There is one parameter item: which is the quanity
+   * the customer would like to buy. There are no return values
+   */
   private void sellCucumbers(int items) throws Exception {
     if (cucumberInventory.length == 0) {
       Output.appendToLogFile("VegetableNotAvailable: Cucumbers");
@@ -766,6 +907,12 @@ public class Supermarket {
     }
   }
 
+  /*
+   * This function sells avocados to a customer and decreases the inventory for
+   * the avocadoes inventory and throw a FruitNotAvailable Exception if there are
+   * no avocados available. There is one parameter item: which is the quanity
+   * the customer would like to buy. There are no return values
+   */
   private void sellLettuces(int items) throws Exception {
     if (lettuceInventory.length == 0) {
       Output.appendToLogFile("VegetableNotAvailable: Lettuces");
@@ -825,6 +972,12 @@ public class Supermarket {
     }
   }
 
+  /*
+   * This function sells avocados to a customer and decreases the inventory for
+   * the avocadoes inventory and throw a FruitNotAvailable Exception if there are
+   * no avocados available. There is one parameter item: which is the quanity
+   * the customer would like to buy. There are no return values
+   */
   private void sellLimes(int items) throws Exception {
     if (limeInventory.length == 0) {
       Output.appendToLogFile("FruitNotAvailable: Limes");
@@ -884,6 +1037,12 @@ public class Supermarket {
     }
   }
 
+  /*
+   * This function sells avocados to a customer and decreases the inventory for
+   * the avocadoes inventory and throw a FruitNotAvailable Exception if there are
+   * no avocados available. There is one parameter item: which is the quanity
+   * the customer would like to buy. There are no return values
+   */
   private void sellMangoes(int items) throws Exception {
     if (mangoInventory.length == 0) {
       Output.appendToLogFile("FruitNotAvailable: Mangoes");
@@ -943,6 +1102,12 @@ public class Supermarket {
     }
   }
 
+  /*
+   * This function sells avocados to a customer and decreases the inventory for
+   * the avocadoes inventory and throw a FruitNotAvailable Exception if there are
+   * no avocados available. There is one parameter item: which is the quanity
+   * the customer would like to buy. There are no return values
+   */
   private void sellWatermelons(int items) throws Exception {
     if (watermelonInventory.length == 0) {
       Output.appendToLogFile("FruitNotAvailable: Watermelons");
@@ -1002,6 +1167,12 @@ public class Supermarket {
     }
   }
 
+  /*
+   * This function sells avocados to a customer and decreases the inventory for
+   * the avocadoes inventory and throw a FruitNotAvailable Exception if there are
+   * no avocados available. There is one parameter item: which is the quanity
+   * the customer would like to buy. There are no return values
+   */
   private void sellOnions(int items) throws Exception {
     if (onionInventory.length == 0) {
       Output.appendToLogFile("VegetableNotAvailable: Onions");
@@ -1061,6 +1232,12 @@ public class Supermarket {
     }
   }
 
+  /*
+   * This function sells avocados to a customer and decreases the inventory for
+   * the avocadoes inventory and throw a FruitNotAvailable Exception if there are
+   * no avocados available. There is one parameter item: which is the quanity
+   * the customer would like to buy. There are no return values
+   */
   private void sellParsleys(int items) throws Exception {
     if (parsleyInventory.length == 0) {
       Output.appendToLogFile("VegetableNotAvailable: Parsleys");
