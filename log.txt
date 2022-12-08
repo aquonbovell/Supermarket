@@ -1,5 +1,5 @@
 Supermarket Simulation
-Day :1
+Day :
 (Fruit) 13 Mangos were sold and received $53.30
 (Fruit) 13 Bananas were sold and received $202.80
 (Vegetable) 13 Cucumbers were sold and received $40.30
