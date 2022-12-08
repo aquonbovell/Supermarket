@@ -93,7 +93,8 @@ public class SimulationMain {
           Output.setFileLocation(args[i]);
           // check if there are commands already in the commandsPassed field
           if (commandsPassed.length > 0) {
-            // temporary variable to hold the commands that are already saved "log" command
+            // temporary variable to hold the commands that are already saved "log"
+            // command
             // and the file path
             String[] updatedCommandsPassed = new String[commandsPassed.length + 2];
             // addes all the commands that are already in the commandsPassed field to the
@@ -138,7 +139,8 @@ public class SimulationMain {
     // command line
     selection = scan.next().toUpperCase().charAt(0);
 
-    // checks if the user selection is invalid and reprompt the following messages
+    // checks if the user selection is invalid and reprompt the following
+    // messages
     // until the user enters a valid selection
     while (Character.getNumericValue(selection) >= 13 ||
         Character.getNumericValue(selection) <= 9) {

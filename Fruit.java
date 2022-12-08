@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class Fruit {
+public class Fruit extends Item{
   private String nameOfFruit;
   private int spoiltValue;
 
@@ -10,7 +10,7 @@ public class Fruit {
     spoiltValue = rand.nextInt(6) + 5;
   }
 
-  final public String getNameOfFruit() {
+  final public String getName() {
     return this.nameOfFruit;
   }
 

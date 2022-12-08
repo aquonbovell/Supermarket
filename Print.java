@@ -67,10 +67,16 @@ public class Print {
    * integer. There is no values returned. The function is static to allow
    * SimulationMain class to display the message without an instance of Print.
    */
-  public static void verboseTotalItemsPurchased(String vendor, String type, int amount) {
+  public static void verboseTotalItemsPurchased(String vendor, FruitType type, int amount) {
     // display the name of the vendor, the type of the Fruit or Vegetable that was
     // purchased and total amount of fruits or vegetables that the was purchased
     // from the vendor
-    System.out.println(vendor + ": " + type + " (" + amount + ")");
+    System.out.println(vendor + ": " + type.toString() + " (" + amount + ")");
+  }
+  public static void verboseTotalItemsPurchased(String vendor, VegetableType type, int amount) {
+    // display the name of the vendor, the type of the Fruit or Vegetable that was
+    // purchased and total amount of fruits or vegetables that the was purchased
+    // from the vendor
+    System.out.println(vendor + ": " + type.toString() + " (" + amount + ")");
   }
 }

@@ -142,7 +142,7 @@ public class Output {
    * append the log file whenever and does not require and instance of the Output
    * class.
    */
-  static void appendToLogFileAmountOfFruitsPurchase(int amount, String name, String vendorName, double unitCost) {
+  static void appendToLogFileAmountOfFruitsPurchase(int amount, FruitType name, String vendorName, double unitCost) {
     try {
       // create a decimal format for the unitCost and totalPrice
       DecimalFormat decimalFormat = new DecimalFormat("#.00");
@@ -175,7 +175,7 @@ public class Output {
    * to append the log file whenever and does not require and instance of the
    * Output class.
    */
-  static void appendToLogFileAmountOfVegetablesPurchase(int amount, String name, String vendorName, double unitCost) {
+  static void appendToLogFileAmountOfVegetablesPurchase(int amount, VegetableType name, String vendorName, double unitCost) {
     try {
       // create a decimal format for the unitCost and totalPrice
       DecimalFormat decimalFormat = new DecimalFormat("#.00");
