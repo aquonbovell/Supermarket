@@ -17,7 +17,7 @@ public class FruitsAreHere extends Vendor {
    */
 
   FruitsAreHere() {
-    super("Fruits Are Here");
+    super("Fruits re Here");
     avocadosInventory = new ArrayList<>();
     bananasInventory = new ArrayList<>();
     limesInventory = new ArrayList<>();
