@@ -10,6 +10,6 @@ public class Avocado extends Fruit {
    * It calls the parent Fruit class constructor and passes the name Avacado to it
    */
   Avocado() {
-    super("Avocdo");
+    super("Avocado");
   }
 }

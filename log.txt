@@ -1,481 +1,492 @@
 Supermarket Simulation
 Day :1
-(Fruit) 28 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $92.40
-NotEnoughFunds: To Buy Avocados
-(Fruit) 13 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $42.90
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 25 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $45.00
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 68 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $122.40
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 97 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $174.60
-NotEnoughFunds: To Buy Avocados
-(Fruit) 21 Limes were purchased from Fruits Are Here at $3.30. Total Cost: $69.30
-NotEnoughFunds: To Buy Avocados
-(Fruit) 38 Mangos were purchased from Fruits Are Here at $3.30. Total Cost: $125.40
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 10 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $18.00
-NotEnoughFunds: To Buy Avocados
-Day :2
-(Fruit) 66 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $217.80
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 27 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $48.60
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 80 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $144.00
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 43 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $77.40
-NotEnoughFunds: To Buy Avocados
-(Fruit) 23 Limes were purchased from Fruits Are Here at $3.30. Total Cost: $75.90
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 46 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $82.80
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 4 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $7.20
-NotEnoughFunds: To Buy Avocados
-Day :3
 (Fruit) 18 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $59.40
-NotEnoughFunds: To Buy Avocados
-(Fruit) 77 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $254.10
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 92 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $165.60
-NotEnoughFunds: To Buy Avocados
-(Fruit) 5 Limes were purchased from Fruits Are Here at $3.30. Total Cost: $16.50
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 38 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $68.40
-NotEnoughFunds: To Buy Avocados
-Day :4
-(Fruit) 85 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $280.50
-NotEnoughFunds: To Buy Avocados
-(Fruit) 10 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $33.00
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 84 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $151.20
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 86 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $154.80
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 13 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $23.40
-NotEnoughFunds: To Buy Avocados
-(Fruit) 5 Mangos were purchased from Fruits Are Here at $3.30. Total Cost: $16.50
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 17 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $30.60
-NotEnoughFunds: To Buy Avocados
-Day :5
-(Fruit) 15 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $49.50
 NotEnoughFunds: To Buy Avocados
 (Fruit) 82 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $270.60
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 24 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $43.20
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 6 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $10.80
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 76 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $136.80
-NotEnoughFunds: To Buy Avocados
-(Fruit) 3 Mangos were purchased from Fruits Are Here at $3.30. Total Cost: $9.90
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 78 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $140.40
-NotEnoughFunds: To Buy Avocados
-Day :6
-(Fruit) 28 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $92.40
-NotEnoughFunds: To Buy Avocados
-(Fruit) 14 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $46.20
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 25 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $45.00
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 88 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $158.40
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 38 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $68.40
-NotEnoughFunds: To Buy Avocados
-(Fruit) 55 Mangos were purchased from Fruits Are Here at $3.30. Total Cost: $181.50
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 49 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $88.20
-NotEnoughFunds: To Buy Avocados
-Day :7
-(Fruit) 47 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $155.10
-NotEnoughFunds: To Buy Avocados
-(Fruit) 11 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $36.30
-NotEnoughFunds: To Buy Avocados
 (Vegetable) 52 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $93.60
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 95 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $171.00
+(Vegetable) 16 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $28.80
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 53 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $95.40
+(Vegetable) 28 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $50.40
 NotEnoughFunds: To Buy Avocados
-(Fruit) 42 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $138.60
+(Vegetable) 85 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $153.00
 NotEnoughFunds: To Buy Avocados
-Day :8
+(Vegetable) 19 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $34.20
+NotEnoughFunds: To Buy Avocados
+Day :2
+(Fruit) 41 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $135.30
+NotEnoughFunds: To Buy Avocados
+(Fruit) 55 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $181.50
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 86 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $154.80
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 56 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $100.80
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 16 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $28.80
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 42 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $75.60
+NotEnoughFunds: To Buy Avocados
+Day :3
 (Fruit) 77 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $254.10
 NotEnoughFunds: To Buy Avocados
-(Fruit) 12 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $39.60
+(Fruit) 23 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $75.90
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 69 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $124.20
+(Vegetable) 29 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $52.20
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 84 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $151.20
+(Vegetable) 78 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $140.40
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 47 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $84.60
+(Vegetable) 10 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $18.00
 NotEnoughFunds: To Buy Avocados
-(Fruit) 11 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $36.30
+(Vegetable) 83 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $149.40
 NotEnoughFunds: To Buy Avocados
-Day :9
-(Fruit) 87 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $287.10
+Day :4
+(Fruit) 38 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $125.40
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 48 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $86.40
+(Fruit) 62 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $204.60
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 85 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $153.00
+(Vegetable) 51 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $91.80
 NotEnoughFunds: To Buy Avocados
-(Fruit) 13 Mangos were purchased from Fruits Are Here at $3.30. Total Cost: $42.90
+(Vegetable) 42 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $75.60
 NotEnoughFunds: To Buy Avocados
-Day :10
-Items spoil faster than expected
-(Fruit) 23 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $75.90
+(Vegetable) 63 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $113.40
 NotEnoughFunds: To Buy Avocados
-(Fruit) 46 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $151.80
+Day :5
+(Fruit) 47 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $155.10
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 95 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $171.00
+(Vegetable) 97 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $174.60
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 91 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $163.80
+(Vegetable) 84 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $151.20
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 14 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $25.20
+(Vegetable) 19 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $34.20
 NotEnoughFunds: To Buy Avocados
-(Fruit) 31 Limes were purchased from Fruits Are Here at $3.30. Total Cost: $102.30
+(Fruit) 49 Limes were purchased from Fruits Are Here at $3.30. Total Cost: $161.70
 NotEnoughFunds: To Buy Avocados
-Day :11
-(Fruit) 13 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $42.90
+(Fruit) 4 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $13.20
 NotEnoughFunds: To Buy Avocados
-(Fruit) 87 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $287.10
+Day :6
+(Fruit) 83 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $273.90
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 12 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $21.60
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 28 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $50.40
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 61 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $109.80
-NotEnoughFunds: To Buy Avocados
-Day :12
-(Fruit) 43 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $141.90
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 62 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $111.60
+(Vegetable) 60 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $108.00
 NotEnoughFunds: To Buy Avocados
 (Vegetable) 47 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $84.60
 NotEnoughFunds: To Buy Avocados
 (Vegetable) 37 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $66.60
 NotEnoughFunds: To Buy Avocados
-(Fruit) 56 Limes were purchased from Fruits Are Here at $3.30. Total Cost: $184.80
+(Fruit) 7 Limes were purchased from Fruits Are Here at $3.30. Total Cost: $23.10
 NotEnoughFunds: To Buy Avocados
-(Fruit) 1 Mangos were purchased from Fruits Are Here at $3.30. Total Cost: $3.30
+(Fruit) 10 Mangos were purchased from Fruits Are Here at $3.30. Total Cost: $33.00
 NotEnoughFunds: To Buy Avocados
-Day :13
-(Fruit) 75 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $247.50
+Day :7
+(Fruit) 17 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $56.10
 NotEnoughFunds: To Buy Avocados
-(Fruit) 3 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $9.90
+(Fruit) 50 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $165.00
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 64 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $115.20
+(Vegetable) 67 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $120.60
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 70 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $126.00
+(Vegetable) 26 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $46.80
 NotEnoughFunds: To Buy Avocados
-(Fruit) 16 Limes were purchased from Fruits Are Here at $3.30. Total Cost: $52.80
+(Fruit) 20 Limes were purchased from Fruits Are Here at $3.30. Total Cost: $66.00
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 38 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $68.40
+(Fruit) 13 Mangos were purchased from Fruits Are Here at $3.30. Total Cost: $42.90
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 28 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $50.40
+(Vegetable) 60 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $108.00
 NotEnoughFunds: To Buy Avocados
-Day :14
-(Fruit) 25 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $82.50
+Day :8
+(Fruit) 85 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $280.50
 NotEnoughFunds: To Buy Avocados
-(Fruit) 75 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $247.50
+(Fruit) 15 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $49.50
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 26 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $46.80
+(Vegetable) 90 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $162.00
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 69 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $124.20
+NotEnoughFunds: To Buy Avocados
+Day :9
+(Fruit) 15 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $49.50
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 93 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $167.40
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 65 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $117.00
+NotEnoughFunds: To Buy Avocados
+(Fruit) 73 Limes were purchased from Fruits Are Here at $3.30. Total Cost: $240.90
+NotEnoughFunds: To Buy Avocados
+(Fruit) 12 Mangos were purchased from Fruits Are Here at $3.30. Total Cost: $39.60
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 32 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $57.60
+NotEnoughFunds: To Buy Avocados
+Day :10
+No purchases are made: Customers do not buy anything from the supermarket.
+(Fruit) 33 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $108.90
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 27 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $48.60
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 15 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $27.00
+NotEnoughFunds: To Buy Avocados
+Day :11
+(Fruit) 63 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $207.90
+NotEnoughFunds: To Buy Avocados
+(Fruit) 37 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $122.10
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 62 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $111.60
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 2 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $3.60
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 90 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $162.00
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 4 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $7.20
+NotEnoughFunds: To Buy Avocados
+Day :12
+(Fruit) 37 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $122.10
+NotEnoughFunds: To Buy Avocados
+(Fruit) 53 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $174.90
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 34 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $61.20
 NotEnoughFunds: To Buy Avocados
 (Vegetable) 84 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $151.20
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 58 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $104.40
+(Vegetable) 60 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $108.00
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 32 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $57.60
+(Vegetable) 22 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $39.60
+NotEnoughFunds: To Buy Avocados
+(Fruit) 10 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $33.00
+NotEnoughFunds: To Buy Avocados
+Day :13
+(Fruit) 27 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $89.10
+NotEnoughFunds: To Buy Avocados
+(Fruit) 38 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $125.40
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 54 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $97.20
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 61 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $109.80
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 15 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $27.00
+NotEnoughFunds: To Buy Avocados
+(Fruit) 15 Mangos were purchased from Fruits Are Here at $3.30. Total Cost: $49.50
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 70 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $126.00
+NotEnoughFunds: To Buy Avocados
+(Fruit) 12 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $39.60
+NotEnoughFunds: To Buy Avocados
+Day :14
+(Fruit) 15 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $49.50
+NotEnoughFunds: To Buy Avocados
+(Fruit) 10 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $33.00
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 90 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $162.00
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 85 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $153.00
+NotEnoughFunds: To Buy Avocados
+(Fruit) 66 Limes were purchased from Fruits Are Here at $3.30. Total Cost: $217.80
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 25 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $45.00
 NotEnoughFunds: To Buy Avocados
 Day :15
 (Fruit) 68 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $224.40
 NotEnoughFunds: To Buy Avocados
-(Fruit) 32 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $105.60
+(Fruit) 30 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $99.00
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 67 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $120.60
+(Vegetable) 26 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $46.80
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 23 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $41.40
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 60 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $108.00
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 50 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $90.00
+(Fruit) 2 Limes were purchased from Fruits Are Here at $3.30. Total Cost: $6.60
 NotEnoughFunds: To Buy Avocados
 Day :16
-(Fruit) 32 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $105.60
+(Fruit) 71 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $234.30
 NotEnoughFunds: To Buy Avocados
-(Fruit) 55 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $181.50
+(Vegetable) 59 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $106.20
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 55 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $99.00
+(Vegetable) 63 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $113.40
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 61 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $109.80
+(Vegetable) 74 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $133.20
 NotEnoughFunds: To Buy Avocados
-(Fruit) 13 Mangos were purchased from Fruits Are Here at $3.30. Total Cost: $42.90
+(Fruit) 19 Limes were purchased from Fruits Are Here at $3.30. Total Cost: $62.70
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 63 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $113.40
+(Vegetable) 4 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $7.20
 NotEnoughFunds: To Buy Avocados
 Day :17
-(Fruit) 67 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $221.10
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 48 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $86.40
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 25 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $45.00
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 46 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $82.80
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 62 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $111.60
-NotEnoughFunds: To Buy Avocados
-(Fruit) 33 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $108.90
-NotEnoughFunds: To Buy Avocados
-Day :18
-(Fruit) 18 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $59.40
-NotEnoughFunds: To Buy Avocados
-(Fruit) 61 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $201.30
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 36 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $64.80
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 93 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $167.40
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 50 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $90.00
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 21 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $37.80
-NotEnoughFunds: To Buy Avocados
-(Fruit) 21 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $69.30
-NotEnoughFunds: To Buy Avocados
-Day :19
-(Fruit) 12 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $39.60
-NotEnoughFunds: To Buy Avocados
-(Fruit) 88 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $290.40
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 81 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $145.80
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 31 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $55.80
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 59 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $106.20
-NotEnoughFunds: To Buy Avocados
-Day :20
-Tasty Vegetables Does Not Deliver The Goods
-(Fruit) 52 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $171.60
-NotEnoughFunds: To Buy Avocados
-(Fruit) 47 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $155.10
-NotEnoughFunds: To Buy Avocados
-(Fruit) 1 Mangos were purchased from Fruits Are Here at $3.30. Total Cost: $3.30
-NotEnoughFunds: To Buy Avocados
-Day :21
-(Fruit) 48 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $158.40
-NotEnoughFunds: To Buy Avocados
-(Fruit) 52 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $171.60
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 62 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $111.60
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 85 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $153.00
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 53 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $95.40
-NotEnoughFunds: To Buy Avocados
-Day :22
-(Fruit) 72 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $237.60
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 57 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $102.60
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 15 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $27.00
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 36 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $64.80
-NotEnoughFunds: To Buy Avocados
-(Fruit) 20 Limes were purchased from Fruits Are Here at $3.30. Total Cost: $66.00
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 59 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $106.20
-NotEnoughFunds: To Buy Avocados
-(Fruit) 8 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $26.40
-NotEnoughFunds: To Buy Avocados
-Day :23
-(Fruit) 28 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $92.40
-NotEnoughFunds: To Buy Avocados
-(Fruit) 52 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $171.60
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 57 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $102.60
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 71 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $127.80
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 72 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $129.60
-NotEnoughFunds: To Buy Avocados
-(Fruit) 20 Limes were purchased from Fruits Are Here at $3.30. Total Cost: $66.00
-NotEnoughFunds: To Buy Avocados
-Day :24
-(Fruit) 6 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $19.80
+(Fruit) 27 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $89.10
 NotEnoughFunds: To Buy Avocados
 (Fruit) 60 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $198.00
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 22 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $39.60
+(Vegetable) 40 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $72.00
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 98 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $176.40
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 57 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $102.60
+NotEnoughFunds: To Buy Avocados
+(Fruit) 6 Mangos were purchased from Fruits Are Here at $3.30. Total Cost: $19.80
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 5 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $9.00
+NotEnoughFunds: To Buy Avocados
+Day :18
+(Fruit) 62 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $204.60
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 25 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $45.00
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 15 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $27.00
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 68 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $122.40
+NotEnoughFunds: To Buy Avocados
+(Fruit) 38 Limes were purchased from Fruits Are Here at $3.30. Total Cost: $125.40
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 87 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $156.60
+NotEnoughFunds: To Buy Avocados
+Day :19
+(Fruit) 78 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $257.40
+NotEnoughFunds: To Buy Avocados
+(Fruit) 2 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $6.60
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 48 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $86.40
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 43 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $77.40
+NotEnoughFunds: To Buy Avocados
+(Fruit) 10 Limes were purchased from Fruits Are Here at $3.30. Total Cost: $33.00
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 32 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $57.60
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 71 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $127.80
+NotEnoughFunds: To Buy Avocados
+Day :20
+Electricity Goes Off
+(Fruit) 46 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $151.80
+NotEnoughFunds: To Buy Avocados
+(Fruit) 54 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $178.20
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 94 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $169.20
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 57 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $102.60
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 36 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $64.80
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 13 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $23.40
+NotEnoughFunds: To Buy Avocados
+Day :21
+(Fruit) 19 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $62.70
+NotEnoughFunds: To Buy Avocados
+(Fruit) 14 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $46.20
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 48 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $86.40
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 61 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $109.80
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 70 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $126.00
+NotEnoughFunds: To Buy Avocados
+Day :22
+(Fruit) 62 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $204.60
+NotEnoughFunds: To Buy Avocados
+(Fruit) 38 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $125.40
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 79 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $142.20
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 61 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $109.80
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 60 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $108.00
+NotEnoughFunds: To Buy Avocados
+Day :23
+(Fruit) 33 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $108.90
+NotEnoughFunds: To Buy Avocados
+(Fruit) 42 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $138.60
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 28 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $50.40
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 97 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $174.60
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 75 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $135.00
+NotEnoughFunds: To Buy Avocados
+(Fruit) 25 Mangos were purchased from Fruits Are Here at $3.30. Total Cost: $82.50
+NotEnoughFunds: To Buy Avocados
+Day :24
+(Fruit) 29 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $95.70
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 69 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $124.20
 NotEnoughFunds: To Buy Avocados
 (Vegetable) 62 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $111.60
 NotEnoughFunds: To Buy Avocados
-(Fruit) 34 Limes were purchased from Fruits Are Here at $3.30. Total Cost: $112.20
+(Vegetable) 30 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $54.00
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 82 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $147.60
-NotEnoughFunds: To Buy Avocados
-Day :25
-(Fruit) 49 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $161.70
-NotEnoughFunds: To Buy Avocados
-(Fruit) 51 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $168.30
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 73 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $131.40
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 100 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $180.00
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 14 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $25.20
-NotEnoughFunds: To Buy Avocados
-Day :26
-(Fruit) 33 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $108.90
-NotEnoughFunds: To Buy Avocados
-(Fruit) 19 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $62.70
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 36 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $64.80
-NotEnoughFunds: To Buy Avocados
-(Fruit) 46 Limes were purchased from Fruits Are Here at $3.30. Total Cost: $151.80
-NotEnoughFunds: To Buy Avocados
-(Fruit) 2 Mangos were purchased from Fruits Are Here at $3.30. Total Cost: $6.60
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 60 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $108.00
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 53 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $95.40
-NotEnoughFunds: To Buy Avocados
-Day :27
-(Fruit) 30 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $99.00
-NotEnoughFunds: To Buy Avocados
-(Fruit) 70 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $231.00
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 52 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $93.60
+(Fruit) 66 Limes were purchased from Fruits Are Here at $3.30. Total Cost: $217.80
 NotEnoughFunds: To Buy Avocados
 (Vegetable) 39 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $70.20
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 36 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $64.80
+Day :25
+(Fruit) 36 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $118.80
 NotEnoughFunds: To Buy Avocados
-Day :28
-(Fruit) 91 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $300.30
+(Fruit) 55 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $181.50
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 93 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $167.40
+(Vegetable) 43 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $77.40
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 72 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $129.60
+(Vegetable) 78 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $140.40
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 2 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $3.60
+(Vegetable) 61 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $109.80
 NotEnoughFunds: To Buy Avocados
-(Fruit) 5 Limes were purchased from Fruits Are Here at $3.30. Total Cost: $16.50
+(Vegetable) 18 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $32.40
 NotEnoughFunds: To Buy Avocados
-(Fruit) 4 Mangos were purchased from Fruits Are Here at $3.30. Total Cost: $13.20
+(Fruit) 4 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $13.20
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 33 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $59.40
+Day :26
+(Fruit) 18 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $59.40
 NotEnoughFunds: To Buy Avocados
-Day :29
-(Fruit) 9 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $29.70
+(Fruit) 70 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $231.00
 NotEnoughFunds: To Buy Avocados
-(Fruit) 88 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $290.40
+(Vegetable) 94 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $169.20
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 87 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $156.60
+(Vegetable) 48 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $86.40
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 41 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $73.80
+(Fruit) 12 Limes were purchased from Fruits Are Here at $3.30. Total Cost: $39.60
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 72 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $129.60
+(Vegetable) 14 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $25.20
 NotEnoughFunds: To Buy Avocados
-(Fruit) 3 Mangos were purchased from Fruits Are Here at $3.30. Total Cost: $9.90
-NotEnoughFunds: To Buy Avocados
-Day :30
-Items spoil faster than expected
-(Fruit) 79 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $260.70
-NotEnoughFunds: To Buy Avocados
-(Fruit) 10 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $33.00
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 97 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $174.60
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 64 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $115.20
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 39 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $70.20
-NotEnoughFunds: To Buy Avocados
-(Fruit) 11 Limes were purchased from Fruits Are Here at $3.30. Total Cost: $36.30
-NotEnoughFunds: To Buy Avocados
-Day :31
+Day :27
 (Fruit) 92 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $303.60
 NotEnoughFunds: To Buy Avocados
 (Fruit) 8 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $26.40
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 32 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $57.60
+(Vegetable) 89 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $160.20
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 20 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $36.00
+(Vegetable) 74 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $133.20
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 97 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $174.60
+(Vegetable) 28 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $50.40
 NotEnoughFunds: To Buy Avocados
-Day :32
-(Fruit) 85 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $280.50
+Day :28
+(Fruit) 8 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $26.40
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 95 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $171.00
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 53 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $95.40
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 31 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $55.80
-NotEnoughFunds: To Buy Avocados
-(Fruit) 6 Mangos were purchased from Fruits Are Here at $3.30. Total Cost: $19.80
-NotEnoughFunds: To Buy Avocados
-Day :33
-(Fruit) 86 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $283.80
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 56 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $100.80
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 71 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $127.80
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 73 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $131.40
-NotEnoughFunds: To Buy Avocados
-(Fruit) 14 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $46.20
-NotEnoughFunds: To Buy Avocados
-Day :34
-(Fruit) 59 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $194.70
-NotEnoughFunds: To Buy Avocados
-(Fruit) 27 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $89.10
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 68 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $122.40
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 52 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $93.60
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 63 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $113.40
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 17 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $30.60
-NotEnoughFunds: To Buy Avocados
-Day :35
-(Fruit) 41 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $135.30
-NotEnoughFunds: To Buy Avocados
-(Fruit) 59 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $194.70
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 55 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $99.00
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 45 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $81.00
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 90 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $162.00
-NotEnoughFunds: To Buy Avocados
-Day :36
-(Fruit) 21 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $69.30
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 91 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $163.80
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 49 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $88.20
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 50 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $90.00
-NotEnoughFunds: To Buy Avocados
-(Fruit) 79 Mangos were purchased from Fruits Are Here at $3.30. Total Cost: $260.70
-NotEnoughFunds: To Buy Avocados
-(Vegetable) 10 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $18.00
-NotEnoughFunds: To Buy Avocados
-Day :37
-(Fruit) 30 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $99.00
+(Fruit) 40 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $132.00
 NotEnoughFunds: To Buy Avocados
 (Vegetable) 88 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $158.40
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 36 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $64.80
+(Vegetable) 61 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $109.80
 NotEnoughFunds: To Buy Avocados
-(Fruit) 36 Limes were purchased from Fruits Are Here at $3.30. Total Cost: $118.80
+(Fruit) 52 Mangos were purchased from Fruits Are Here at $3.30. Total Cost: $171.60
 NotEnoughFunds: To Buy Avocados
-(Fruit) 16 Mangos were purchased from Fruits Are Here at $3.30. Total Cost: $52.80
+(Vegetable) 51 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $91.80
 NotEnoughFunds: To Buy Avocados
-(Vegetable) 76 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $136.80
+Day :29
+(Fruit) 28 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $92.40
+NotEnoughFunds: To Buy Avocados
+(Fruit) 24 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $79.20
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 62 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $111.60
+NotEnoughFunds: To Buy Avocados
+(Fruit) 33 Limes were purchased from Fruits Are Here at $3.30. Total Cost: $108.90
+NotEnoughFunds: To Buy Avocados
+(Fruit) 13 Mangos were purchased from Fruits Are Here at $3.30. Total Cost: $42.90
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 89 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $160.20
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 49 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $88.20
+NotEnoughFunds: To Buy Avocados
+(Fruit) 2 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $6.60
+NotEnoughFunds: To Buy Avocados
+Day :30
+Electricity Goes Off
+(Fruit) 51 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $168.30
+NotEnoughFunds: To Buy Avocados
+(Fruit) 49 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $161.70
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 75 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $135.00
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 99 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $178.20
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 26 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $46.80
+NotEnoughFunds: To Buy Avocados
+Day :31
+(Fruit) 17 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $56.10
+NotEnoughFunds: To Buy Avocados
+(Fruit) 30 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $99.00
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 86 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $154.80
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 46 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $82.80
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 68 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $122.40
+NotEnoughFunds: To Buy Avocados
+(Fruit) 41 Limes were purchased from Fruits Are Here at $3.30. Total Cost: $135.30
+NotEnoughFunds: To Buy Avocados
+Day :32
+(Fruit) 37 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $122.10
+NotEnoughFunds: To Buy Avocados
+(Fruit) 16 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $52.80
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 51 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $91.80
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 92 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $165.60
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 32 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $57.60
+NotEnoughFunds: To Buy Avocados
+(Fruit) 47 Mangos were purchased from Fruits Are Here at $3.30. Total Cost: $155.10
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 25 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $45.00
+NotEnoughFunds: To Buy Avocados
+Day :33
+(Fruit) 59 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $194.70
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 53 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $95.40
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 94 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $169.20
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 53 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $95.40
+NotEnoughFunds: To Buy Avocados
+(Fruit) 33 Mangos were purchased from Fruits Are Here at $3.30. Total Cost: $108.90
+NotEnoughFunds: To Buy Avocados
+Day :34
+(Fruit) 48 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $158.40
+NotEnoughFunds: To Buy Avocados
+(Fruit) 26 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $85.80
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 67 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $120.60
+NotEnoughFunds: To Buy Avocados
+(Fruit) 25 Mangos were purchased from Fruits Are Here at $3.30. Total Cost: $82.50
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 74 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $133.20
+NotEnoughFunds: To Buy Avocados
+(Fruit) 1 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $3.30
+NotEnoughFunds: To Buy Avocados
+Day :35
+(Fruit) 59 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $194.70
+NotEnoughFunds: To Buy Avocados
+(Fruit) 41 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $135.30
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 66 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $118.80
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 95 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $171.00
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 39 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $70.20
+NotEnoughFunds: To Buy Avocados
+Day :36
+(Fruit) 81 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $267.30
+NotEnoughFunds: To Buy Avocados
+(Fruit) 7 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $23.10
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 74 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $133.20
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 70 Lettuces were purchased from Vegetables Are Here at $1.80. Total Cost: $126.00
+NotEnoughFunds: To Buy Avocados
+(Fruit) 12 Mangos were purchased from Fruits Are Here at $3.30. Total Cost: $39.60
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 46 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $82.80
+NotEnoughFunds: To Buy Avocados
+Day :37
+(Fruit) 19 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $62.70
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 99 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $178.20
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 59 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $106.20
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 42 Onions were purchased from Vegetables Are Here at $1.80. Total Cost: $75.60
+NotEnoughFunds: To Buy Avocados
+(Fruit) 81 Watermelons were purchased from Fruits Are Here at $3.30. Total Cost: $267.30
 NotEnoughFunds: To Buy Avocados
 Day :38
-(Fruit) 88 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $290.40
+(Fruit) 47 Avocados were purchased from Fruits Are Here at $3.30. Total Cost: $155.10
 NotEnoughFunds: To Buy Avocados
+(Fruit) 39 Bananas were purchased from Fruits Are Here at $3.30. Total Cost: $128.70
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 64 Carrots were purchased from Vegetables Are Here at $1.80. Total Cost: $115.20
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 49 Cucumbers were purchased from Vegetables Are Here at $1.80. Total Cost: $88.20
+NotEnoughFunds: To Buy Avocados
+(Fruit) 14 Mangos were purchased from Fruits Are Here at $3.30. Total Cost: $46.20
+NotEnoughFunds: To Buy Avocados
+(Vegetable) 87 Parsleys were purchased from Vegetables Are Here at $1.80. Total Cost: $156.60
+NotEnoughFunds: To Buy Avocados
+Day :39
 Supermarket Runs Out Of Money

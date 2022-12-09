@@ -1,4 +1,4 @@
-public abstract class Item {
+abstract public class Item {
 
   abstract public String getName();
 
